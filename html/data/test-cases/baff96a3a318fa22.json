@@ -1,0 +1,168 @@
+{
+  "uid" : "baff96a3a318fa22",
+  "name" : "test_084风险等级默认文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-页面详情.Test_现金管理_智多鑫_详情页#test_084风险等级默认文本",
+  "historyId" : "9aa2dc37cbf7603af25d5b991c0b08c5",
+  "time" : {
+    "start" : 1571910958385,
+    "stop" : 1571910959155,
+    "duration" : 770
+  },
+  "description" : "风险等级默认信息展示是否正确",
+  "descriptionHtml" : "<p>风险等级默认信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910858783,
+      "stop" : 1571910863928,
+      "duration" : 5145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "风险等级默认信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取风险等级默认信息文本信息：风险等级中低风险",
+      "time" : {
+        "start" : 1571910958781,
+        "stop" : 1571910958782,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19f0cf47ed1d2f84",
+        "name" : "d03c3cb6-ed90-43e9-824e-79b9290e863e-attachment.png",
+        "source" : "19f0cf47ed1d2f84.png",
+        "type" : "image/png",
+        "size" : 189576
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：风险等级默认信息显示是否正确",
+      "time" : {
+        "start" : 1571910959154,
+        "stop" : 1571910959155,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37149a058692e117",
+        "name" : "预期结果",
+        "source" : "37149a058692e117.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "e7990e12289d1c1d",
+        "name" : "实际结果",
+        "source" : "e7990e12289d1c1d.attach",
+        "type" : "text/plain",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d2fe57907f7d7a91",
+      "name" : "log",
+      "source" : "d2fe57907f7d7a91.txt",
+      "type" : "text/plain",
+      "size" : 165
+    }, {
+      "uid" : "fa6cc06cc487574b",
+      "name" : "stderr",
+      "source" : "fa6cc06cc487574b.txt",
+      "type" : "text/plain",
+      "size" : 185
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910959156,
+      "stop" : 1571910959252,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-详情页"
+  }, {
+    "name" : "story",
+    "value" : "风险等级默认信息展示是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "baff96a3a318fa22.json",
+  "parameterValues" : [ ]
+}

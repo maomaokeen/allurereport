@@ -1,0 +1,5 @@
+INFO     自动化测试:conftest.py:40 启动方式为数据线连接模式，连接手机为emulator-5554
+INFO     自动化测试:PageBaseU2.py:43 元素现金管理点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素更多点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素设置点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本产品设置

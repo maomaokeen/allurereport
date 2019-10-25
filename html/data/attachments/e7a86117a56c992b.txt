@@ -1,0 +1,7 @@
+INFO     自动化测试:PageBaseU2.py:43 元素设置-暂停点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素确定点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素更多点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素设置点击成功
+INFO     自动化测试:PageBaseU2.py:90 再次开通是否存在：True
+INFO     自动化测试:PageBaseU2.py:43 元素再次开通点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素确定点击成功

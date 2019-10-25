@@ -1,0 +1,168 @@
+{
+  "uid" : "4156ec4a34171551",
+  "name" : "test_079交易费用默认文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_079交易费用默认文本",
+  "historyId" : "87b88c2b876b05abff19321d69e3914b",
+  "time" : {
+    "start" : 1571912282418,
+    "stop" : 1571912283232,
+    "duration" : 814
+  },
+  "description" : "交易费用默认信息展示是否正确",
+  "descriptionHtml" : "<p>交易费用默认信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "交易费用默认信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取交易费用默认信息文本信息：免费",
+      "time" : {
+        "start" : 1571912282830,
+        "stop" : 1571912282831,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85c170241ddc01e",
+        "name" : "c0aa10b8-e98c-4a3b-ac97-a26f37426c19-attachment.png",
+        "source" : "85c170241ddc01e.png",
+        "type" : "image/png",
+        "size" : 182942
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912283231,
+        "stop" : 1571912283232,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad70f6d884a49290",
+        "name" : "预期结果",
+        "source" : "ad70f6d884a49290.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "d60a9e3abedebc0b",
+        "name" : "实际结果",
+        "source" : "d60a9e3abedebc0b.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "17324686c47856ef",
+      "name" : "log",
+      "source" : "17324686c47856ef.txt",
+      "type" : "text/plain",
+      "size" : 94
+    }, {
+      "uid" : "9300ba5e6345e606",
+      "name" : "stderr",
+      "source" : "9300ba5e6345e606.txt",
+      "type" : "text/plain",
+      "size" : 103
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "交易费用默认信息展示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "4156ec4a34171551.json",
+  "parameterValues" : [ ]
+}

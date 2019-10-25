@@ -1,0 +1,198 @@
+{
+  "uid" : "f4ee0476b34cb49a",
+  "name" : "test_3签约成功",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约3-完成签约.Test_现金管理_添鑫宝_签约3_完成签约#test_3签约成功",
+  "historyId" : "151218dc86887ef2b0790eab1f6760c4",
+  "time" : {
+    "start" : 1571911915412,
+    "stop" : 1571911927496,
+    "duration" : 12084
+  },
+  "description" : "签约成功",
+  "descriptionHtml" : "<p>签约成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911855127,
+      "stop" : 1571911860255,
+      "duration" : 5128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "签约成功",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击申请开通按钮",
+      "time" : {
+        "start" : 1571911925467,
+        "stop" : 1571911925468,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14b754d9ed94ed1e",
+        "name" : "85a313ab-f123-4292-a97c-c97b0ccf3097-attachment.png",
+        "source" : "14b754d9ed94ed1e.png",
+        "type" : "image/png",
+        "size" : 184314
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911927164,
+        "stop" : 1571911927165,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "925e26aa01a78f4b",
+        "name" : "903de541-07f5-40fd-92b4-97c6e611b07f-attachment.png",
+        "source" : "925e26aa01a78f4b.png",
+        "type" : "image/png",
+        "size" : 121081
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：是否完成签约结果为true",
+      "time" : {
+        "start" : 1571911927165,
+        "stop" : 1571911927495,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "完成签约存在",
+        "time" : {
+          "start" : 1571911927494,
+          "stop" : 1571911927495,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "667c926473ebe677",
+          "name" : "af5ad60d-b55a-4f1c-943e-ae3129fe9783-attachment.png",
+          "source" : "667c926473ebe677.png",
+          "type" : "image/png",
+          "size" : 121081
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b2225af70d20a07d",
+      "name" : "log",
+      "source" : "b2225af70d20a07d.txt",
+      "type" : "text/plain",
+      "size" : 386
+    }, {
+      "uid" : "98145c07f2a4a625",
+      "name" : "stderr",
+      "source" : "98145c07f2a4a625.txt",
+      "type" : "text/plain",
+      "size" : 864
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911927496,
+      "stop" : 1571911927591,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "签约成功"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-签约-完成签约测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约3-完成签约"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约3_完成签约"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约3-完成签约"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "f4ee0476b34cb49a.json",
+  "parameterValues" : [ ]
+}

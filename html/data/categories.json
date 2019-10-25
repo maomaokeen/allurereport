@@ -1,0 +1,394 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: list indices must be integers or slices, not str",
+      "children" : [ {
+        "name" : "test_01参考可取金额显示是否正确",
+        "uid" : "51b8d1ec1598aae1",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910456612,
+          "stop" : 1571910457723,
+          "duration" : 1111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1查看第一条记录的时间是否正确",
+        "uid" : "854b2c4d4c94b933",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910744187,
+          "stop" : 1571910744686,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_0查看资产显示是否正确",
+        "uid" : "8fb68ffaf844fddf",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910877198,
+          "stop" : 1571910908844,
+          "duration" : 31646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02确认解约",
+        "uid" : "e024b4ca1139cd7",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571911087273,
+          "stop" : 1571911096501,
+          "duration" : 9228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04点击取消解约查看现金产品状态是否变为正常",
+        "uid" : "3552c25e6fa401",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571911096530,
+          "stop" : 1571911112505,
+          "duration" : 15975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13暂停成功",
+        "uid" : "c9415eb75afea32f",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571911120743,
+          "stop" : 1571911140061,
+          "duration" : 19318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_23再次开通成功",
+        "uid" : "ca86c9b89ebcc33",
+        "parentUid" : "a6ca840760d68beef4d0b02ac437317c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571911144806,
+          "stop" : 1571911162572,
+          "duration" : 17766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6ca840760d68beef4d0b02ac437317c"
+    }, {
+      "name" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"您已经委托成功\"]",
+      "children" : [ {
+        "name" : "test_32应急取款成功",
+        "uid" : "76d957a6268bb7d0",
+        "parentUid" : "073e6267a3e5caf0103497e8dfb22802",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910481967,
+          "stop" : 1571910518377,
+          "duration" : 36410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "073e6267a3e5caf0103497e8dfb22802"
+    }, {
+      "name" : "uiautomator2.exceptions.UiObjectNotFoundError: -32002 Client error: <> data: , method: None",
+      "children" : [ {
+        "name" : "test_31应急取款失败",
+        "uid" : "2c2f401ea0e454bf",
+        "parentUid" : "93831f5786f9a8f9fd364320ecc33d05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910518426,
+          "stop" : 1571910538901,
+          "duration" : 20475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93831f5786f9a8f9fd364320ecc33d05"
+    }, {
+      "name" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"预约取款日\"]/../following-sibling::*[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]",
+      "children" : [ {
+        "name" : "test_2查看第一条记录的预约金额是否正确",
+        "uid" : "e4cec1bbb74bf98f",
+        "parentUid" : "16f47e24bdc74ed48be859716e2c767e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910744697,
+          "stop" : 1571910774966,
+          "duration" : 30269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16f47e24bdc74ed48be859716e2c767e"
+    }, {
+      "name" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"预约取款日\"]/../following-sibling::*[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[3]",
+      "children" : [ {
+        "name" : "test_3查看第一条记录的状态是否正确",
+        "uid" : "cf3bcdc2d8f3344b",
+        "parentUid" : "2512482dbb9f483891bb55b6e0240554",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910775007,
+          "stop" : 1571910805218,
+          "duration" : 30211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2512482dbb9f483891bb55b6e0240554"
+    }, {
+      "name" : "NameError: name 'status' is not defined",
+      "children" : [ {
+        "name" : "test_4记录状态为正常是否存在取消按钮",
+        "uid" : "e3d320c6e3b58539",
+        "parentUid" : "688386eeb7a46336aca7d7e77fe6e736",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910805275,
+          "stop" : 1571910805276,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_4记录状态为已取消是否存在取消按钮",
+        "uid" : "78f805f422e2f282",
+        "parentUid" : "688386eeb7a46336aca7d7e77fe6e736",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910805282,
+          "stop" : 1571910805282,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_5取消点击取消操作",
+        "uid" : "a3b92a4b42287c27",
+        "parentUid" : "688386eeb7a46336aca7d7e77fe6e736",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910805288,
+          "stop" : 1571910805289,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_6确定点击取消操作",
+        "uid" : "9c2e4bfd614a5544",
+        "parentUid" : "688386eeb7a46336aca7d7e77fe6e736",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910805295,
+          "stop" : 1571910805295,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "688386eeb7a46336aca7d7e77fe6e736"
+    }, {
+      "name" : "TypeError: 'method' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_签约无资产账户详情页资产显示",
+        "uid" : "d126c4d1ef1fc20a",
+        "parentUid" : "244f4c72cbdc19afc611f0b2e1fbe515",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910827827,
+          "stop" : 1571910858677,
+          "duration" : 30850
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02查看资产是否显示",
+        "uid" : "d96d148fb68de0db",
+        "parentUid" : "244f4c72cbdc19afc611f0b2e1fbe515",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571911665438,
+          "stop" : 1571911665438,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_签约无资产账户详情页资产显示",
+        "uid" : "1dde55aff6c074a6",
+        "parentUid" : "244f4c72cbdc19afc611f0b2e1fbe515",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571912156181,
+          "stop" : 1571912186560,
+          "duration" : 30379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "244f4c72cbdc19afc611f0b2e1fbe515"
+    }, {
+      "name" : "NameError: name 'tenThousandIncome' is not defined",
+      "children" : [ {
+        "name" : "test_01查看万分收益显示是否正确",
+        "uid" : "8af790122950df24",
+        "parentUid" : "62574b7f3afba8ba10fd132d4030ca30",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910908860,
+          "stop" : 1571910909643,
+          "duration" : 783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62574b7f3afba8ba10fd132d4030ca30"
+    }, {
+      "name" : "NameError: name 'sevenDayIncome' is not defined",
+      "children" : [ {
+        "name" : "test_02查看七日年化收益显示是否正确",
+        "uid" : "a1acf617b16027cb",
+        "parentUid" : "c02d91478ae7fbf14423121943a4f65d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571910909653,
+          "stop" : 1571910910423,
+          "duration" : 770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c02d91478ae7fbf14423121943a4f65d"
+    }, {
+      "name" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"立即参与\"]",
+      "children" : [ {
+        "name" : "test_2点击现金管理后登录未签约用户",
+        "uid" : "d9ae9c8ff437dfef",
+        "parentUid" : "e5abb92dcf2139c30acd84a40c973449",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571912378757,
+          "stop" : 1571912439523,
+          "duration" : 60766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5abb92dcf2139c30acd84a40c973449"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '（1）解约当日，产品份额...，无法进行解约操作的情况。' == '（1）解约当日，产品份额...计入本集合计划资产的损益。'\n  - （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\n  + （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\n  ?                                                                ++\n  - （2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\n  + （2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\n  + （3）解约后，除非重新签约，否则将无法参与本集合计划；\n  + （4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。",
+      "children" : [ {
+        "name" : "test_00点击更多_解约_解约确认框内容校验",
+        "uid" : "921cfe6e9053ef10",
+        "parentUid" : "5dd5715fd5e90f9343928933e5af86a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571911047501,
+          "stop" : 1571911085328,
+          "duration" : 37827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5dd5715fd5e90f9343928933e5af86a3"
+    }, {
+      "name" : "AssertionError: assert '产品签约' == '现金管理'\n  - 产品签约\n  + 现金管理",
+      "children" : [ {
+        "name" : "test_0专业投资者用户点击立即参与后点击签约",
+        "uid" : "ba68a99eaf1cffe1",
+        "parentUid" : "690eca94134f06ab4944c2cccccc8f38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571911685522,
+          "stop" : 1571911719753,
+          "duration" : 34231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "690eca94134f06ab4944c2cccccc8f38"
+    }, {
+      "name" : "AssertionError: assert '不适当性确认书' == '适当确认书'\n  - 不适当性确认书\n  ? -  -\n  + 适当确认书",
+      "children" : [ {
+        "name" : "test_0不适当性用户点击立即参与后点击签约",
+        "uid" : "93caa3b264bf772c",
+        "parentUid" : "a1420036ae4942d78519961020661d4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571911754397,
+          "stop" : 1571911788456,
+          "duration" : 34059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1420036ae4942d78519961020661d4a"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method cashproductpage.是否完成签约 of <PageObject.cashproductpage.cashproductpage object at 0x11bca8450>>()\n +    where <bound method cashproductpage.是否完成签约 of <PageObject.cashproductpage.cashproductpage object at 0x11bca8450>> = <PageObject.cashproductpage.cashproductpage object at 0x11bca8450>.是否完成签约",
+      "children" : [ {
+        "name" : "test_0机构户提示是否正确",
+        "uid" : "772ae254dd1f7212",
+        "parentUid" : "07613008e72182ba69828229b105855a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571911944690,
+          "stop" : 1571912137936,
+          "duration" : 193246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07613008e72182ba69828229b105855a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

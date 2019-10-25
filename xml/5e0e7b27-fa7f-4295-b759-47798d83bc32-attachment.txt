@@ -1,0 +1,4 @@
+WARNING  retry.api:api.py:40 uiautomator2.GatewayError(gateway error, time used 0.0s), retrying in 3.0 seconds...
+INFO     自动化测试:PageBaseU2.py:43 元素设置-预约取款点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本预约取款
+INFO     自动化测试:PageBaseU2.py:43 元素返回点击成功

@@ -1,0 +1,210 @@
+{
+  "uid" : "73ed09a13fb5dd6e",
+  "name" : "test_11预约取款规则校验",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-预约取款.Test_现金管理_添鑫宝_预约取款用例#test_11预约取款规则校验",
+  "historyId" : "fe9329209e8e25973b629e2d12ac7405",
+  "time" : {
+    "start" : 1571912339546,
+    "stop" : 1571912343480,
+    "duration" : 3934
+  },
+  "description" : "预约取款规则校验",
+  "descriptionHtml" : "<p>预约取款规则校验</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912286535,
+      "stop" : 1571912291691,
+      "duration" : 5156
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "预约取款规则校验",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击预约取款规则",
+      "time" : {
+        "start" : 1571912341157,
+        "stop" : 1571912341158,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9343caf43dbbf402",
+        "name" : "c4f4d7cc-0aef-4149-962d-0dcfc3702e6c-attachment.png",
+        "source" : "9343caf43dbbf402.png",
+        "type" : "image/png",
+        "size" : 161591
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取预约取款规则明细文本信息：通过设置预约取款或修改保留额度即实现部分或全部资金最快下一交易日可取。\nT日（交易日）15:00之前预约，T+1日可取，请在当日的15:00之前进行银证转账，否则此部分资金在当日无收益，且会再次自动扫单添鑫宝。\nT日（交易日）15:00之后预约，T+2日可取，请在当日的15:00之前进行银证转账，否则此部分资金在当日无收益，且会再次自动扫单添鑫宝。",
+      "time" : {
+        "start" : 1571912341638,
+        "stop" : 1571912341638,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b77dfe6f72fbce68",
+        "name" : "43a5e7a3-88c3-49e8-a272-f65054788d3d-attachment.png",
+        "source" : "b77dfe6f72fbce68.png",
+        "type" : "image/png",
+        "size" : 161592
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571912341857,
+        "stop" : 1571912341857,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cccfdf621381bb1c",
+        "name" : "预期结果",
+        "source" : "cccfdf621381bb1c.attach",
+        "type" : "text/plain",
+        "size" : 465
+      }, {
+        "uid" : "8b34ff3d9b04abba",
+        "name" : "实际结果",
+        "source" : "8b34ff3d9b04abba.attach",
+        "type" : "text/plain",
+        "size" : 465
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击返回",
+      "time" : {
+        "start" : 1571912343478,
+        "stop" : 1571912343480,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ecbd99dbc11e8c14",
+        "name" : "02fe55fc-270f-445d-8cc5-a728c462285e-attachment.png",
+        "source" : "ecbd99dbc11e8c14.png",
+        "type" : "image/png",
+        "size" : 91221
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3b9847f30230ae86",
+      "name" : "log",
+      "source" : "3b9847f30230ae86.txt",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "f7ebcf80ff50c55b",
+      "name" : "stderr",
+      "source" : "f7ebcf80ff50c55b.txt",
+      "type" : "text/plain",
+      "size" : 808
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912356605,
+      "stop" : 1571912356697,
+      "duration" : 92
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预约取款规则校验"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-预约取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-预约取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_预约取款用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-预约取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "73ed09a13fb5dd6e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,210 @@
+{
+  "uid" : "4cd204b4fa343d23",
+  "name" : "test_03中信建投证券智多鑫应急取款协议",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款.Test_现金管理_智多鑫_应急取款#test_03中信建投证券智多鑫应急取款协议",
+  "historyId" : "728cdfcf1c404a61262a68cbb4235c8e",
+  "time" : {
+    "start" : 1571910461629,
+    "stop" : 1571910465620,
+    "duration" : 3991
+  },
+  "description" : "中信建投证券智多鑫应急取款协议",
+  "descriptionHtml" : "<p>中信建投证券智多鑫应急取款协议</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910366319,
+      "stop" : 1571910371829,
+      "duration" : 5510
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "中信建投证券智多鑫应急取款协议",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击中信建投证券智多鑫应急取款协议",
+      "time" : {
+        "start" : 1571910463165,
+        "stop" : 1571910463165,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52b4eb49c3f1cd11",
+        "name" : "d8cf642c-ce46-4f78-ad77-24aae6db35a7-attachment.png",
+        "source" : "52b4eb49c3f1cd11.png",
+        "type" : "image/png",
+        "size" : 25326
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：协议内容",
+      "time" : {
+        "start" : 1571910463519,
+        "stop" : 1571910463520,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b438ee462cf7c7b",
+        "name" : "c7f6a278-b289-45bd-8e6e-389193967939-attachment.png",
+        "source" : "9b438ee462cf7c7b.png",
+        "type" : "image/png",
+        "size" : 25326
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571910464080,
+        "stop" : 1571910464081,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37621f88dbde9f87",
+        "name" : "预期结果",
+        "source" : "37621f88dbde9f87.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "109af35004fa2ee7",
+        "name" : "实际结果",
+        "source" : "109af35004fa2ee7.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击返回",
+      "time" : {
+        "start" : 1571910465619,
+        "stop" : 1571910465620,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f270e0bdcbfb354",
+        "name" : "8df693bb-c8d3-400a-a2e9-f060fddf4657-attachment.png",
+        "source" : "4f270e0bdcbfb354.png",
+        "type" : "image/png",
+        "size" : 178730
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "276d5078a05d1833",
+      "name" : "log",
+      "source" : "276d5078a05d1833.txt",
+      "type" : "text/plain",
+      "size" : 261
+    }, {
+      "uid" : "83edf39a05788fbc",
+      "name" : "stderr",
+      "source" : "83edf39a05788fbc.txt",
+      "type" : "text/plain",
+      "size" : 288
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910539283,
+      "stop" : 1571910539416,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "中信建投证券智多鑫应急取款协议"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-应急取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_应急取款"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "4cd204b4fa343d23.json",
+  "parameterValues" : [ ]
+}

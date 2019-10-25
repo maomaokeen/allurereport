@@ -1,0 +1,231 @@
+{
+  "uid" : "4bdcfa87c4065d15",
+  "name" : "test_0进入应急取款页面",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款.Test_现金管理_智多鑫_应急取款#test_0进入应急取款页面",
+  "historyId" : "a5be00b3d87a98a3260c3bb4583c1cab",
+  "time" : {
+    "start" : 1571910423490,
+    "stop" : 1571910456602,
+    "duration" : 33112
+  },
+  "description" : "进入应急取款页面",
+  "descriptionHtml" : "<p>进入应急取款页面</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571910371829,
+      "stop" : 1571910423487,
+      "duration" : 51658
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910366319,
+      "stop" : 1571910371829,
+      "duration" : 5510
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "进入应急取款页面",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571910425364,
+        "stop" : 1571910425365,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eeacb2f7f7f68d41",
+        "name" : "aee0d557-496a-4a52-b5d0-5bf13ae9313e-attachment.png",
+        "source" : "eeacb2f7f7f68d41.png",
+        "type" : "image/png",
+        "size" : 210937
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击应急取款",
+      "time" : {
+        "start" : 1571910455809,
+        "stop" : 1571910455810,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12eb7f0a0edb1339",
+        "name" : "7be30ffe-3777-4edf-8f1b-e778b4269756-attachment.png",
+        "source" : "12eb7f0a0edb1339.png",
+        "type" : "image/png",
+        "size" : 179092
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：应急取款",
+      "time" : {
+        "start" : 1571910456221,
+        "stop" : 1571910456222,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bec71ccd2f8ce724",
+        "name" : "669257d6-cb24-4d3c-8c90-c53abbd5197d-attachment.png",
+        "source" : "bec71ccd2f8ce724.png",
+        "type" : "image/png",
+        "size" : 179226
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571910456601,
+        "stop" : 1571910456602,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cb97654ddebb8d3",
+        "name" : "预期结果",
+        "source" : "3cb97654ddebb8d3.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "41809d6c4ba7d574",
+        "name" : "实际结果",
+        "source" : "41809d6c4ba7d574.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "89211fbedb7428a8",
+      "name" : "log",
+      "source" : "89211fbedb7428a8.txt",
+      "type" : "text/plain",
+      "size" : 618
+    }, {
+      "uid" : "9474b9dbc62bb058",
+      "name" : "stdout",
+      "source" : "9474b9dbc62bb058.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "ab025c1b5eb88cbb",
+      "name" : "stderr",
+      "source" : "ab025c1b5eb88cbb.txt",
+      "type" : "text/plain",
+      "size" : 4478
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910539283,
+      "stop" : 1571910539416,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-应急取款用例"
+  }, {
+    "name" : "story",
+    "value" : "进入应急取款页面"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_应急取款"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "4bdcfa87c4065d15.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,282 @@
+{
+  "uid" : "dd48914f1ccd00da",
+  "name" : "test_7查看设置页面解约后详情页面是否显示解约中",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置.Test_现金管理_更多_设置页面测试用例#test_7查看设置页面解约后详情页面是否显示解约中",
+  "historyId" : "93b4af29a3239d42814286c540d30caa",
+  "time" : {
+    "start" : 1571911524069,
+    "stop" : 1571911543206,
+    "duration" : 19137
+  },
+  "description" : "设置页面点击解约，查看详情页面是否显示解约中",
+  "descriptionHtml" : "<p>设置页面点击解约，查看详情页面是否显示解约中</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911395219,
+      "stop" : 1571911400332,
+      "duration" : 5113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "设置页面点击解约，查看详情页面是否显示解约中",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911527101,
+        "stop" : 1571911527103,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1636311231725cee",
+        "name" : "78f17c4f-4cd9-4fa8-be4f-ffca4529ba83-attachment.png",
+        "source" : "1636311231725cee.png",
+        "type" : "image/png",
+        "size" : 146951
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击设置",
+      "time" : {
+        "start" : 1571911529613,
+        "stop" : 1571911529614,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc30c23308a9f2e2",
+        "name" : "4be2b04a-4357-4bf9-9e4a-5f406eab348c-attachment.png",
+        "source" : "fc30c23308a9f2e2.png",
+        "type" : "image/png",
+        "size" : 87022
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击设置-解约",
+      "time" : {
+        "start" : 1571911532232,
+        "stop" : 1571911532233,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "333aa2f6d60f6d2",
+        "name" : "ae30bfdc-7872-4284-a541-4e06381d8b4a-attachment.png",
+        "source" : "333aa2f6d60f6d2.png",
+        "type" : "image/png",
+        "size" : 155884
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911534739,
+        "stop" : 1571911534740,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4c3fd159836e1ed",
+        "name" : "4e0dc181-46ff-45d9-9b50-46533c8f3a87-attachment.png",
+        "source" : "f4c3fd159836e1ed.png",
+        "type" : "image/png",
+        "size" : 91784
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:详情页面是否显示解约中",
+      "time" : {
+        "start" : 1571911539750,
+        "stop" : 1571911540122,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "取消解约存在",
+        "time" : {
+          "start" : 1571911540121,
+          "stop" : 1571911540122,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f05db4a809a9390d",
+          "name" : "a648552b-7c11-44ba-a63a-5684161d42f3-attachment.png",
+          "source" : "f05db4a809a9390d.png",
+          "type" : "image/png",
+          "size" : 140058
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "点击取消解约",
+      "time" : {
+        "start" : 1571911541660,
+        "stop" : 1571911541661,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9c300c2cee9b4d4",
+        "name" : "35d5dd1a-0587-410b-a6f3-473d192c47e3-attachment.png",
+        "source" : "e9c300c2cee9b4d4.png",
+        "type" : "image/png",
+        "size" : 130259
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击我知道了",
+      "time" : {
+        "start" : 1571911543204,
+        "stop" : 1571911543205,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9edde071bf779ce1",
+        "name" : "0c238e61-9dc7-46c1-a0ef-0824b6f49297-attachment.png",
+        "source" : "9edde071bf779ce1.png",
+        "type" : "image/png",
+        "size" : 127735
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a737981d09d1c547",
+      "name" : "log",
+      "source" : "a737981d09d1c547.txt",
+      "type" : "text/plain",
+      "size" : 547
+    }, {
+      "uid" : "bef81c22f8da6919",
+      "name" : "stderr",
+      "source" : "bef81c22f8da6919.txt",
+      "type" : "text/plain",
+      "size" : 1089
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911543206,
+      "stop" : 1571911543344,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "设置页面点击解约，查看详情页面是否显示解约中"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "dd48914f1ccd00da.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,23 @@
+2019-10-24 18:10:57,231 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 18:11:16,967 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 18:11:27 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:11:28 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:11:29 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:11:31 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:11:32 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:11:33 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:11:35 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 18:11:36 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+[I 191024 18:11:45 xpath:315] XPath(timeout 30.0) //*[@text="立即参与"]
+2019-10-24 18:11:47,062 - 自动化测试 - INFO - 元素立即参与点击成功
+[I 191024 18:11:47 xpath:315] XPath(timeout 30.0) //*[@text="签约"]
+2019-10-24 18:11:48,614 - 自动化测试 - INFO - 元素签约按钮点击成功
+[I 191024 18:11:48 xpath:315] XPath(timeout 30.0) //*[@text="我已阅读并同意"]
+2019-10-24 18:11:50,102 - 自动化测试 - INFO - 元素适当性确认同意按钮点击成功
+2019-10-24 18:11:51,621 - 自动化测试 - INFO - 元素同意协议点击成功
+[I 191024 18:11:51 xpath:315] XPath(timeout 30.0) //*[@text="申请开通"]
+2019-10-24 18:11:53,059 - 自动化测试 - INFO - 元素申请开通按钮点击成功
+2019-10-24 18:11:53,466 - 自动化测试 - INFO - 获得元素签约确认框的文本1. 在每交易日自动申购前签约且中信建投基金账户开户已确认的，签约当日可以自动申购；
+2. 自产品申购日起下一交易日开始计算收益，赎回当日计算收益；
+3. 提醒投资者请至少提前一个交易日预约取款；
+4. 应急取款：单日单客户上限1万，单日全公司上限3000万。应急取款部分当日不计算收益。

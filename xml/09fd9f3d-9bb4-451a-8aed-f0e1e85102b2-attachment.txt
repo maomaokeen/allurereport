@@ -1,0 +1,2 @@
+INFO     自动化测试:PageBaseU2.py:90 您已经委托成功是否存在：False
+INFO     自动化测试:conftest.py:72 测试结束

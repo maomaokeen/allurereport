@@ -1,0 +1,294 @@
+{
+  "uid" : "e7eef058fef14afd",
+  "name" : "test_11设置保留额度为1",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-设置.Test_现金管理_更多_设置页面测试用例#test_11设置保留额度为1",
+  "historyId" : "a07b70a03e7bf86f8b9321cd9078e20f",
+  "time" : {
+    "start" : 1571910593819,
+    "stop" : 1571910608439,
+    "duration" : 14620
+  },
+  "description" : "设置保留额度为1",
+  "descriptionHtml" : "<p>设置保留额度为1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910539419,
+      "stop" : 1571910544801,
+      "duration" : 5382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "设置保留额度为1",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击保留额度设置",
+      "time" : {
+        "start" : 1571910595319,
+        "stop" : 1571910595319,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbe8a3a21719fee5",
+        "name" : "176785a1-8092-4586-bf53-9b08fc5d46f9-attachment.png",
+        "source" : "bbe8a3a21719fee5.png",
+        "type" : "image/png",
+        "size" : 57189
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "清空取款金额输入框的文本内容",
+      "time" : {
+        "start" : 1571910595744,
+        "stop" : 1571910595745,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3779184fa4bbc9e",
+        "name" : "78dcb54e-f148-4da7-80db-570db49b5364-attachment.png",
+        "source" : "a3779184fa4bbc9e.png",
+        "type" : "image/png",
+        "size" : 57283
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "在取款金额输入框中输入1",
+      "time" : {
+        "start" : 1571910598241,
+        "stop" : 1571910598242,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "259af0c16a585ff",
+        "name" : "d14a0f0e-3e00-4cfc-af8b-191815e4084b-attachment.png",
+        "source" : "259af0c16a585ff.png",
+        "type" : "image/png",
+        "size" : 71919
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确认设置保留额度",
+      "time" : {
+        "start" : 1571910599767,
+        "stop" : 1571910599768,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9559be100c7b4075",
+        "name" : "ef96d710-ce04-46a7-b8b2-37ac2c055ee0-attachment.png",
+        "source" : "9559be100c7b4075.png",
+        "type" : "image/png",
+        "size" : 62314
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571910603473,
+        "stop" : 1571910603474,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f13cabc604a519c",
+        "name" : "362a2e3f-1e7a-49bc-ae44-d8b842940d54-attachment.png",
+        "source" : "5f13cabc604a519c.png",
+        "type" : "image/png",
+        "size" : 146634
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击设置",
+      "time" : {
+        "start" : 1571910605988,
+        "stop" : 1571910605989,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0537cbef0de9237",
+        "name" : "c0fbb1fd-40b7-4e67-8ed5-56bd144f006b-attachment.png",
+        "source" : "c0537cbef0de9237.png",
+        "type" : "image/png",
+        "size" : 86536
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取保留额度输入框文本信息：1.00",
+      "time" : {
+        "start" : 1571910608249,
+        "stop" : 1571910608250,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcd22e36d7040fb8",
+        "name" : "dcb157f7-97ef-435c-aa98-68180c71dea1-attachment.png",
+        "source" : "fcd22e36d7040fb8.png",
+        "type" : "image/png",
+        "size" : 86536
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571910608438,
+        "stop" : 1571910608439,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e630840425da0a5",
+        "name" : "预期结果",
+        "source" : "6e630840425da0a5.attach",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "ea57dc43c003d861",
+        "name" : "实际结果",
+        "source" : "ea57dc43c003d861.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a79097fe459504b1",
+      "name" : "log",
+      "source" : "a79097fe459504b1.txt",
+      "type" : "text/plain",
+      "size" : 522
+    }, {
+      "uid" : "2069b5dee0fcfdc7",
+      "name" : "stderr",
+      "source" : "2069b5dee0fcfdc7.txt",
+      "type" : "text/plain",
+      "size" : 876
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 11,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910687398,
+      "stop" : 1571910687482,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "设置保留额度为1"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "e7eef058fef14afd.json",
+  "parameterValues" : [ ]
+}

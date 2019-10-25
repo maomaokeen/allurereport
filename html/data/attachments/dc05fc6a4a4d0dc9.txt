@@ -1,0 +1,5 @@
+INFO     自动化测试:PageBaseU2.py:43 元素月图表点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素三月图表点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素半年图表点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素一年图表点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素三年图表点击成功

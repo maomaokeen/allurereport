@@ -1,0 +1,9 @@
+2019-10-24 18:04:11,369 - 自动化测试 - INFO - 元素保留额度设置点击成功
+2019-10-24 18:04:11,820 - 自动化测试 - INFO - 清空成功
+2019-10-24 18:04:14,328 - 自动化测试 - INFO - 取款金额输入框元素输入值1
+2019-10-24 18:04:15,881 - 自动化测试 - INFO - 元素确认设置保留额度点击成功
+[I 191024 18:04:17 xpath:315] XPath(timeout 30.0) //*[@text="更多"]
+2019-10-24 18:04:19,402 - 自动化测试 - INFO - 元素更多点击成功
+[I 191024 18:04:20 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]
+2019-10-24 18:04:21,913 - 自动化测试 - INFO - 元素设置点击成功
+2019-10-24 18:04:24,277 - 自动化测试 - INFO - 获得元素保留额度输入框的文本1.00

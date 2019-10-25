@@ -1,0 +1,101 @@
+{
+  "uid" : "e4cec1bbb74bf98f",
+  "name" : "test_2查看第一条记录的预约金额是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录.Test_现金管理_智多鑫_更多_预约记录测试用例#test_2查看第一条记录的预约金额是否正确",
+  "historyId" : "e663565f37e7ab09b48647f4efed3123",
+  "time" : {
+    "start" : 1571910744697,
+    "stop" : 1571910774966,
+    "duration" : 30269
+  },
+  "status" : "broken",
+  "statusMessage" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"预约取款日\"]/../following-sibling::*[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录.Test_现金管理_智多鑫_更多_预约记录测试用例 object at 0x11a964bd0>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashproduct\n    @allure.story(\"查看第一条记录的预约金额是否正确\")\n    def test_2查看第一条记录的预约金额是否正确(self, u2driver):\n        cp = cashproductpage(u2driver)\n>       at = cp.cptlamt_text()\n\ntest_现金管理-智多鑫-更多-预约取款记录.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:323: in cptlamt_text\n    return self.text(self.cptlamt)\n../../Common/PageBaseU2.py:143: in text\n    with allure.step(\"获取{0}文本信息：{1}\".format(element[2],el.get_text())):\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/uiautomator2/xpath.py:440: in get_text\n    return self.get().attrib.get(\"text\", \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <uiautomator2.xpath.XPathSelector object at 0x11a77fc10>\n\n    def get(self):\n        \"\"\"\n        Get first matched element\n    \n        Returns:\n            XMLElement\n    \n        Raises:\n            XPathElementNotFoundError\n        \"\"\"\n        if not self.wait(self._global_timeout):\n>           raise XPathElementNotFoundError(self._xpath)\nE           uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"预约取款日\"]/../following-sibling::*[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[2]\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/uiautomator2/xpath.py:424: XPathElementNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910687487,
+      "stop" : 1571910692689,
+      "duration" : 5202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910805316,
+      "stop" : 1571910805456,
+      "duration" : 140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-预约记录测试用例"
+  }, {
+    "name" : "story",
+    "value" : "查看第一条记录的预约金额是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashproduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-更多-预约取款记录"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_更多_预约记录测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashproduct" ]
+  },
+  "source" : "e4cec1bbb74bf98f.json",
+  "parameterValues" : [ ]
+}

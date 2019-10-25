@@ -1,0 +1,114 @@
+{
+  "total" : 18,
+  "items" : [ {
+    "uid" : "178830d35bc932ef684a4e50c77454c4",
+    "name" : "现金管理-更多-解约/暂停/分红查询测试用例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "20d32c47a1d1ad972c9378da68086e4b",
+    "name" : "现金管理添鑫宝签约专业投资者签约用例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e5f54600b85bab1a7d22342ce53b2955",
+    "name" : "现金管理添鑫宝签约不适当性投资者签约用例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1239d383476e087a9420f9e5b57cafb2",
+    "name" : "现金管理-添鑫宝-签约-完成签约2测试用例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d19684acd0e6a936910dc800c428a53a",
+    "name" : "现金管理-更多-预约记录测试用例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "326e5053191bc72c98ad662ae7fd3299",
+    "name" : "现金管理-智多鑫-详情页",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "30e60a5edfc7adfe7d060d5383584cb2",
+    "name" : "现金管理-智多鑫-应急取款用例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "d506af3eb70de0ec2b6c3bc7f5a1ac2e",
+    "name" : "现金管理添鑫宝签约适当性用例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6cbe43a79e6d22c3ce8093a6664dac60",
+    "name" : "现金管理-立即参与",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "e8844e9f8057406bcadecc3e9b6c7145",
+    "name" : "现金管理-智多鑫-签约无资产账户详情页资产显示",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

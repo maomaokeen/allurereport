@@ -1,0 +1,97 @@
+{
+  "uid" : "40e2674ef5d54aa",
+  "name" : "test_22取消保留额度失败",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置.Test_现金管理_更多_设置页面测试用例#test_22取消保留额度失败",
+  "historyId" : "9d50b6863b1308a059c427b5b070086f",
+  "time" : {
+    "start" : 1571911484542,
+    "stop" : 1571911484591,
+    "duration" : 49
+  },
+  "description" : "取消保留额度失败",
+  "descriptionHtml" : "<p>取消保留额度失败</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911395219,
+      "stop" : 1571911400332,
+      "duration" : 5113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911543206,
+      "stop" : 1571911543344,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "取消保留额度失败"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "40e2674ef5d54aa.json",
+  "parameterValues" : [ ]
+}

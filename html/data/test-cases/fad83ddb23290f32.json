@@ -1,0 +1,189 @@
+{
+  "uid" : "fad83ddb23290f32",
+  "name" : "test_23再次开通成功",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-添鑫宝-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_23再次开通成功",
+  "historyId" : "e28cb7c73bb84fdc6300592b66381b4e",
+  "time" : {
+    "start" : 1571911287472,
+    "stop" : 1571911305623,
+    "duration" : 18151
+  },
+  "description" : "点击再次开通，查看现金产品状态是否变为正常",
+  "descriptionHtml" : "<p>点击再次开通，查看现金产品状态是否变为正常</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911169303,
+      "stop" : 1571911174664,
+      "duration" : 5361
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击再次开通，查看现金产品状态是否变为正常",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击再次开通",
+      "time" : {
+        "start" : 1571911296590,
+        "stop" : 1571911296591,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f4f18bc439d4725",
+        "name" : "bb72c41d-d3e5-4e95-b8be-d733b60761d8-attachment.png",
+        "source" : "4f4f18bc439d4725.png",
+        "type" : "image/png",
+        "size" : 112065
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911299224,
+        "stop" : 1571911299225,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ccb2e578b7e2588",
+        "name" : "cf911703-4a7b-4a56-ab20-d28cf967296f-attachment.png",
+        "source" : "6ccb2e578b7e2588.png",
+        "type" : "image/png",
+        "size" : 137705
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571911305622,
+        "stop" : 1571911305623,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "373ef3c9360f72f0",
+        "name" : "预期结果",
+        "source" : "373ef3c9360f72f0.attach",
+        "type" : "text/plain",
+        "size" : 1
+      }, {
+        "uid" : "d1161d087e97aef7",
+        "name" : "实际结果",
+        "source" : "d1161d087e97aef7.attach",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "51e35e3100563b7b",
+      "name" : "log",
+      "source" : "51e35e3100563b7b.txt",
+      "type" : "text/plain",
+      "size" : 5391
+    }, {
+      "uid" : "a6e44ba226cab6e",
+      "name" : "stderr",
+      "source" : "a6e44ba226cab6e.txt",
+      "type" : "text/plain",
+      "size" : 5852
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911312403,
+      "stop" : 1571911312487,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "story",
+    "value" : "点击再次开通，查看现金产品状态是否变为正常"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-添鑫宝-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-添鑫宝-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "fad83ddb23290f32.json",
+  "parameterValues" : [ ]
+}

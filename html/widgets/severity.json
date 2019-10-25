@@ -1,0 +1,1531 @@
+[ {
+  "uid" : "fc9e892fba9f33e3",
+  "name" : "test_7提示失败信息",
+  "time" : {
+    "start" : 1571910805302,
+    "stop" : 1571910805315,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63efb7e166300b5",
+  "name" : "test_22取消保留额度失败",
+  "time" : {
+    "start" : 1571910628983,
+    "stop" : 1571910629029,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141f69f313b1a78c",
+  "name" : "test_076应急取款默认文本",
+  "time" : {
+    "start" : 1571910949862,
+    "stop" : 1571910950634,
+    "duration" : 772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40e2674ef5d54aa",
+  "name" : "test_22取消保留额度失败",
+  "time" : {
+    "start" : 1571911484542,
+    "stop" : 1571911484591,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fad83ddb23290f32",
+  "name" : "test_23再次开通成功",
+  "time" : {
+    "start" : 1571911287472,
+    "stop" : 1571911305623,
+    "duration" : 18151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f21234cd97d6737c",
+  "name" : "test_01取消解约确认框",
+  "time" : {
+    "start" : 1571911085338,
+    "stop" : 1571911087270,
+    "duration" : 1932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8d83531915198bc",
+  "name" : "test_00智多鑫应急取款规则",
+  "time" : {
+    "start" : 1571910456610,
+    "stop" : 1571910456610,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd948cc8254dea92",
+  "name" : "test_072买入展开信息展示是否正确",
+  "time" : {
+    "start" : 1571912266076,
+    "stop" : 1571912270914,
+    "duration" : 4838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6ba0984e4bfedb",
+  "name" : "test_4记录状态为已取消是否存在取消按钮",
+  "time" : {
+    "start" : 1571911603029,
+    "stop" : 1571911603029,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3abf1d12e019d77d",
+  "name" : "test_3查看产品说明书",
+  "time" : {
+    "start" : 1571911851090,
+    "stop" : 1571911854976,
+    "duration" : 3886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abef812d06ddf5ec",
+  "name" : "test_01取消解约确认框",
+  "time" : {
+    "start" : 1571911225439,
+    "stop" : 1571911227397,
+    "duration" : 1958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e86d919a1c8558",
+  "name" : "test_02查看七日年化收益显示是否正确",
+  "time" : {
+    "start" : 1571912238979,
+    "stop" : 1571912239714,
+    "duration" : 735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe752caec81ca8a2",
+  "name" : "test_081基金类型默认文本",
+  "time" : {
+    "start" : 1571912283235,
+    "stop" : 1571912284062,
+    "duration" : 827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "521b782561e48e42",
+  "name" : "test_12设置保留额度失败",
+  "time" : {
+    "start" : 1571910608443,
+    "stop" : 1571910608501,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dde55aff6c074a6",
+  "name" : "test_签约无资产账户详情页资产显示",
+  "time" : {
+    "start" : 1571912156181,
+    "stop" : 1571912186560,
+    "duration" : 30379
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9c9cde40857d834",
+  "name" : "test_077应急取款展开文本",
+  "time" : {
+    "start" : 1571910950637,
+    "stop" : 1571910954543,
+    "duration" : 3906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f07158eea6db7b39",
+  "name" : "test_2签约失败",
+  "time" : {
+    "start" : 1571911915363,
+    "stop" : 1571911915409,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d5ca4189eb00308",
+  "name" : "test_082基金管理人默认文本",
+  "time" : {
+    "start" : 1571912284065,
+    "stop" : 1571912284831,
+    "duration" : 766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4cec1bbb74bf98f",
+  "name" : "test_2查看第一条记录的预约金额是否正确",
+  "time" : {
+    "start" : 1571910744697,
+    "stop" : 1571910774966,
+    "duration" : 30269
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e19e2087a6837cb8",
+  "name" : "test_11应急取款确认框内容确认",
+  "time" : {
+    "start" : 1571910477095,
+    "stop" : 1571910479802,
+    "duration" : 2707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c39c1255634b9c6",
+  "name" : "test_1点击确认框取消按钮关闭弹窗",
+  "time" : {
+    "start" : 1571911913623,
+    "stop" : 1571911915359,
+    "duration" : 1736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77dd8f745bbeb2bf",
+  "name" : "test_074预约取款默认文本",
+  "time" : {
+    "start" : 1571910945125,
+    "stop" : 1571910945906,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f25757bc0a51444",
+  "name" : "test_03点击图表万分收益tab",
+  "time" : {
+    "start" : 1571912239717,
+    "stop" : 1571912241252,
+    "duration" : 1535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba68a99eaf1cffe1",
+  "name" : "test_0专业投资者用户点击立即参与后点击签约",
+  "time" : {
+    "start" : 1571911685522,
+    "stop" : 1571911719753,
+    "duration" : 34231
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "61fca21202e87ed6",
+  "name" : "test_1可取金额校验",
+  "time" : {
+    "start" : 1571912339000,
+    "stop" : 1571912339542,
+    "duration" : 542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "687f1d4dc1f8a0bd",
+  "name" : "test_2查看风险揭示书",
+  "time" : {
+    "start" : 1571911846676,
+    "stop" : 1571911851087,
+    "duration" : 4411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93caa3b264bf772c",
+  "name" : "test_0不适当性用户点击立即参与后点击签约",
+  "time" : {
+    "start" : 1571911754397,
+    "stop" : 1571911788456,
+    "duration" : 34059
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7eef058fef14afd",
+  "name" : "test_11设置保留额度为1",
+  "time" : {
+    "start" : 1571910593819,
+    "stop" : 1571910608439,
+    "duration" : 14620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f79d3eda88dd95",
+  "name" : "test_5应急取款成功后页面跳转是否正确",
+  "time" : {
+    "start" : 1571910538955,
+    "stop" : 1571910539282,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31356dc2082ee25f",
+  "name" : "test_02支持的银行列表",
+  "time" : {
+    "start" : 1571911364897,
+    "stop" : 1571911368660,
+    "duration" : 3763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baff96a3a318fa22",
+  "name" : "test_084风险等级默认文本",
+  "time" : {
+    "start" : 1571910958385,
+    "stop" : 1571910959155,
+    "duration" : 770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "921cfe6e9053ef10",
+  "name" : "test_00点击更多_解约_解约确认框内容校验",
+  "time" : {
+    "start" : 1571911047501,
+    "stop" : 1571911085328,
+    "duration" : 37827
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d126c4d1ef1fc20a",
+  "name" : "test_签约无资产账户详情页资产显示",
+  "time" : {
+    "start" : 1571910827827,
+    "stop" : 1571910858677,
+    "duration" : 30850
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "64ad91e414c5ae84",
+  "name" : "test_0进入预约管理页面",
+  "time" : {
+    "start" : 1571912303992,
+    "stop" : 1571912338995,
+    "duration" : 35003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "420f2b8de2d1d6e8",
+  "name" : "test_21取消再次开通操作",
+  "time" : {
+    "start" : 1571911140073,
+    "stop" : 1571911144746,
+    "duration" : 4673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f47ea03ab572bd9",
+  "name" : "test_11设置保留额度为1",
+  "time" : {
+    "start" : 1571911449859,
+    "stop" : 1571911464370,
+    "duration" : 14511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b66582528f4fb4a8",
+  "name" : "test_05点击图表七日年化收益率tab",
+  "time" : {
+    "start" : 1571910919826,
+    "stop" : 1571910921395,
+    "duration" : 1569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3c51e017f3b16dc",
+  "name" : "test_3预约取款成功",
+  "time" : {
+    "start" : 1571912346494,
+    "stop" : 1571912352022,
+    "duration" : 5528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9415eb75afea32f",
+  "name" : "test_13暂停成功",
+  "time" : {
+    "start" : 1571911120743,
+    "stop" : 1571911140061,
+    "duration" : 19318
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9c2e4bfd614a5544",
+  "name" : "test_6确定点击取消操作",
+  "time" : {
+    "start" : 1571910805295,
+    "stop" : 1571910805295,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d96d148fb68de0db",
+  "name" : "test_02查看资产是否显示",
+  "time" : {
+    "start" : 1571911665438,
+    "stop" : 1571911665438,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c8689ef16df65420",
+  "name" : "test_2不输入金额点击预约取款",
+  "time" : {
+    "start" : 1571912343485,
+    "stop" : 1571912346491,
+    "duration" : 3006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c09aca5f64fa9fc7",
+  "name" : "test_04图表万分收益图表确认",
+  "time" : {
+    "start" : 1571910911992,
+    "stop" : 1571910919822,
+    "duration" : 7830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78f805f422e2f282",
+  "name" : "test_4记录状态为已取消是否存在取消按钮",
+  "time" : {
+    "start" : 1571910805282,
+    "stop" : 1571910805282,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c23ce05b830d1163",
+  "name" : "test_0查看资产显示是否正确",
+  "time" : {
+    "start" : 1571912206163,
+    "stop" : 1571912238256,
+    "duration" : 32093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "667cc66d68a37290",
+  "name" : "test_2不输入金额点击预约取款",
+  "time" : {
+    "start" : 1571911016349,
+    "stop" : 1571911019289,
+    "duration" : 2940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3d320c6e3b58539",
+  "name" : "test_4记录状态为正常是否存在取消按钮",
+  "time" : {
+    "start" : 1571910805275,
+    "stop" : 1571910805276,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4bdcfa87c4065d15",
+  "name" : "test_0进入应急取款页面",
+  "time" : {
+    "start" : 1571910423490,
+    "stop" : 1571910456602,
+    "duration" : 33112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82fac013cab07e11",
+  "name" : "test_4点击查看预约取款记录",
+  "time" : {
+    "start" : 1571911497668,
+    "stop" : 1571911503044,
+    "duration" : 5376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0e71ac2db005418",
+  "name" : "test_04第一次需要勾选协议",
+  "time" : {
+    "start" : 1571910465624,
+    "stop" : 1571910465669,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12fc46936e313cb3",
+  "name" : "test_11取消暂停确认框",
+  "time" : {
+    "start" : 1571911112523,
+    "stop" : 1571911120686,
+    "duration" : 8163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fb68ffaf844fddf",
+  "name" : "test_0查看资产显示是否正确",
+  "time" : {
+    "start" : 1571910877198,
+    "stop" : 1571910908844,
+    "duration" : 31646
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f8f5683470c14be4",
+  "name" : "test_6查看设置页面暂停后设置页面按钮显示是否正确",
+  "time" : {
+    "start" : 1571911507741,
+    "stop" : 1571911524065,
+    "duration" : 16324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d76d7e249bd22b4",
+  "name" : "test_0进入更多设置页面",
+  "time" : {
+    "start" : 1571910556806,
+    "stop" : 1571910593813,
+    "duration" : 37007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2259238ba299b4b6",
+  "name" : "test_5点击应急取款按钮",
+  "time" : {
+    "start" : 1571910647117,
+    "stop" : 1571910651872,
+    "duration" : 4755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b34465f5af524ae4",
+  "name" : "test_12暂停失败",
+  "time" : {
+    "start" : 1571911120689,
+    "stop" : 1571911120740,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdffd966a0596606",
+  "name" : "test_2查看第一条记录的预约金额是否正确",
+  "time" : {
+    "start" : 1571911601024,
+    "stop" : 1571911601844,
+    "duration" : 820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3af6f863640d77b9",
+  "name" : "test_01查看万分收益显示是否正确",
+  "time" : {
+    "start" : 1571912238260,
+    "stop" : 1571912238976,
+    "duration" : 716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51b8d1ec1598aae1",
+  "name" : "test_01参考可取金额显示是否正确",
+  "time" : {
+    "start" : 1571910456612,
+    "stop" : 1571910457723,
+    "duration" : 1111
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5546aeb1605e671c",
+  "name" : "test_1适当投资者签约适当性",
+  "time" : {
+    "start" : 1571911665457,
+    "stop" : 1571911667813,
+    "duration" : 2356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f492ed88d9332f12",
+  "name" : "test_1查看产品合同",
+  "time" : {
+    "start" : 1571911842803,
+    "stop" : 1571911846672,
+    "duration" : 3869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1acf617b16027cb",
+  "name" : "test_02查看七日年化收益显示是否正确",
+  "time" : {
+    "start" : 1571910909653,
+    "stop" : 1571910910423,
+    "duration" : 770
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fea39374ab5bb8ba",
+  "name" : "test_6确定点击取消操作",
+  "time" : {
+    "start" : 1571911607900,
+    "stop" : 1571911612691,
+    "duration" : 4791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c3a7cb00e5d9744",
+  "name" : "test_01参考可取金额显示是否正确",
+  "time" : {
+    "start" : 1571911363746,
+    "stop" : 1571911364893,
+    "duration" : 1147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "854b2c4d4c94b933",
+  "name" : "test_1查看第一条记录的时间是否正确",
+  "time" : {
+    "start" : 1571910744187,
+    "stop" : 1571910744686,
+    "duration" : 499
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c961d49a41132e84",
+  "name" : "test_06图表七日年化收益率确认",
+  "time" : {
+    "start" : 1571912250483,
+    "stop" : 1571912258461,
+    "duration" : 7978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa2be74fd767369e",
+  "name" : "test_06图表七日年化收益率确认",
+  "time" : {
+    "start" : 1571910921398,
+    "stop" : 1571910929146,
+    "duration" : 7748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cae02bdba280692",
+  "name" : "test_22再次开通失败",
+  "time" : {
+    "start" : 1571911287409,
+    "stop" : 1571911287469,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8632307799aab2cf",
+  "name" : "test_6查看设置页面暂停后设置页面按钮显示是否正确",
+  "time" : {
+    "start" : 1571910651876,
+    "stop" : 1571910668549,
+    "duration" : 16673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3552c25e6fa401",
+  "name" : "test_04点击取消解约查看现金产品状态是否变为正常",
+  "time" : {
+    "start" : 1571911096530,
+    "stop" : 1571911112505,
+    "duration" : 15975
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fbfa1853aa119899",
+  "name" : "test_084风险等级默认文本",
+  "time" : {
+    "start" : 1571912285635,
+    "stop" : 1571912286422,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea7c70bd41f0db2f",
+  "name" : "test_075预约取款展开文本",
+  "time" : {
+    "start" : 1571910945909,
+    "stop" : 1571910949858,
+    "duration" : 3949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d105752dead0b1cb",
+  "name" : "test_081基金类型默认文本",
+  "time" : {
+    "start" : 1571910956076,
+    "stop" : 1571910956825,
+    "duration" : 749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bccb4b82de5bb330",
+  "name" : "test_2取消应急取款操作",
+  "time" : {
+    "start" : 1571910479806,
+    "stop" : 1571910481963,
+    "duration" : 2157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ca45a0dc7e4f83d",
+  "name" : "test_5取消点击取消操作",
+  "time" : {
+    "start" : 1571911603032,
+    "stop" : 1571911607897,
+    "duration" : 4865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1ae64cc4a628df",
+  "name" : "test_072买入展开信息展示是否正确",
+  "time" : {
+    "start" : 1571910939466,
+    "stop" : 1571910944329,
+    "duration" : 4863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed5a23af6f4c40dd",
+  "name" : "test_21取消保留额度",
+  "time" : {
+    "start" : 1571910608503,
+    "stop" : 1571910628980,
+    "duration" : 20477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d3da9437a32f17a",
+  "name" : "test_071买入默认信息展示是否正确",
+  "time" : {
+    "start" : 1571912258464,
+    "stop" : 1571912266072,
+    "duration" : 7608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf77439548820808",
+  "name" : "test_3点击预约取款按钮",
+  "time" : {
+    "start" : 1571911484593,
+    "stop" : 1571911497664,
+    "duration" : 13071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c2f401ea0e454bf",
+  "name" : "test_31应急取款失败",
+  "time" : {
+    "start" : 1571910518426,
+    "stop" : 1571910538901,
+    "duration" : 20475
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d983ca2525d3c621",
+  "name" : "test_074预约取款默认文本",
+  "time" : {
+    "start" : 1571912271678,
+    "stop" : 1571912272423,
+    "duration" : 745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd75fe80a4be279f",
+  "name" : "test_083基金托管人默认文本",
+  "time" : {
+    "start" : 1571910957596,
+    "stop" : 1571910958382,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93a23ad867895eb0",
+  "name" : "test_073起购金额",
+  "time" : {
+    "start" : 1571912270917,
+    "stop" : 1571912271674,
+    "duration" : 757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b5ee214a97c3dc9",
+  "name" : "test_078分红默认文本",
+  "time" : {
+    "start" : 1571910954546,
+    "stop" : 1571910955283,
+    "duration" : 737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9754fc85078e77",
+  "name" : "test_082基金管理人默认文本",
+  "time" : {
+    "start" : 1571910956828,
+    "stop" : 1571910957593,
+    "duration" : 765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e411b5383e6df9c",
+  "name" : "test_05点击图表七日年化收益率tab",
+  "time" : {
+    "start" : 1571912248946,
+    "stop" : 1571912250480,
+    "duration" : 1534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "548ae587c103b8c1",
+  "name" : "test_12设置保留额度失败",
+  "time" : {
+    "start" : 1571911464374,
+    "stop" : 1571911464431,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c17252351d888b6d",
+  "name" : "test_079交易费用默认文本",
+  "time" : {
+    "start" : 1571910955286,
+    "stop" : 1571910956073,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0f4f9efe0365f1f",
+  "name" : "test_01未签约用户点击现金管理点击立即参与后添鑫宝页面现实签约按钮",
+  "time" : {
+    "start" : 1571911632748,
+    "stop" : 1571911665433,
+    "duration" : 32685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3b92a4b42287c27",
+  "name" : "test_5取消点击取消操作",
+  "time" : {
+    "start" : 1571910805288,
+    "stop" : 1571910805289,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "76d957a6268bb7d0",
+  "name" : "test_32应急取款成功",
+  "time" : {
+    "start" : 1571910481967,
+    "stop" : 1571910518377,
+    "duration" : 36410
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a36bde1d543bb1f",
+  "name" : "test_03点击图表万分收益tab",
+  "time" : {
+    "start" : 1571910910433,
+    "stop" : 1571910911989,
+    "duration" : 1556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a53c9c5a385ab4b",
+  "name" : "test_04图表万分收益图表确认",
+  "time" : {
+    "start" : 1571912241255,
+    "stop" : 1571912248943,
+    "duration" : 7688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4ee0476b34cb49a",
+  "name" : "test_3签约成功",
+  "time" : {
+    "start" : 1571911915412,
+    "stop" : 1571911927496,
+    "duration" : 12084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84643e31d2978847",
+  "name" : "test_3点击预约取款按钮",
+  "time" : {
+    "start" : 1571910629031,
+    "stop" : 1571910642450,
+    "duration" : 13419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb4ae846d2ee1631",
+  "name" : "test_03解约失败",
+  "time" : {
+    "start" : 1571911096514,
+    "stop" : 1571911096527,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f96ae23b7e506dc1",
+  "name" : "test_1查看第一条记录的时间是否正确",
+  "time" : {
+    "start" : 1571911599567,
+    "stop" : 1571911601020,
+    "duration" : 1453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4156ec4a34171551",
+  "name" : "test_079交易费用默认文本",
+  "time" : {
+    "start" : 1571912282418,
+    "stop" : 1571912283232,
+    "duration" : 814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54c07b86099ab7e5",
+  "name" : "test_5点击应急取款按钮",
+  "time" : {
+    "start" : 1571911503048,
+    "stop" : 1571911507738,
+    "duration" : 4690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdc869d409080268",
+  "name" : "test_02支持的银行列表",
+  "time" : {
+    "start" : 1571910457834,
+    "stop" : 1571910461625,
+    "duration" : 3791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf3bcdc2d8f3344b",
+  "name" : "test_3查看第一条记录的状态是否正确",
+  "time" : {
+    "start" : 1571910775007,
+    "stop" : 1571910805218,
+    "duration" : 30211
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73ed09a13fb5dd6e",
+  "name" : "test_11预约取款规则校验",
+  "time" : {
+    "start" : 1571912339546,
+    "stop" : 1571912343480,
+    "duration" : 3934
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6691a893f0eda096",
+  "name" : "test_0点击更多选中预约记录查看页面跳转是否正确",
+  "time" : {
+    "start" : 1571910706932,
+    "stop" : 1571910744181,
+    "duration" : 37249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48e0a5867e970a1c",
+  "name" : "test_3查看第一条记录的状态是否正确",
+  "time" : {
+    "start" : 1571911601848,
+    "stop" : 1571911602625,
+    "duration" : 777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8063a449aff988f8",
+  "name" : "test_7提示失败信息",
+  "time" : {
+    "start" : 1571911612694,
+    "stop" : 1571911612742,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37348201502b674d",
+  "name" : "test_0勾选协议申请开通签约",
+  "time" : {
+    "start" : 1571911875370,
+    "stop" : 1571911913619,
+    "duration" : 38249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30a6a047410a8c4b",
+  "name" : "test_1不输入金额点击应急取款",
+  "time" : {
+    "start" : 1571911368663,
+    "stop" : 1571911370618,
+    "duration" : 1955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9ae9c8ff437dfef",
+  "name" : "test_2点击现金管理后登录未签约用户",
+  "time" : {
+    "start" : 1571912378757,
+    "stop" : 1571912439523,
+    "duration" : 60766
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d1015da3109e243",
+  "name" : "test_7查看设置页面解约后详情页面是否显示解约中",
+  "time" : {
+    "start" : 1571910668552,
+    "stop" : 1571910687398,
+    "duration" : 18846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc2a48c599ef0b40",
+  "name" : "test_22再次开通失败",
+  "time" : {
+    "start" : 1571911144750,
+    "stop" : 1571911144803,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e15ad676a3e05c5",
+  "name" : "test_11取消暂停确认框",
+  "time" : {
+    "start" : 1571911253543,
+    "stop" : 1571911261953,
+    "duration" : 8410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e024b4ca1139cd7",
+  "name" : "test_02确认解约",
+  "time" : {
+    "start" : 1571911087273,
+    "stop" : 1571911096501,
+    "duration" : 9228
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "772ae254dd1f7212",
+  "name" : "test_0机构户提示是否正确",
+  "time" : {
+    "start" : 1571911944690,
+    "stop" : 1571912137936,
+    "duration" : 193246
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be776ef02d9b8c17",
+  "name" : "test_071买入默认信息展示是否正确",
+  "time" : {
+    "start" : 1571910929149,
+    "stop" : 1571910939462,
+    "duration" : 10313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca86c9b89ebcc33",
+  "name" : "test_23再次开通成功",
+  "time" : {
+    "start" : 1571911144806,
+    "stop" : 1571911162572,
+    "duration" : 17766
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c671aa5d9d8462dd",
+  "name" : "test_3分红页面",
+  "time" : {
+    "start" : 1571911305627,
+    "stop" : 1571911312402,
+    "duration" : 6775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd48914f1ccd00da",
+  "name" : "test_7查看设置页面解约后详情页面是否显示解约中",
+  "time" : {
+    "start" : 1571911524069,
+    "stop" : 1571911543206,
+    "duration" : 19137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4cb0231aae201b1",
+  "name" : "test_00点击更多_解约_解约确认框内容校验",
+  "time" : {
+    "start" : 1571911188070,
+    "stop" : 1571911225435,
+    "duration" : 37365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6afa36733923012",
+  "name" : "test_04点击取消解约查看现金产品状态是否变为正常",
+  "time" : {
+    "start" : 1571911237311,
+    "stop" : 1571911253539,
+    "duration" : 16228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9563dd9e0ab2735f",
+  "name" : "test_11应急取款确认框内容确认",
+  "time" : {
+    "start" : 1571911370622,
+    "stop" : 1571911373113,
+    "duration" : 2491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d077325d392940b",
+  "name" : "test_0进入预约管理页面",
+  "time" : {
+    "start" : 1571910976972,
+    "stop" : 1571911012391,
+    "duration" : 35419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f0a6bc92fdeb86",
+  "name" : "test_1不输入金额点击应急取款",
+  "time" : {
+    "start" : 1571910465672,
+    "stop" : 1571910477091,
+    "duration" : 11419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6135eafef6dc13",
+  "name" : "test_078分红默认文本",
+  "time" : {
+    "start" : 1571912281208,
+    "stop" : 1571912282415,
+    "duration" : 1207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de0dc4a551a4879e",
+  "name" : "test_4记录状态为正常是否存在取消按钮",
+  "time" : {
+    "start" : 1571911602628,
+    "stop" : 1571911603025,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c283b004e0e994d2",
+  "name" : "test_12暂停失败",
+  "time" : {
+    "start" : 1571911261959,
+    "stop" : 1571911262010,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2735ed2f4ad95aae",
+  "name" : "test_02确认解约",
+  "time" : {
+    "start" : 1571911227400,
+    "stop" : 1571911237291,
+    "duration" : 9891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0e9680acfa2d1",
+  "name" : "test_073起购金额",
+  "time" : {
+    "start" : 1571910944332,
+    "stop" : 1571910945121,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e52bf8a56ae057ef",
+  "name" : "test_075预约取款展开文本",
+  "time" : {
+    "start" : 1571912272426,
+    "stop" : 1571912276296,
+    "duration" : 3870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c024b64997aaa39a",
+  "name" : "test_4预约取款成功后页面跳转是否正确",
+  "time" : {
+    "start" : 1571912352026,
+    "stop" : 1571912356604,
+    "duration" : 4578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "273e098988dfcfd8",
+  "name" : "test_1可取金额校验",
+  "time" : {
+    "start" : 1571911012396,
+    "stop" : 1571911012904,
+    "duration" : 508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df92daad7e972afa",
+  "name" : "test_2取消应急取款操作",
+  "time" : {
+    "start" : 1571911373117,
+    "stop" : 1571911374815,
+    "duration" : 1698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8af790122950df24",
+  "name" : "test_01查看万分收益显示是否正确",
+  "time" : {
+    "start" : 1571910908860,
+    "stop" : 1571910909643,
+    "duration" : 783
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4abc9c36eb203d46",
+  "name" : "test_03解约失败",
+  "time" : {
+    "start" : 1571911237295,
+    "stop" : 1571911237309,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a2d3b163e49814c",
+  "name" : "test_077应急取款展开文本",
+  "time" : {
+    "start" : 1571912277025,
+    "stop" : 1571912281202,
+    "duration" : 4177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e48874477c873ad1",
+  "name" : "test_083基金托管人默认文本",
+  "time" : {
+    "start" : 1571912284834,
+    "stop" : 1571912285632,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cdcb6d455b58e90",
+  "name" : "test_3应急取款成功",
+  "time" : {
+    "start" : 1571911374819,
+    "stop" : 1571911380950,
+    "duration" : 6131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e8ddb75488b8d4e",
+  "name" : "test_4点击查看预约取款记录",
+  "time" : {
+    "start" : 1571910642454,
+    "stop" : 1571910647113,
+    "duration" : 4659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13049329ba2164d4",
+  "name" : "test_0进入应急取款页面",
+  "time" : {
+    "start" : 1571911330772,
+    "stop" : 1571911363741,
+    "duration" : 32969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c134ee28f1764307",
+  "name" : "test_11预约取款规则校验",
+  "time" : {
+    "start" : 1571911012907,
+    "stop" : 1571911016346,
+    "duration" : 3439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c128fe7405bca254",
+  "name" : "test_1未登录状态下点击现金管理",
+  "time" : {
+    "start" : 1571912374602,
+    "stop" : 1571912378752,
+    "duration" : 4150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9701992125830f",
+  "name" : "test_3预约取款成功",
+  "time" : {
+    "start" : 1571911019292,
+    "stop" : 1571911024914,
+    "duration" : 5622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fc4c4fcca04f5dc",
+  "name" : "test_21取消保留额度",
+  "time" : {
+    "start" : 1571911464433,
+    "stop" : 1571911484539,
+    "duration" : 20106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f40ed11ae34101e2",
+  "name" : "test_5应急取款成功后页面跳转是否正确",
+  "time" : {
+    "start" : 1571911381019,
+    "stop" : 1571911395136,
+    "duration" : 14117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a35763438075359",
+  "name" : "test_4应急取款失败",
+  "time" : {
+    "start" : 1571911380954,
+    "stop" : 1571911381014,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4dd47b01e692eb",
+  "name" : "test_0点击更多选中预约记录查看页面跳转是否正确",
+  "time" : {
+    "start" : 1571911562199,
+    "stop" : 1571911599562,
+    "duration" : 37363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c91e6f3d003c5a99",
+  "name" : "test_21取消再次开通操作",
+  "time" : {
+    "start" : 1571911282967,
+    "stop" : 1571911287405,
+    "duration" : 4438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bdccbf1d21f8541",
+  "name" : "test_4预约取款成功后页面跳转是否正确",
+  "time" : {
+    "start" : 1571911024917,
+    "stop" : 1571911029487,
+    "duration" : 4570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41cdf094b49e258c",
+  "name" : "test_3分红页面",
+  "time" : {
+    "start" : 1571911162584,
+    "stop" : 1571911169204,
+    "duration" : 6620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd636edbf21fbff1",
+  "name" : "test_0签约页面产名称和产品类型校验",
+  "time" : {
+    "start" : 1571911806924,
+    "stop" : 1571911842799,
+    "duration" : 35875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5dad3d431e7126",
+  "name" : "test_076应急取款默认文本",
+  "time" : {
+    "start" : 1571912276300,
+    "stop" : 1571912277022,
+    "duration" : 722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cd204b4fa343d23",
+  "name" : "test_03中信建投证券智多鑫应急取款协议",
+  "time" : {
+    "start" : 1571910461629,
+    "stop" : 1571910465620,
+    "duration" : 3991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a20bad78057e2d45",
+  "name" : "test_13暂停成功",
+  "time" : {
+    "start" : 1571911262015,
+    "stop" : 1571911282963,
+    "duration" : 20948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a71ec9514a8b6f10",
+  "name" : "test_0进入更多设置页面",
+  "time" : {
+    "start" : 1571911412080,
+    "stop" : 1571911449854,
+    "duration" : 37774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,149 @@
+{
+  "uid" : "d9ae9c8ff437dfef",
+  "name" : "test_2点击现金管理后登录未签约用户",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-立即参与.Test_现金管理_立即参与#test_2点击现金管理后登录未签约用户",
+  "historyId" : "ba873ff16920e70f88c02c303229b25d",
+  "time" : {
+    "start" : 1571912378757,
+    "stop" : 1571912439523,
+    "duration" : 60766
+  },
+  "description" : "点击现金管理后登录未签约用户",
+  "descriptionHtml" : "<p>点击现金管理后登录未签约用户</p>\n",
+  "status" : "broken",
+  "statusMessage" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"立即参与\"]",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-立即参与.Test_现金管理_立即参与 object at 0x11bca3c90>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @allure.story(\"点击现金管理后登录未签约用户\")\n    @pytest.mark.cashmanage\n    def test_2点击现金管理后登录未签约用户(self,u2driver):\n        \"\"\"点击现金管理后登录未签约用户\"\"\"\n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver,账号)\n        cp=cashproductpage(u2driver)\n>       at=cp.join_text()\n\ntest_现金管理-立即参与.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:277: in join_text\n    return self.text(self.join)\n../../Common/PageBaseU2.py:143: in text\n    with allure.step(\"获取{0}文本信息：{1}\".format(element[2],el.get_text())):\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/uiautomator2/xpath.py:440: in get_text\n    return self.get().attrib.get(\"text\", \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <uiautomator2.xpath.XPathSelector object at 0x11bc57390>\n\n    def get(self):\n        \"\"\"\n        Get first matched element\n    \n        Returns:\n            XMLElement\n    \n        Raises:\n            XPathElementNotFoundError\n        \"\"\"\n        if not self.wait(self._global_timeout):\n>           raise XPathElementNotFoundError(self._xpath)\nE           uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"立即参与\"]\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/uiautomator2/xpath.py:424: XPathElementNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912356701,
+      "stop" : 1571912361851,
+      "duration" : 5150
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击现金管理后登录未签约用户",
+    "status" : "broken",
+    "statusMessage" : "uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"立即参与\"]",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-立即参与.Test_现金管理_立即参与 object at 0x11bca3c90>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @allure.story(\"点击现金管理后登录未签约用户\")\n    @pytest.mark.cashmanage\n    def test_2点击现金管理后登录未签约用户(self,u2driver):\n        \"\"\"点击现金管理后登录未签约用户\"\"\"\n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver,账号)\n        cp=cashproductpage(u2driver)\n>       at=cp.join_text()\n\ntest_现金管理-立即参与.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:277: in join_text\n    return self.text(self.join)\n../../Common/PageBaseU2.py:143: in text\n    with allure.step(\"获取{0}文本信息：{1}\".format(element[2],el.get_text())):\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/uiautomator2/xpath.py:440: in get_text\n    return self.get().attrib.get(\"text\", \"\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <uiautomator2.xpath.XPathSelector object at 0x11bc57390>\n\n    def get(self):\n        \"\"\"\n        Get first matched element\n    \n        Returns:\n            XMLElement\n    \n        Raises:\n            XPathElementNotFoundError\n        \"\"\"\n        if not self.wait(self._global_timeout):\n>           raise XPathElementNotFoundError(self._xpath)\nE           uiautomator2.exceptions.XPathElementNotFoundError: //*[@text=\"立即参与\"]\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/uiautomator2/xpath.py:424: XPathElementNotFoundError",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571912380599,
+        "stop" : 1571912380600,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ede2c44fe33c5964",
+        "name" : "bd4f1d0c-9d86-4232-9129-a4e95c7e7658-attachment.png",
+        "source" : "ede2c44fe33c5964.png",
+        "type" : "image/png",
+        "size" : 210069
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a467cc04f142dda9",
+      "name" : "log",
+      "source" : "a467cc04f142dda9.txt",
+      "type" : "text/plain",
+      "size" : 125
+    }, {
+      "uid" : "b30d16c8e75c21d",
+      "name" : "stderr",
+      "source" : "b30d16c8e75c21d.txt",
+      "type" : "text/plain",
+      "size" : 1665
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912439560,
+      "stop" : 1571912439655,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击现金管理后登录未签约用户"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-立即参与"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-立即参与"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_立即参与"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-立即参与"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "d9ae9c8ff437dfef.json",
+  "parameterValues" : [ ]
+}

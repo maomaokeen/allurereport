@@ -1,0 +1,4 @@
+INFO     自动化测试:PageBaseU2.py:90 您已经委托成功是否存在：True
+INFO     自动化测试:PageBaseU2.py:43 元素确认点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本现金管理
+INFO     自动化测试:conftest.py:72 测试结束

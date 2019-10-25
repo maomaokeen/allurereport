@@ -1,0 +1,11 @@
+[I 191024 18:05:07 xpath:315] XPath(timeout 30.0) //*[@text="应急取款"]/following-sibling::*[1]
+2019-10-24 18:05:09,204 - 自动化测试 - INFO - 元素设置-暂停点击成功
+2019-10-24 18:05:11,705 - 自动化测试 - INFO - 元素确定点击成功
+[I 191024 18:05:16 xpath:315] XPath(timeout 30.0) //*[@text="更多"]
+2019-10-24 18:05:18,295 - 自动化测试 - INFO - 元素更多点击成功
+[I 191024 18:05:19 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]
+2019-10-24 18:05:20,821 - 自动化测试 - INFO - 元素设置点击成功
+2019-10-24 18:05:20,914 - 自动化测试 - INFO - 再次开通是否存在：True
+[I 191024 18:05:21 xpath:315] XPath(timeout 30.0) //*[@text="再次开通"]
+2019-10-24 18:05:22,541 - 自动化测试 - INFO - 元素再次开通点击成功
+2019-10-24 18:05:24,064 - 自动化测试 - INFO - 元素确定点击成功

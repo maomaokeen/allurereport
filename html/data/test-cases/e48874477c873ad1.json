@@ -1,0 +1,168 @@
+{
+  "uid" : "e48874477c873ad1",
+  "name" : "test_083基金托管人默认文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_083基金托管人默认文本",
+  "historyId" : "03277d79883c2b557ec37c2b3e0038d8",
+  "time" : {
+    "start" : 1571912284834,
+    "stop" : 1571912285632,
+    "duration" : 798
+  },
+  "description" : "基金托管人默认信息展示是否正确",
+  "descriptionHtml" : "<p>基金托管人默认信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "基金托管人默认信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取基金托管人默认信息文本信息：中信银行股份有限公司",
+      "time" : {
+        "start" : 1571912285230,
+        "stop" : 1571912285231,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b10961b98e805f75",
+        "name" : "9034823f-4f6b-4436-a8bc-499570b9ad1e-attachment.png",
+        "source" : "b10961b98e805f75.png",
+        "type" : "image/png",
+        "size" : 182942
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：基金托管人默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912285631,
+        "stop" : 1571912285631,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec201a39e2ff37d9",
+        "name" : "预期结果",
+        "source" : "ec201a39e2ff37d9.attach",
+        "type" : "text/plain",
+        "size" : 30
+      }, {
+        "uid" : "c01cb29d01304b89",
+        "name" : "实际结果",
+        "source" : "c01cb29d01304b89.attach",
+        "type" : "text/plain",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b102ecf38fc819ef",
+      "name" : "log",
+      "source" : "b102ecf38fc819ef.txt",
+      "type" : "text/plain",
+      "size" : 121
+    }, {
+      "uid" : "104a41ec2d83536a",
+      "name" : "stderr",
+      "source" : "104a41ec2d83536a.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "基金托管人默认信息展示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "e48874477c873ad1.json",
+  "parameterValues" : [ ]
+}

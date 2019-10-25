@@ -1,0 +1,16 @@
+2019-10-24 18:08:41,942 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 18:09:16,046 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 18:09:26 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:09:27 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:09:28 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:09:30 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:09:31 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:09:32 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:09:34 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 18:09:35 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+[I 191024 18:09:44 xpath:315] XPath(timeout 30.0) //*[@text="立即参与"]
+2019-10-24 18:09:46,116 - 自动化测试 - INFO - 元素立即参与点击成功
+[I 191024 18:09:46 xpath:315] XPath(timeout 30.0) //*[@text="签约"]
+2019-10-24 18:09:47,657 - 自动化测试 - INFO - 元素签约按钮点击成功
+2019-10-24 18:09:48,261 - 自动化测试 - INFO - 获得元素页面标题的文本适当确认书
+2019-10-24 18:09:48,560 - 自动化测试 - INFO - 测试结束

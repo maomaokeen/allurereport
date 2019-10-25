@@ -1,0 +1,3 @@
+INFO     自动化测试:PageBaseU2.py:179 向下滑动
+INFO     自动化测试:PageBaseU2.py:179 向下滑动
+INFO     自动化测试:PageBaseU2.py:145 获得元素买入默认信息的文本收盘后自动归集可用资金

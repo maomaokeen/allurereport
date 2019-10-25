@@ -1,0 +1,133 @@
+{
+  "uid" : "d96d148fb68de0db",
+  "name" : "test_02查看资产是否显示",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性1.Test_现金管理_添鑫宝_签约1_适当性1#test_02查看资产是否显示",
+  "historyId" : "720dac9f9ae3e3c3be973716eec40758",
+  "time" : {
+    "start" : 1571911665438,
+    "stop" : 1571911665438,
+    "duration" : 0
+  },
+  "description" : "查看资产是否显示",
+  "descriptionHtml" : "<p>查看资产是否显示</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'method' object is not subscriptable",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性1.Test_现金管理_添鑫宝_签约1_适当性1 object at 0x11bc69e10>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @allure.story(\"查看资产是否显示\")\n    @pytest.mark.cashmanage\n    def test_02查看资产是否显示(self, u2driver):\n        \"\"\"查看资产是否显示\"\"\"\n        cp = cashproductpage(u2driver)\n        with allure.step(\"校验结果：资产是否现实结果为False\"):\n>           assert not cp.cashproductcash_exists()\n\ntest_现金管理-添鑫宝-签约1-适当性1.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:370: in cashproductcash_exists\n    return self.exists(self.exists)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <PageObject.cashproductpage.cashproductpage object at 0x11a7ac5d0>\nelement = <bound method PageBaseU2.exists of <PageObject.cashproductpage.cashproductpage object at 0x11a7ac5d0>>\n\n    def exists(self,element):\n>       if element[0] == 'xpath':\nE       TypeError: 'method' object is not subscriptable\n\n../../Common/PageBaseU2.py:88: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911612873,
+      "stop" : 1571911618191,
+      "duration" : 5318
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "查看资产是否显示",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'method' object is not subscriptable",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性1.Test_现金管理_添鑫宝_签约1_适当性1 object at 0x11bc69e10>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @allure.story(\"查看资产是否显示\")\n    @pytest.mark.cashmanage\n    def test_02查看资产是否显示(self, u2driver):\n        \"\"\"查看资产是否显示\"\"\"\n        cp = cashproductpage(u2driver)\n        with allure.step(\"校验结果：资产是否现实结果为False\"):\n>           assert not cp.cashproductcash_exists()\n\ntest_现金管理-添鑫宝-签约1-适当性1.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:370: in cashproductcash_exists\n    return self.exists(self.exists)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <PageObject.cashproductpage.cashproductpage object at 0x11a7ac5d0>\nelement = <bound method PageBaseU2.exists of <PageObject.cashproductpage.cashproductpage object at 0x11a7ac5d0>>\n\n    def exists(self,element):\n>       if element[0] == 'xpath':\nE       TypeError: 'method' object is not subscriptable\n\n../../Common/PageBaseU2.py:88: TypeError",
+    "steps" : [ {
+      "name" : "校验结果：资产是否现实结果为False",
+      "time" : {
+        "start" : 1571911665438,
+        "stop" : 1571911665438,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'method' object is not subscriptable\n",
+      "statusTrace" : "  File \"/Users/qdm/PycharmProjects/AutoTest/建投自动化测试/现金管理测试用例/test_现金管理-添鑫宝-签约1-适当性1.py\", line 34, in test_02查看资产是否显示\n    assert not cp.cashproductcash_exists()\n  File \"/Users/qdm/PycharmProjects/AutoTest/PageObject/cashproductpage.py\", line 370, in cashproductcash_exists\n    return self.exists(self.exists)\n  File \"/Users/qdm/PycharmProjects/AutoTest/Common/PageBaseU2.py\", line 88, in exists\n    if element[0] == 'xpath':\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911667814,
+      "stop" : 1571911667896,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查看资产是否显示"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理添鑫宝签约适当性用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约1-适当性1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约1_适当性1"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "d96d148fb68de0db.json",
+  "parameterValues" : [ ]
+}

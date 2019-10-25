@@ -1,0 +1,168 @@
+{
+  "uid" : "667cc66d68a37290",
+  "name" : "test_2不输入金额点击预约取款",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-预约取款.Test_现金管理_智多鑫_预约取款用例#test_2不输入金额点击预约取款",
+  "historyId" : "fe819ee470a56f96e7db4d89b93ce787",
+  "time" : {
+    "start" : 1571911016349,
+    "stop" : 1571911019289,
+    "duration" : 2940
+  },
+  "description" : "不输入金额，点击预约取款",
+  "descriptionHtml" : "<p>不输入金额，点击预约取款</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910959256,
+      "stop" : 1571910964590,
+      "duration" : 5334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "不输入金额，点击预约取款",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取错误提示文本信息：请输入取款金额！",
+      "time" : {
+        "start" : 1571911019076,
+        "stop" : 1571911019077,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8900aa220c9a4632",
+        "name" : "66ac73d9-20dc-46bb-bf11-543846e50a21-attachment.png",
+        "source" : "8900aa220c9a4632.png",
+        "type" : "image/png",
+        "size" : 96038
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:提示请输入金额",
+      "time" : {
+        "start" : 1571911019288,
+        "stop" : 1571911019289,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e422d5604bb608c3",
+        "name" : "预期结果",
+        "source" : "e422d5604bb608c3.attach",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "b258e0351de58014",
+        "name" : "实际结果",
+        "source" : "b258e0351de58014.attach",
+        "type" : "text/plain",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "47ed345bf7933bfb",
+      "name" : "log",
+      "source" : "47ed345bf7933bfb.txt",
+      "type" : "text/plain",
+      "size" : 100
+    }, {
+      "uid" : "79e147c61cb1da79",
+      "name" : "stderr",
+      "source" : "79e147c61cb1da79.txt",
+      "type" : "text/plain",
+      "size" : 109
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911029487,
+      "stop" : 1571911029609,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "不输入金额，点击预约取款"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-预约取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-预约取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_预约取款用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-预约取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "667cc66d68a37290.json",
+  "parameterValues" : [ ]
+}

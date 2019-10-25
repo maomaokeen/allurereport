@@ -1,0 +1,210 @@
+{
+  "uid" : "e52bf8a56ae057ef",
+  "name" : "test_075预约取款展开文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_075预约取款展开文本",
+  "historyId" : "e7006928a1e69cc8bc30d8af1b20f5dd",
+  "time" : {
+    "start" : 1571912272426,
+    "stop" : 1571912276296,
+    "duration" : 3870
+  },
+  "description" : "默认取款展开信息展示是否正确",
+  "descriptionHtml" : "<p>默认取款展开信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "默认取款展开信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击预约默认信息",
+      "time" : {
+        "start" : 1571912273967,
+        "stop" : 1571912273968,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13c74e6653c8f5fa",
+        "name" : "4fb85bcc-f707-42d4-9e0e-aa279484e75d-attachment.png",
+        "source" : "13c74e6653c8f5fa.png",
+        "type" : "image/png",
+        "size" : 276080
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取预约取款展开信息文本信息：通过设置预约取款或修改保留额度即实现部分或全部资金最快下一交易日可取。\nT日（交易日）15:00之前预约，T+1日可取，请在当日的15:00之前进行银证转账，否则此部分资金在当日无收益，且会再次自动扫单添鑫宝。\nT日（交易日）15:00之后预约，T+2日可取，请在当日的15:00之前进行银证转账，否则此部分资金在当日无收益，且会再次自动扫单添鑫宝。",
+      "time" : {
+        "start" : 1571912274371,
+        "stop" : 1571912274372,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56a4b20146a43652",
+        "name" : "2190d17d-1274-4a84-97e9-a09085adf07c-attachment.png",
+        "source" : "56a4b20146a43652.png",
+        "type" : "image/png",
+        "size" : 276080
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912274762,
+        "stop" : 1571912274762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aca1a0a6b2cb418c",
+        "name" : "预期结果",
+        "source" : "aca1a0a6b2cb418c.attach",
+        "type" : "text/plain",
+        "size" : 465
+      }, {
+        "uid" : "a01fd243fc4f1006",
+        "name" : "实际结果",
+        "source" : "a01fd243fc4f1006.attach",
+        "type" : "text/plain",
+        "size" : 465
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击预约默认信息",
+      "time" : {
+        "start" : 1571912276295,
+        "stop" : 1571912276296,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "818e56674c59c9d5",
+        "name" : "c9756613-8440-4522-82fd-fbe82a27123b-attachment.png",
+        "source" : "818e56674c59c9d5.png",
+        "type" : "image/png",
+        "size" : 182724
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "40d75688d5fae0b1",
+      "name" : "log",
+      "source" : "40d75688d5fae0b1.txt",
+      "type" : "text/plain",
+      "size" : 777
+    }, {
+      "uid" : "c9e9b89954c40d81",
+      "name" : "stderr",
+      "source" : "c9e9b89954c40d81.txt",
+      "type" : "text/plain",
+      "size" : 938
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预约取款展开信息展示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "e52bf8a56ae057ef.json",
+  "parameterValues" : [ ]
+}

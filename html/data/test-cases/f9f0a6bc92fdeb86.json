@@ -1,0 +1,168 @@
+{
+  "uid" : "f9f0a6bc92fdeb86",
+  "name" : "test_1不输入金额点击应急取款",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款.Test_现金管理_智多鑫_应急取款#test_1不输入金额点击应急取款",
+  "historyId" : "a16bf2ff6b6818a1cf296235b96d74db",
+  "time" : {
+    "start" : 1571910465672,
+    "stop" : 1571910477091,
+    "duration" : 11419
+  },
+  "description" : "不输入金额，点击应急取款",
+  "descriptionHtml" : "<p>不输入金额，点击应急取款</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910366319,
+      "stop" : 1571910371829,
+      "duration" : 5510
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "不输入金额，点击应急取款",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取错误提示文本信息：请输入取款金额！",
+      "time" : {
+        "start" : 1571910476811,
+        "stop" : 1571910476812,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb85cb5634fc8bcc",
+        "name" : "aaf22a30-fd4e-49fb-b34f-4c21da949e0d-attachment.png",
+        "source" : "cb85cb5634fc8bcc.png",
+        "type" : "image/png",
+        "size" : 188402
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:提示预约取款成功",
+      "time" : {
+        "start" : 1571910477090,
+        "stop" : 1571910477091,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e659690d67731e4",
+        "name" : "预期结果",
+        "source" : "4e659690d67731e4.attach",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "38efe7868a88b06f",
+        "name" : "实际结果",
+        "source" : "38efe7868a88b06f.attach",
+        "type" : "text/plain",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f8800e7a8a64873d",
+      "name" : "log",
+      "source" : "f8800e7a8a64873d.txt",
+      "type" : "text/plain",
+      "size" : 214
+    }, {
+      "uid" : "60f098b4b1b32a06",
+      "name" : "stderr",
+      "source" : "60f098b4b1b32a06.txt",
+      "type" : "text/plain",
+      "size" : 647
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910539283,
+      "stop" : 1571910539416,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "不输入金额，点击应急取款"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-应急取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_应急取款"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "f9f0a6bc92fdeb86.json",
+  "parameterValues" : [ ]
+}

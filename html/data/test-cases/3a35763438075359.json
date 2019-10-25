@@ -1,0 +1,97 @@
+{
+  "uid" : "3a35763438075359",
+  "name" : "test_4应急取款失败",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-应急取款.Test_现金管理_添鑫宝_应急取款#test_4应急取款失败",
+  "historyId" : "42dc1c25ec095052b5151b5c6511d239",
+  "time" : {
+    "start" : 1571911380954,
+    "stop" : 1571911381014,
+    "duration" : 60
+  },
+  "description" : "应急取款失败",
+  "descriptionHtml" : "<p>应急取款失败</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911312490,
+      "stop" : 1571911317615,
+      "duration" : 5125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911395137,
+      "stop" : 1571911395214,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "应急取款失败"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-应急取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-应急取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_应急取款"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-应急取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "3a35763438075359.json",
+  "parameterValues" : [ ]
+}

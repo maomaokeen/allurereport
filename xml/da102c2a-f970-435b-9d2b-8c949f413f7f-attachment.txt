@@ -1,0 +1,15 @@
+2019-10-24 18:03:17,322 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 18:03:34,254 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 18:03:44 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:03:45 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:03:47 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:03:48 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:03:49 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:03:51 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:03:52 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 18:03:53 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+[I 191024 18:04:02 xpath:315] XPath(timeout 30.0) //*[@text="更多"]
+2019-10-24 18:04:04,673 - 自动化测试 - INFO - 元素更多点击成功
+[I 191024 18:04:05 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]
+2019-10-24 18:04:07,194 - 自动化测试 - INFO - 元素设置点击成功
+2019-10-24 18:04:09,690 - 自动化测试 - INFO - 获得元素页面标题的文本产品设置

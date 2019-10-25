@@ -1,0 +1,141 @@
+{
+  "uid" : "4e411b5383e6df9c",
+  "name" : "test_05点击图表七日年化收益率tab",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_05点击图表七日年化收益率tab",
+  "historyId" : "44e6bcbae5da5432434ec8a70f332f26",
+  "time" : {
+    "start" : 1571912248946,
+    "stop" : 1571912250480,
+    "duration" : 1534
+  },
+  "description" : "点击图表七日年化收益率tab",
+  "descriptionHtml" : "<p>点击图表七日年化收益率tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击图表七日年化收益率tab",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击七日年化收益率tab",
+      "time" : {
+        "start" : 1571912250478,
+        "stop" : 1571912250479,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "578c5cd5b24f4b0c",
+        "name" : "9b3ef12c-6619-45fe-88ac-44d223eef5d6-attachment.png",
+        "source" : "578c5cd5b24f4b0c.png",
+        "type" : "image/png",
+        "size" : 127340
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1c478d6a8c8df25c",
+      "name" : "log",
+      "source" : "1c478d6a8c8df25c.txt",
+      "type" : "text/plain",
+      "size" : 84
+    }, {
+      "uid" : "e3c61b49027fa7eb",
+      "name" : "stderr",
+      "source" : "e3c61b49027fa7eb.txt",
+      "type" : "text/plain",
+      "size" : 94
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击图表七日年化收益率tab"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "4e411b5383e6df9c.json",
+  "parameterValues" : [ ]
+}

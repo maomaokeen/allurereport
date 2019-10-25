@@ -1,0 +1,2 @@
+INFO     自动化测试:PageBaseU2.py:43 元素现金管理点击成功
+INFO     自动化测试:conftest.py:72 测试结束

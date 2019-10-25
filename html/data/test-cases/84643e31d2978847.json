@@ -1,0 +1,210 @@
+{
+  "uid" : "84643e31d2978847",
+  "name" : "test_3点击预约取款按钮",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-设置.Test_现金管理_更多_设置页面测试用例#test_3点击预约取款按钮",
+  "historyId" : "0694b284885c457e2ac18a9c943dffc3",
+  "time" : {
+    "start" : 1571910629031,
+    "stop" : 1571910642450,
+    "duration" : 13419
+  },
+  "description" : "点击预约取款按钮",
+  "descriptionHtml" : "<p>点击预约取款按钮</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910539419,
+      "stop" : 1571910544801,
+      "duration" : 5382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击预约取款按钮",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击设置-预约取款",
+      "time" : {
+        "start" : 1571910639090,
+        "stop" : 1571910639091,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51623a93495d5a75",
+        "name" : "95b9479e-d034-405a-932b-95b18f5b5845-attachment.png",
+        "source" : "51623a93495d5a75.png",
+        "type" : "image/png",
+        "size" : 87509
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：预约取款",
+      "time" : {
+        "start" : 1571910640512,
+        "stop" : 1571910640513,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cbff737830af433",
+        "name" : "8d3753bd-b7d1-45b7-8908-c444c4f2b857-attachment.png",
+        "source" : "6cbff737830af433.png",
+        "type" : "image/png",
+        "size" : 87442
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571910640894,
+        "stop" : 1571910640894,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b8cee0783bbd31b",
+        "name" : "预期结果",
+        "source" : "4b8cee0783bbd31b.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "41b94140e4c33bbe",
+        "name" : "实际结果",
+        "source" : "41b94140e4c33bbe.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击返回",
+      "time" : {
+        "start" : 1571910642448,
+        "stop" : 1571910642449,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af2db36f24680af",
+        "name" : "f1f518c9-62e5-45f1-a5dd-fd592ef98118-attachment.png",
+        "source" : "af2db36f24680af.png",
+        "type" : "image/png",
+        "size" : 86465
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a2e0188acd660cb9",
+      "name" : "log",
+      "source" : "a2e0188acd660cb9.txt",
+      "type" : "text/plain",
+      "size" : 349
+    }, {
+      "uid" : "1b4eecbf1c6f07be",
+      "name" : "stderr",
+      "source" : "1b4eecbf1c6f07be.txt",
+      "type" : "text/plain",
+      "size" : 815
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910687398,
+      "stop" : 1571910687482,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击预约取款按钮"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "84643e31d2978847.json",
+  "parameterValues" : [ ]
+}

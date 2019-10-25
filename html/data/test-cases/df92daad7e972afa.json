@@ -1,0 +1,177 @@
+{
+  "uid" : "df92daad7e972afa",
+  "name" : "test_2取消应急取款操作",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-应急取款.Test_现金管理_添鑫宝_应急取款#test_2取消应急取款操作",
+  "historyId" : "2c3abe0f5e0dac81d0d15fcbbb497a8d",
+  "time" : {
+    "start" : 1571911373117,
+    "stop" : 1571911374815,
+    "duration" : 1698
+  },
+  "description" : "取消应急取款操作",
+  "descriptionHtml" : "<p>取消应急取款操作</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911312490,
+      "stop" : 1571911317615,
+      "duration" : 5125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "取消应急取款操作",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击应急取款确认框取消按钮",
+      "time" : {
+        "start" : 1571911374548,
+        "stop" : 1571911374549,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aef14d30b3fc0f59",
+        "name" : "ab0f515c-d7b7-4515-a45d-efa9c0abdf62-attachment.png",
+        "source" : "aef14d30b3fc0f59.png",
+        "type" : "image/png",
+        "size" : 88972
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:应急取款确认框消失，页面停留在应急取款页面",
+      "time" : {
+        "start" : 1571911374549,
+        "stop" : 1571911374815,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "应急取款确认框取消按钮存在",
+        "time" : {
+          "start" : 1571911374814,
+          "stop" : 1571911374815,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ad89ce9179bdcdb2",
+          "name" : "cc277d2c-7004-4a46-9b8e-100526955c0e-attachment.png",
+          "source" : "ad89ce9179bdcdb2.png",
+          "type" : "image/png",
+          "size" : 88972
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "82490fcc92b9bd65",
+      "name" : "log",
+      "source" : "82490fcc92b9bd65.txt",
+      "type" : "text/plain",
+      "size" : 189
+    }, {
+      "uid" : "e7a1aed0c51aed0",
+      "name" : "stderr",
+      "source" : "e7a1aed0c51aed0.txt",
+      "type" : "text/plain",
+      "size" : 278
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911395137,
+      "stop" : 1571911395214,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "取消应急取款操作"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-应急取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-应急取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_应急取款"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-应急取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "df92daad7e972afa.json",
+  "parameterValues" : [ ]
+}

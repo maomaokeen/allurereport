@@ -1,0 +1,97 @@
+{
+  "uid" : "4abc9c36eb203d46",
+  "name" : "test_03解约失败",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-添鑫宝-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_03解约失败",
+  "historyId" : "31e445230cc3500ae30258b09a494331",
+  "time" : {
+    "start" : 1571911237295,
+    "stop" : 1571911237309,
+    "duration" : 14
+  },
+  "description" : "解约失败",
+  "descriptionHtml" : "<p>解约失败</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911169303,
+      "stop" : 1571911174664,
+      "duration" : 5361
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911312403,
+      "stop" : 1571911312487,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "解约失败"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-添鑫宝-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-添鑫宝-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "4abc9c36eb203d46.json",
+  "parameterValues" : [ ]
+}

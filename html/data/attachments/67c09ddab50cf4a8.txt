@@ -1,0 +1,3 @@
+INFO     自动化测试:PageBaseU2.py:43 元素取消预约取款按钮点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素确认框的取消按钮点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素预约取款记录状态的文本正常

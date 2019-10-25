@@ -1,0 +1,18 @@
+<environment>
+    <parameter>
+        <key>测试平台</key>
+        <value>安卓</value>
+    </parameter>
+    <parameter>
+        <key>测试框架</key>
+        <value>pytest</value>
+    </parameter>
+    <parameter>
+        <key>移动端测试工具</key>
+        <value>openatx</value>
+    </parameter>
+    <parameter>
+        <key>测试项目</key>
+        <value>建投</value>
+    </parameter>
+</environment>

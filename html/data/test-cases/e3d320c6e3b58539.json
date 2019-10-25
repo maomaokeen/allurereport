@@ -1,0 +1,103 @@
+{
+  "uid" : "e3d320c6e3b58539",
+  "name" : "test_4记录状态为正常是否存在取消按钮",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录.Test_现金管理_智多鑫_更多_预约记录测试用例#test_4记录状态为正常是否存在取消按钮",
+  "historyId" : "cbcf21ac03b088441cba472f89f184f8",
+  "time" : {
+    "start" : 1571910805275,
+    "stop" : 1571910805276,
+    "duration" : 1
+  },
+  "description" : "记录状态为正常，取消按钮是否存在",
+  "descriptionHtml" : "<p>记录状态为正常，取消按钮是否存在</p>\n",
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'status' is not defined",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录.Test_现金管理_智多鑫_更多_预约记录测试用例 object at 0x11a915690>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashproduct\n    @allure.story(\"记录状态为正常，取消按钮是否存在\")\n    def test_4记录状态为正常是否存在取消按钮(self, u2driver):\n        \"\"\"记录状态为正常，取消按钮是否存在\"\"\"\n        cp = cashproductpage(u2driver)\n>       if status==\"正常\":\nE       NameError: name 'status' is not defined\n\ntest_现金管理-智多鑫-更多-预约取款记录.py:88: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910687487,
+      "stop" : 1571910692689,
+      "duration" : 5202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910805316,
+      "stop" : 1571910805456,
+      "duration" : 140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-预约记录测试用例"
+  }, {
+    "name" : "story",
+    "value" : "记录状态为正常，取消按钮是否存在"
+  }, {
+    "name" : "tag",
+    "value" : "cashproduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-更多-预约取款记录"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_更多_预约记录测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashproduct" ]
+  },
+  "source" : "e3d320c6e3b58539.json",
+  "parameterValues" : [ ]
+}

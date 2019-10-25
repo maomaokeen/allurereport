@@ -1,0 +1,4 @@
+INFO     自动化测试:conftest.py:40 启动方式为数据线连接模式，连接手机为emulator-5554
+INFO     自动化测试:PageBaseU2.py:43 元素现金管理点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素立即参与点击成功
+INFO     自动化测试:PageBaseU2.py:90 签约按钮是否存在：True

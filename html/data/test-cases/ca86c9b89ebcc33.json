@@ -1,0 +1,170 @@
+{
+  "uid" : "ca86c9b89ebcc33",
+  "name" : "test_23再次开通成功",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_23再次开通成功",
+  "historyId" : "64f77188eccc494b3bd30fd4b6aaffc0",
+  "time" : {
+    "start" : 1571911144806,
+    "stop" : 1571911162572,
+    "duration" : 17766
+  },
+  "description" : "点击再次开通，查看现金产品状态是否变为正常",
+  "descriptionHtml" : "<p>点击再次开通，查看现金产品状态是否变为正常</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例 object at 0x11a7ac690>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashmanage\n    @allure.story(\"点击再次开通，查看现金产品状态是否变为正常\")\n    def test_23再次开通成功(self, u2driver):\n        \"\"\"点击再次开通，查看现金产品状态是否变为正常\"\"\"\n        cp = cashproductpage(u2driver)\n        cp.repetcashbtn_click()\n        time.sleep(1)\n        cp.definebtn_click()\n        time.sleep(5)\n>       at = requestcashproduct()\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:157: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def requestcashproduct():\n        global multisettstatus\n        url='https://teste.csc108.com/apiXjlc/product/cashProductDetail'\n        headers=loginzdxheaders()\n        data={}\n        rq=test_requests()\n        p=rq.post_json(url=url,headers=headers,data=data)[1]\n>       multisettstatus=p[\"multisettstatus\"]\nE       TypeError: list indices must be integers or slices, not str\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:20: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911029612,
+      "stop" : 1571911034766,
+      "duration" : 5154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击再次开通，查看现金产品状态是否变为正常",
+    "status" : "broken",
+    "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例 object at 0x11a7ac690>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashmanage\n    @allure.story(\"点击再次开通，查看现金产品状态是否变为正常\")\n    def test_23再次开通成功(self, u2driver):\n        \"\"\"点击再次开通，查看现金产品状态是否变为正常\"\"\"\n        cp = cashproductpage(u2driver)\n        cp.repetcashbtn_click()\n        time.sleep(1)\n        cp.definebtn_click()\n        time.sleep(5)\n>       at = requestcashproduct()\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:157: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def requestcashproduct():\n        global multisettstatus\n        url='https://teste.csc108.com/apiXjlc/product/cashProductDetail'\n        headers=loginzdxheaders()\n        data={}\n        rq=test_requests()\n        p=rq.post_json(url=url,headers=headers,data=data)[1]\n>       multisettstatus=p[\"multisettstatus\"]\nE       TypeError: list indices must be integers or slices, not str\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:20: TypeError",
+    "steps" : [ {
+      "name" : "点击再次开通",
+      "time" : {
+        "start" : 1571911154447,
+        "stop" : 1571911154448,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5af2af730a3efdf7",
+        "name" : "a0d78c08-be59-4f30-b8a3-09b0c7e96ec8-attachment.png",
+        "source" : "5af2af730a3efdf7.png",
+        "type" : "image/png",
+        "size" : 107563
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911157096,
+        "stop" : 1571911157097,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "383a47fef12af43f",
+        "name" : "a2d888a6-28cd-4469-92ce-73012df8096d-attachment.png",
+        "source" : "383a47fef12af43f.png",
+        "type" : "image/png",
+        "size" : 133516
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6fe63f6ccdf70ce7",
+      "name" : "log",
+      "source" : "6fe63f6ccdf70ce7.txt",
+      "type" : "text/plain",
+      "size" : 2109
+    }, {
+      "uid" : "a4b75b64eb7cc9ab",
+      "name" : "stderr",
+      "source" : "a4b75b64eb7cc9ab.txt",
+      "type" : "text/plain",
+      "size" : 2631
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911169205,
+      "stop" : 1571911169298,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "story",
+    "value" : "点击再次开通，查看现金产品状态是否变为正常"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "ca86c9b89ebcc33.json",
+  "parameterValues" : [ ]
+}

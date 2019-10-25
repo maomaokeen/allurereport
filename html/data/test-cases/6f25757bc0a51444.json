@@ -1,0 +1,141 @@
+{
+  "uid" : "6f25757bc0a51444",
+  "name" : "test_03点击图表万分收益tab",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_03点击图表万分收益tab",
+  "historyId" : "63f515399ebafe805e028222bbfe2b06",
+  "time" : {
+    "start" : 1571912239717,
+    "stop" : 1571912241252,
+    "duration" : 1535
+  },
+  "description" : "点击图表万分收益tab",
+  "descriptionHtml" : "<p>点击图表万分收益tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击图表万分收益tab",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击万份收益tab",
+      "time" : {
+        "start" : 1571912241250,
+        "stop" : 1571912241251,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98cf5d6c5ebdc42a",
+        "name" : "4c31557d-669b-4597-b392-8145df793363-attachment.png",
+        "source" : "98cf5d6c5ebdc42a.png",
+        "type" : "image/png",
+        "size" : 127820
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "eff95d9df998d8c4",
+      "name" : "log",
+      "source" : "eff95d9df998d8c4.txt",
+      "type" : "text/plain",
+      "size" : 75
+    }, {
+      "uid" : "74b075deb3d764f2",
+      "name" : "stderr",
+      "source" : "74b075deb3d764f2.txt",
+      "type" : "text/plain",
+      "size" : 85
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "story",
+    "value" : "点击图表万分收益tab"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "6f25757bc0a51444.json",
+  "parameterValues" : [ ]
+}

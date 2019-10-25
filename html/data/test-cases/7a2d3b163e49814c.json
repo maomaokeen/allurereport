@@ -1,0 +1,210 @@
+{
+  "uid" : "7a2d3b163e49814c",
+  "name" : "test_077应急取款展开文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_077应急取款展开文本",
+  "historyId" : "dd1f7d2071ac04707aeb7a7d03add891",
+  "time" : {
+    "start" : 1571912277025,
+    "stop" : 1571912281202,
+    "duration" : 4177
+  },
+  "description" : "应急取款开展信息展示是否正确",
+  "descriptionHtml" : "<p>应急取款开展信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "应急取款开展信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击应急取款默认信息",
+      "time" : {
+        "start" : 1571912278578,
+        "stop" : 1571912278579,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e21bbe52c4c0a2d",
+        "name" : "5d747258-c196-4a57-bf64-762de24526d0-attachment.png",
+        "source" : "3e21bbe52c4c0a2d.png",
+        "type" : "image/png",
+        "size" : 330699
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取应急取款展开信息文本信息：通过操作应急取款，T日（交易日）发起赎回 （赎回份额需扣除当天产品收益），T日到账，资金可用可取，额度有限，单日单账户限额200万，单日全公司限额2000万，支持工商银行、建设银行、中国银行、交通银行、农业银行、中信银行、招商银行等多家三方存管银行。\nT日（交易日）15:00之前进行应急取款，请在T日的15:00之前进行银证转账，否则此部分资金在T日无收益，且会再次自动扫单添鑫宝。\nT日（交易日）15:00之后进行应急取款，请在T+1日的15:00之前进行银证转账，否则此部分资金在T+1日无收益，且会再次自动扫单添鑫宝。",
+      "time" : {
+        "start" : 1571912278981,
+        "stop" : 1571912278982,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa0f7a011d78ec62",
+        "name" : "b35e5b5e-2c6b-4bee-a1bb-07883af13177-attachment.png",
+        "source" : "fa0f7a011d78ec62.png",
+        "type" : "image/png",
+        "size" : 330699
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912279360,
+        "stop" : 1571912279361,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "811032b456fdb977",
+        "name" : "预期结果",
+        "source" : "811032b456fdb977.attach",
+        "type" : "text/plain",
+        "size" : 705
+      }, {
+        "uid" : "15ca705f198d05e5",
+        "name" : "实际结果",
+        "source" : "15ca705f198d05e5.attach",
+        "type" : "text/plain",
+        "size" : 705
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击应急取款默认信息",
+      "time" : {
+        "start" : 1571912281200,
+        "stop" : 1571912281202,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18ebfbde7780ac4d",
+        "name" : "b583b9ef-5b0c-4c29-bfc9-80a407db3c3e-attachment.png",
+        "source" : "18ebfbde7780ac4d.png",
+        "type" : "image/png",
+        "size" : 182724
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2fa41be31ecbcb9a",
+      "name" : "log",
+      "source" : "2fa41be31ecbcb9a.txt",
+      "type" : "text/plain",
+      "size" : 1029
+    }, {
+      "uid" : "4be2493de0285c66",
+      "name" : "stderr",
+      "source" : "4be2493de0285c66.txt",
+      "type" : "text/plain",
+      "size" : 1190
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "应急取款展开信息展示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "7a2d3b163e49814c.json",
+  "parameterValues" : [ ]
+}

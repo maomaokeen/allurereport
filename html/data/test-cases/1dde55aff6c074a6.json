@@ -1,0 +1,202 @@
+{
+  "uid" : "1dde55aff6c074a6",
+  "name" : "test_签约无资产账户详情页资产显示",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约无资产用户资产是否显示.Test_现金管理_添鑫宝_签约无资产账户详情页资产显示#test_签约无资产账户详情页资产显示",
+  "historyId" : "54bfea2a9ee5bdb569a95e50e6049dd0",
+  "time" : {
+    "start" : 1571912156181,
+    "stop" : 1571912186560,
+    "duration" : 30379
+  },
+  "description" : "签约无资产账户详情页资产显示",
+  "descriptionHtml" : "<p>签约无资产账户详情页资产显示</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'method' object is not subscriptable",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约无资产用户资产是否显示.Test_现金管理_添鑫宝_签约无资产账户详情页资产显示 object at 0x11bb7ba90>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @pytest.mark.cashmanage\n    @allure.story(\"签约无资产账户详情页资产显示\")\n    def test_签约无资产账户详情页资产显示(self,u2driver,jtnologin):\n        \"\"\"签约无资产账户详情页资产显示\"\"\"\n    \n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        with allure.step(\"登录账户：添鑫宝账户已经签约，无资产\"):\n            jtlogin(u2driver,账号)\n        cp=cashproductpage(u2driver)\n        with allure.step(\"校验结果：资产是否显示结果应为False\"):\n>           assert not cp.cashproductcash_exists()\n\ntest_现金管理-添鑫宝-签约无资产用户资产是否显示.py:25: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:370: in cashproductcash_exists\n    return self.exists(self.exists)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <PageObject.cashproductpage.cashproductpage object at 0x11bce5410>\nelement = <bound method PageBaseU2.exists of <PageObject.cashproductpage.cashproductpage object at 0x11bce5410>>\n\n    def exists(self,element):\n>       if element[0] == 'xpath':\nE       TypeError: 'method' object is not subscriptable\n\n../../Common/PageBaseU2.py:88: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571912143175,
+      "stop" : 1571912156180,
+      "duration" : 13005
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912138043,
+      "stop" : 1571912143174,
+      "duration" : 5131
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "签约无资产账户详情页资产显示",
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'method' object is not subscriptable",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约无资产用户资产是否显示.Test_现金管理_添鑫宝_签约无资产账户详情页资产显示 object at 0x11bb7ba90>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @pytest.mark.cashmanage\n    @allure.story(\"签约无资产账户详情页资产显示\")\n    def test_签约无资产账户详情页资产显示(self,u2driver,jtnologin):\n        \"\"\"签约无资产账户详情页资产显示\"\"\"\n    \n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        with allure.step(\"登录账户：添鑫宝账户已经签约，无资产\"):\n            jtlogin(u2driver,账号)\n        cp=cashproductpage(u2driver)\n        with allure.step(\"校验结果：资产是否显示结果应为False\"):\n>           assert not cp.cashproductcash_exists()\n\ntest_现金管理-添鑫宝-签约无资产用户资产是否显示.py:25: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../PageObject/cashproductpage.py:370: in cashproductcash_exists\n    return self.exists(self.exists)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <PageObject.cashproductpage.cashproductpage object at 0x11bce5410>\nelement = <bound method PageBaseU2.exists of <PageObject.cashproductpage.cashproductpage object at 0x11bce5410>>\n\n    def exists(self,element):\n>       if element[0] == 'xpath':\nE       TypeError: 'method' object is not subscriptable\n\n../../Common/PageBaseU2.py:88: TypeError",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571912157917,
+        "stop" : 1571912157918,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28d2f0b8e626cb46",
+        "name" : "322e3449-6919-4b8e-bf58-16f2062db017-attachment.png",
+        "source" : "28d2f0b8e626cb46.png",
+        "type" : "image/png",
+        "size" : 211067
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "登录账户：添鑫宝账户已经签约，无资产",
+      "time" : {
+        "start" : 1571912157918,
+        "stop" : 1571912186560,
+        "duration" : 28642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果：资产是否显示结果应为False",
+      "time" : {
+        "start" : 1571912186560,
+        "stop" : 1571912186560,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'method' object is not subscriptable\n",
+      "statusTrace" : "  File \"/Users/qdm/PycharmProjects/AutoTest/建投自动化测试/现金管理测试用例/test_现金管理-添鑫宝-签约无资产用户资产是否显示.py\", line 25, in test_签约无资产账户详情页资产显示\n    assert not cp.cashproductcash_exists()\n  File \"/Users/qdm/PycharmProjects/AutoTest/PageObject/cashproductpage.py\", line 370, in cashproductcash_exists\n    return self.exists(self.exists)\n  File \"/Users/qdm/PycharmProjects/AutoTest/Common/PageBaseU2.py\", line 88, in exists\n    if element[0] == 'xpath':\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f22a47bcd73d757a",
+      "name" : "log",
+      "source" : "f22a47bcd73d757a.txt",
+      "type" : "text/plain",
+      "size" : 233
+    }, {
+      "uid" : "c2529fea72236ee9",
+      "name" : "stdout",
+      "source" : "c2529fea72236ee9.txt",
+      "type" : "text/plain",
+      "size" : 119
+    }, {
+      "uid" : "5ef4ebdf7da59b2b",
+      "name" : "stderr",
+      "source" : "5ef4ebdf7da59b2b.txt",
+      "type" : "text/plain",
+      "size" : 1784
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912186582,
+      "stop" : 1571912186682,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "签约无资产账户详情页资产显示"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-签约无资产账户详情页资产显示"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约无资产用户资产是否显示"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约无资产账户详情页资产显示"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约无资产用户资产是否显示"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "1dde55aff6c074a6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,210 @@
+{
+  "uid" : "c024b64997aaa39a",
+  "name" : "test_4预约取款成功后页面跳转是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-预约取款.Test_现金管理_添鑫宝_预约取款用例#test_4预约取款成功后页面跳转是否正确",
+  "historyId" : "c0b0df5303523916c73ebbc73ff34117",
+  "time" : {
+    "start" : 1571912352026,
+    "stop" : 1571912356604,
+    "duration" : 4578
+  },
+  "description" : "预约取款成功后页面跳转",
+  "descriptionHtml" : "<p>预约取款成功后页面跳转</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912286535,
+      "stop" : 1571912291691,
+      "duration" : 5156
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "预约取款成功后页面跳转",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "您已经委托成功存在",
+      "time" : {
+        "start" : 1571912352329,
+        "stop" : 1571912352330,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80b081470b1ffe0a",
+        "name" : "2ed10089-0f8d-4a01-9974-330828359054-attachment.png",
+        "source" : "80b081470b1ffe0a.png",
+        "type" : "image/png",
+        "size" : 187390
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确认",
+      "time" : {
+        "start" : 1571912353849,
+        "stop" : 1571912353850,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ef653d9d353e639",
+        "name" : "e76b531e-cb43-498e-8691-9615141b31fc-attachment.png",
+        "source" : "7ef653d9d353e639.png",
+        "type" : "image/png",
+        "size" : 124032
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：现金管理",
+      "time" : {
+        "start" : 1571912356223,
+        "stop" : 1571912356224,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5aad2ff99d27650d",
+        "name" : "42936a80-5af4-463c-bfc6-d5b35936443e-attachment.png",
+        "source" : "5aad2ff99d27650d.png",
+        "type" : "image/png",
+        "size" : 124032
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：页面跳转是否正确",
+      "time" : {
+        "start" : 1571912356603,
+        "stop" : 1571912356604,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86c832700defc9f3",
+        "name" : "预期结果",
+        "source" : "86c832700defc9f3.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "5dfb8f91c1c6ed86",
+        "name" : "实际结果",
+        "source" : "5dfb8f91c1c6ed86.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5805e7cfd3c20d5b",
+      "name" : "log",
+      "source" : "5805e7cfd3c20d5b.txt",
+      "type" : "text/plain",
+      "size" : 291
+    }, {
+      "uid" : "11e6a66eb1c92c2d",
+      "name" : "stderr",
+      "source" : "11e6a66eb1c92c2d.txt",
+      "type" : "text/plain",
+      "size" : 329
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912356605,
+      "stop" : 1571912356697,
+      "duration" : 92
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预约取款成功后页面跳转"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-预约取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-预约取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_预约取款用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-预约取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "c024b64997aaa39a.json",
+  "parameterValues" : [ ]
+}

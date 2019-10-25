@@ -1,0 +1,165 @@
+{
+  "uid" : "48e0a5867e970a1c",
+  "name" : "test_3查看第一条记录的状态是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-预约取款记录.Test_现金管理_添鑫宝_更多_预约记录测试用例#test_3查看第一条记录的状态是否正确",
+  "historyId" : "5c762c649c438764ad2b75f808b7a5b4",
+  "time" : {
+    "start" : 1571911601848,
+    "stop" : 1571911602625,
+    "duration" : 777
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911543349,
+      "stop" : 1571911548506,
+      "duration" : 5157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取预约取款记录状态文本信息：正常",
+      "time" : {
+        "start" : 1571911602243,
+        "stop" : 1571911602244,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99f623716e04c5bf",
+        "name" : "f9b14add-b88c-4b1b-9156-5b9469238e9b-attachment.png",
+        "source" : "99f623716e04c5bf.png",
+        "type" : "image/png",
+        "size" : 165963
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1571911602624,
+        "stop" : 1571911602624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a9552a34a63b212",
+        "name" : "预期结果",
+        "source" : "9a9552a34a63b212.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "2b93c8e5cb37068",
+        "name" : "实际记录",
+        "source" : "2b93c8e5cb37068.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e8a3f527d85be76f",
+      "name" : "log",
+      "source" : "e8a3f527d85be76f.txt",
+      "type" : "text/plain",
+      "size" : 94
+    }, {
+      "uid" : "b9d2ada33b06d53",
+      "name" : "stderr",
+      "source" : "b9d2ada33b06d53.txt",
+      "type" : "text/plain",
+      "size" : 103
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911612743,
+      "stop" : 1571911612870,
+      "duration" : 127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-预约记录测试用例"
+  }, {
+    "name" : "story",
+    "value" : "查看第一条记录的状态是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashproduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-更多-预约取款记录"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_更多_预约记录测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-预约取款记录"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashproduct" ]
+  },
+  "source" : "48e0a5867e970a1c.json",
+  "parameterValues" : [ ]
+}

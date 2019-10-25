@@ -1,0 +1,168 @@
+{
+  "uid" : "ef5dad3d431e7126",
+  "name" : "test_076应急取款默认文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_076应急取款默认文本",
+  "historyId" : "817e509ffcf385dfd943d0e5b3fb6266",
+  "time" : {
+    "start" : 1571912276300,
+    "stop" : 1571912277022,
+    "duration" : 722
+  },
+  "description" : "应急取款默认信息展示是否正确",
+  "descriptionHtml" : "<p>应急取款默认信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "应急取款默认信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取应急取款默认信息文本信息：最快当日到账",
+      "time" : {
+        "start" : 1571912276651,
+        "stop" : 1571912276651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "943ba9ce896dc3e0",
+        "name" : "0aab4a0f-4c87-4f84-a8a4-ed22299f5a3c-attachment.png",
+        "source" : "943ba9ce896dc3e0.png",
+        "type" : "image/png",
+        "size" : 182724
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912277021,
+        "stop" : 1571912277021,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57838114e88ae2bc",
+        "name" : "预期结果",
+        "source" : "57838114e88ae2bc.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "93c355ddd5aac912",
+        "name" : "实际结果",
+        "source" : "93c355ddd5aac912.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "69620645d3548e7d",
+      "name" : "log",
+      "source" : "69620645d3548e7d.txt",
+      "type" : "text/plain",
+      "size" : 106
+    }, {
+      "uid" : "25df11af289b375d",
+      "name" : "stderr",
+      "source" : "25df11af289b375d.txt",
+      "type" : "text/plain",
+      "size" : 115
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "应急取款默认信息展示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "ef5dad3d431e7126.json",
+  "parameterValues" : [ ]
+}

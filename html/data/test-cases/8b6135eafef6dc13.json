@@ -1,0 +1,168 @@
+{
+  "uid" : "8b6135eafef6dc13",
+  "name" : "test_078分红默认文本",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_078分红默认文本",
+  "historyId" : "4fa3702a0f6db52bb259bc3e9fa8a252",
+  "time" : {
+    "start" : 1571912281208,
+    "stop" : 1571912282415,
+    "duration" : 1207
+  },
+  "description" : "分红默认信息展示是否正确",
+  "descriptionHtml" : "<p>分红默认信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "分红默认信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取分红默认信息文本信息：每月分红",
+      "time" : {
+        "start" : 1571912281902,
+        "stop" : 1571912281904,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a692431a7e5034f",
+        "name" : "c86a8228-6bac-4a0f-bcfe-7f7ffd9cfc92-attachment.png",
+        "source" : "5a692431a7e5034f.png",
+        "type" : "image/png",
+        "size" : 182942
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912282414,
+        "stop" : 1571912282414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68b0858c3945039",
+        "name" : "预期结果",
+        "source" : "68b0858c3945039.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "6614f7c2edc2ed8e",
+        "name" : "实际结果",
+        "source" : "6614f7c2edc2ed8e.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "681350d612b733b3",
+      "name" : "log",
+      "source" : "681350d612b733b3.txt",
+      "type" : "text/plain",
+      "size" : 94
+    }, {
+      "uid" : "684486c02a4346ba",
+      "name" : "stderr",
+      "source" : "684486c02a4346ba.txt",
+      "type" : "text/plain",
+      "size" : 103
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "story",
+    "value" : "分红默认信息展示是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "8b6135eafef6dc13.json",
+  "parameterValues" : [ ]
+}

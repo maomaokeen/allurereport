@@ -1,0 +1,1 @@
+INFO     自动化测试:PageBaseU2.py:43 元素万份收益tab点击成功

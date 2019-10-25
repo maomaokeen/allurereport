@@ -1,0 +1,252 @@
+{
+  "uid" : "e4cb0231aae201b1",
+  "name" : "test_00点击更多_解约_解约确认框内容校验",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-添鑫宝-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_00点击更多_解约_解约确认框内容校验",
+  "historyId" : "26e028f6f104b8fe3bbbb054f83e62f8",
+  "time" : {
+    "start" : 1571911188070,
+    "stop" : 1571911225435,
+    "duration" : 37365
+  },
+  "description" : "点击更多-解约-解约确认框内容校验",
+  "descriptionHtml" : "<p>点击更多-解约-解约确认框内容校验</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911169303,
+      "stop" : 1571911174664,
+      "duration" : 5361
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571911174664,
+      "stop" : 1571911188069,
+      "duration" : 13405
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击更多-解约-解约确认框内容校验",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571911189620,
+        "stop" : 1571911189621,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41082deb0529e045",
+        "name" : "d2530602-4c0d-46b1-95fd-d508d404a1bd-attachment.png",
+        "source" : "41082deb0529e045.png",
+        "type" : "image/png",
+        "size" : 211607
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911220127,
+        "stop" : 1571911220128,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1946187e7f52e3e",
+        "name" : "d676dbb7-ab9f-4547-87b7-5dbccef4d388-attachment.png",
+        "source" : "a1946187e7f52e3e.png",
+        "type" : "image/png",
+        "size" : 152655
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多-解约",
+      "time" : {
+        "start" : 1571911222651,
+        "stop" : 1571911222652,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d6aa3bcbb470115",
+        "name" : "194af561-a692-468f-becb-a58bbe207731-attachment.png",
+        "source" : "6d6aa3bcbb470115.png",
+        "type" : "image/png",
+        "size" : 178869
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取解约确认框内容文本信息：（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\n（2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。",
+      "time" : {
+        "start" : 1571911225035,
+        "stop" : 1571911225036,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc723249b810786b",
+        "name" : "44f1df96-05a8-4ad5-9cf3-c99916b26c66-attachment.png",
+        "source" : "dc723249b810786b.png",
+        "type" : "image/png",
+        "size" : 178869
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571911225434,
+        "stop" : 1571911225434,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ac4f4094429a009",
+        "name" : "预期结果",
+        "source" : "8ac4f4094429a009.attach",
+        "type" : "text/plain",
+        "size" : 304
+      }, {
+        "uid" : "e14f4c946a9f8c1f",
+        "name" : "实际结果",
+        "source" : "e14f4c946a9f8c1f.attach",
+        "type" : "text/plain",
+        "size" : 304
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "91b2485b6b74f98b",
+      "name" : "log",
+      "source" : "91b2485b6b74f98b.txt",
+      "type" : "text/plain",
+      "size" : 744
+    }, {
+      "uid" : "4401201cb2052846",
+      "name" : "stdout",
+      "source" : "4401201cb2052846.txt",
+      "type" : "text/plain",
+      "size" : 119
+    }, {
+      "uid" : "7dec2bca3986fe05",
+      "name" : "stderr",
+      "source" : "7dec2bca3986fe05.txt",
+      "type" : "text/plain",
+      "size" : 2568
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911312403,
+      "stop" : 1571911312487,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击更多-解约-解约确认框内容校验"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-添鑫宝-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-添鑫宝-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "e4cb0231aae201b1.json",
+  "parameterValues" : [ ]
+}

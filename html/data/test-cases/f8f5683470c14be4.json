@@ -1,0 +1,282 @@
+{
+  "uid" : "f8f5683470c14be4",
+  "name" : "test_6查看设置页面暂停后设置页面按钮显示是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置.Test_现金管理_更多_设置页面测试用例#test_6查看设置页面暂停后设置页面按钮显示是否正确",
+  "historyId" : "4f35b3080845a9bbfa364ff2a1ca9a34",
+  "time" : {
+    "start" : 1571911507741,
+    "stop" : 1571911524065,
+    "duration" : 16324
+  },
+  "description" : "设置页面点击暂停，查看设置页面按钮显示是否正确",
+  "descriptionHtml" : "<p>设置页面点击暂停，查看设置页面按钮显示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911395219,
+      "stop" : 1571911400332,
+      "duration" : 5113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "设置页面点击暂停，查看设置页面按钮显示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击设置-暂停",
+      "time" : {
+        "start" : 1571911509204,
+        "stop" : 1571911509205,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9809ce4991e22a5f",
+        "name" : "9de67454-8095-47af-aefc-9addecde3d1a-attachment.png",
+        "source" : "9809ce4991e22a5f.png",
+        "type" : "image/png",
+        "size" : 82873
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911511704,
+        "stop" : 1571911511705,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "509565dbb52b4848",
+        "name" : "fa597a1e-4908-41a9-9a7d-6fa7762d8bf8-attachment.png",
+        "source" : "509565dbb52b4848.png",
+        "type" : "image/png",
+        "size" : 91189
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911518294,
+        "stop" : 1571911518295,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1ac98008a2994c3",
+        "name" : "496fadba-18d5-4e67-8a89-e49ef7b84137-attachment.png",
+        "source" : "f1ac98008a2994c3.png",
+        "type" : "image/png",
+        "size" : 127219
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击设置",
+      "time" : {
+        "start" : 1571911520820,
+        "stop" : 1571911520821,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75d9863cca4b7b2a",
+        "name" : "7aa00182-95c7-4849-873e-46fef9cb7db9-attachment.png",
+        "source" : "75d9863cca4b7b2a.png",
+        "type" : "image/png",
+        "size" : 88777
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:是否存在按钮再次开通",
+      "time" : {
+        "start" : 1571911520821,
+        "stop" : 1571911521103,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "再次开通存在",
+        "time" : {
+          "start" : 1571911521102,
+          "stop" : 1571911521103,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "50fcf7d47d9ebd98",
+          "name" : "6dce21b2-1630-4090-b936-b9a816a8799d-attachment.png",
+          "source" : "50fcf7d47d9ebd98.png",
+          "type" : "image/png",
+          "size" : 88777
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "点击再次开通",
+      "time" : {
+        "start" : 1571911522541,
+        "stop" : 1571911522542,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bee8a6b0dda9ae5",
+        "name" : "f5e0e016-9fe6-48d6-84b9-e20375b7c95c-attachment.png",
+        "source" : "8bee8a6b0dda9ae5.png",
+        "type" : "image/png",
+        "size" : 79430
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911524063,
+        "stop" : 1571911524064,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67e9d2ac332f145e",
+        "name" : "448c8a1d-252b-45ba-8913-ad5c931d7193-attachment.png",
+        "source" : "67e9d2ac332f145e.png",
+        "type" : "image/png",
+        "size" : 94660
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7623635deadf97af",
+      "name" : "log",
+      "source" : "7623635deadf97af.txt",
+      "type" : "text/plain",
+      "size" : 488
+    }, {
+      "uid" : "8a1f228e6555ddfc",
+      "name" : "stderr",
+      "source" : "8a1f228e6555ddfc.txt",
+      "type" : "text/plain",
+      "size" : 1019
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911543206,
+      "stop" : 1571911543344,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "story",
+    "value" : "设置页面点击暂停，查看设置页面按钮显示是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "f8f5683470c14be4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,198 @@
+{
+  "uid" : "420f2b8de2d1d6e8",
+  "name" : "test_21取消再次开通操作",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_21取消再次开通操作",
+  "historyId" : "f9ba19c8b40639ae8ffdfdfe32c25d9e",
+  "time" : {
+    "start" : 1571911140073,
+    "stop" : 1571911144746,
+    "duration" : 4673
+  },
+  "description" : "点击再次开通，点击取消，关闭弹窗",
+  "descriptionHtml" : "<p>点击再次开通，点击取消，关闭弹窗</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911029612,
+      "stop" : 1571911034766,
+      "duration" : 5154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击再次开通，点击取消，关闭弹窗",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击再次开通",
+      "time" : {
+        "start" : 1571911141730,
+        "stop" : 1571911141731,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9941df29485e024a",
+        "name" : "ff59c6b4-73f1-48e3-93a9-2e2602c3f967-attachment.png",
+        "source" : "9941df29485e024a.png",
+        "type" : "image/png",
+        "size" : 107592
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击解约和暂停确认框取消按钮",
+      "time" : {
+        "start" : 1571911144361,
+        "stop" : 1571911144362,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "195c0388b80f23ff",
+        "name" : "14cec1ad-c023-4acb-af01-1eea6bda1043-attachment.png",
+        "source" : "195c0388b80f23ff.png",
+        "type" : "image/png",
+        "size" : 112346
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:弹窗是否关闭",
+      "time" : {
+        "start" : 1571911144362,
+        "stop" : 1571911144746,
+        "duration" : 384
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "再次开通确认框存在",
+        "time" : {
+          "start" : 1571911144745,
+          "stop" : 1571911144746,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "27566cddc9558448",
+          "name" : "4190b129-94bc-4394-8d43-9eeae1f9efe7-attachment.png",
+          "source" : "27566cddc9558448.png",
+          "type" : "image/png",
+          "size" : 112346
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b61d834eb630caa2",
+      "name" : "log",
+      "source" : "b61d834eb630caa2.txt",
+      "type" : "text/plain",
+      "size" : 253
+    }, {
+      "uid" : "584dfec6b1074b92",
+      "name" : "stderr",
+      "source" : "584dfec6b1074b92.txt",
+      "type" : "text/plain",
+      "size" : 427
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911169205,
+      "stop" : 1571911169298,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "story",
+    "value" : "点击再次开通，点击取消，关闭弹窗"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "420f2b8de2d1d6e8.json",
+  "parameterValues" : [ ]
+}

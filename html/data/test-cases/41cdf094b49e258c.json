@@ -1,0 +1,210 @@
+{
+  "uid" : "41cdf094b49e258c",
+  "name" : "test_3分红页面",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_3分红页面",
+  "historyId" : "3f9e879cf39867e9472efec790b6d35c",
+  "time" : {
+    "start" : 1571911162584,
+    "stop" : 1571911169204,
+    "duration" : 6620
+  },
+  "description" : "点击更多-分红查询",
+  "descriptionHtml" : "<p>点击更多-分红查询</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911029612,
+      "stop" : 1571911034766,
+      "duration" : 5154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击更多-分红查询",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911164095,
+        "stop" : 1571911164096,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b2025f4e479927",
+        "name" : "e7127c58-6eaf-4525-bbe5-ea5ffe3bd267-attachment.png",
+        "source" : "6b2025f4e479927.png",
+        "type" : "image/png",
+        "size" : 149976
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多-分红查询",
+      "time" : {
+        "start" : 1571911166556,
+        "stop" : 1571911166557,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "deca59bff2369f2f",
+        "name" : "bd8b849b-6bbc-441f-a264-a3110ca93be3-attachment.png",
+        "source" : "deca59bff2369f2f.png",
+        "type" : "image/png",
+        "size" : 58257
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：分红查询",
+      "time" : {
+        "start" : 1571911168882,
+        "stop" : 1571911168883,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8042b2b8f7759d89",
+        "name" : "69b735d2-ce3d-433d-9f66-26a8b5a27ad1-attachment.png",
+        "source" : "8042b2b8f7759d89.png",
+        "type" : "image/png",
+        "size" : 58257
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571911169203,
+        "stop" : 1571911169204,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a4e26ab55c6a25c",
+        "name" : "预期结果",
+        "source" : "7a4e26ab55c6a25c.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "2ac4efab300f41cd",
+        "name" : "实际结果",
+        "source" : "2ac4efab300f41cd.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "23d04e1bd9d1a3b7",
+      "name" : "log",
+      "source" : "23d04e1bd9d1a3b7.txt",
+      "type" : "text/plain",
+      "size" : 288
+    }, {
+      "uid" : "434c0710654e5807",
+      "name" : "stderr",
+      "source" : "434c0710654e5807.txt",
+      "type" : "text/plain",
+      "size" : 617
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911169205,
+      "stop" : 1571911169298,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "story",
+    "value" : "点击更多-分红查询"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "41cdf094b49e258c.json",
+  "parameterValues" : [ ]
+}

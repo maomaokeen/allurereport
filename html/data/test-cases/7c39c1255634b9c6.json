@@ -1,0 +1,177 @@
+{
+  "uid" : "7c39c1255634b9c6",
+  "name" : "test_1点击确认框取消按钮关闭弹窗",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约3-完成签约.Test_现金管理_添鑫宝_签约3_完成签约#test_1点击确认框取消按钮关闭弹窗",
+  "historyId" : "abe7b05f0aa4ad2cfe4c7f1d51f15868",
+  "time" : {
+    "start" : 1571911913623,
+    "stop" : 1571911915359,
+    "duration" : 1736
+  },
+  "description" : "点击确认框取消按钮关闭弹窗",
+  "descriptionHtml" : "<p>点击确认框取消按钮关闭弹窗</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911855127,
+      "stop" : 1571911860255,
+      "duration" : 5128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击确认框取消按钮关闭弹窗",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击签约确认框取消按钮",
+      "time" : {
+        "start" : 1571911915074,
+        "stop" : 1571911915076,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9de0159844f2e22",
+        "name" : "b6a21e09-0923-4765-8bad-6682f8911acf-attachment.png",
+        "source" : "f9de0159844f2e22.png",
+        "type" : "image/png",
+        "size" : 219482
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：签约确认框是否存在结果为False",
+      "time" : {
+        "start" : 1571911915076,
+        "stop" : 1571911915359,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "签约确认框存在",
+        "time" : {
+          "start" : 1571911915358,
+          "stop" : 1571911915359,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e45f9e57fbaea4ee",
+          "name" : "e21da0ac-b9f2-4f11-97fb-593e0a62ab59-attachment.png",
+          "source" : "e45f9e57fbaea4ee.png",
+          "type" : "image/png",
+          "size" : 219482
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "87dbbaca10823d71",
+      "name" : "log",
+      "source" : "87dbbaca10823d71.txt",
+      "type" : "text/plain",
+      "size" : 165
+    }, {
+      "uid" : "adf24b84d1310b82",
+      "name" : "stderr",
+      "source" : "adf24b84d1310b82.txt",
+      "type" : "text/plain",
+      "size" : 254
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911927496,
+      "stop" : 1571911927591,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击确认框取消按钮关闭弹窗"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-签约-完成签约测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约3-完成签约"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约3_完成签约"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约3-完成签约"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "7c39c1255634b9c6.json",
+  "parameterValues" : [ ]
+}

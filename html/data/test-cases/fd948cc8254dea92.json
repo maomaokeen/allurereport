@@ -1,0 +1,210 @@
+{
+  "uid" : "fd948cc8254dea92",
+  "name" : "test_072买入展开信息展示是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_072买入展开信息展示是否正确",
+  "historyId" : "c59e19d21f670ca7c0c63bbbdfe04b8c",
+  "time" : {
+    "start" : 1571912266076,
+    "stop" : 1571912270914,
+    "duration" : 4838
+  },
+  "description" : "买入展开信息展示是否正确",
+  "descriptionHtml" : "<p>买入展开信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "买入展开信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击买入默认信息",
+      "time" : {
+        "start" : 1571912267617,
+        "stop" : 1571912267619,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7e231375f2de71e",
+        "name" : "39421bf3-536d-470d-9e1d-5b330b157abe-attachment.png",
+        "source" : "a7e231375f2de71e.png",
+        "type" : "image/png",
+        "size" : 220153
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取买入展开信息文本信息：您可设置保留额度，收盘后可用资金>保留额度，超过保留额度的资金自动参与产品，收盘后可用资金<保留额度，系统自动退出保留额度与可用资金之间的有效差额。",
+      "time" : {
+        "start" : 1571912269000,
+        "stop" : 1571912269001,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7e4cc4de23647d4",
+        "name" : "65cc25c2-a995-4598-a86b-145b739bdb6a-attachment.png",
+        "source" : "a7e4cc4de23647d4.png",
+        "type" : "image/png",
+        "size" : 220153
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入展开信息显示是否正确",
+      "time" : {
+        "start" : 1571912269382,
+        "stop" : 1571912269382,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74b57c9a7b1f4a7a",
+        "name" : "预期结果",
+        "source" : "74b57c9a7b1f4a7a.attach",
+        "type" : "text/plain",
+        "size" : 218
+      }, {
+        "uid" : "3e09973448cb6432",
+        "name" : "实际结果",
+        "source" : "3e09973448cb6432.attach",
+        "type" : "text/plain",
+        "size" : 218
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击买入默认信息",
+      "time" : {
+        "start" : 1571912270912,
+        "stop" : 1571912270913,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8e36e9af8baf97be",
+        "name" : "28c628bc-494b-4dd0-b074-bcb407eb92f4-attachment.png",
+        "source" : "8e36e9af8baf97be.png",
+        "type" : "image/png",
+        "size" : 182724
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "83225a7c44e9693c",
+      "name" : "log",
+      "source" : "83225a7c44e9693c.txt",
+      "type" : "text/plain",
+      "size" : 458
+    }, {
+      "uid" : "c271d8141c9f4499",
+      "name" : "stderr",
+      "source" : "c271d8141c9f4499.txt",
+      "type" : "text/plain",
+      "size" : 673
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "买入展开信息展示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "fd948cc8254dea92.json",
+  "parameterValues" : [ ]
+}

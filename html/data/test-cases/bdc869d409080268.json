@@ -1,0 +1,210 @@
+{
+  "uid" : "bdc869d409080268",
+  "name" : "test_02支持的银行列表",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款.Test_现金管理_智多鑫_应急取款#test_02支持的银行列表",
+  "historyId" : "9a7759ba5f36024e7bc37b0e015a95bd",
+  "time" : {
+    "start" : 1571910457834,
+    "stop" : 1571910461625,
+    "duration" : 3791
+  },
+  "description" : "支持的银行列表",
+  "descriptionHtml" : "<p>支持的银行列表</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910366319,
+      "stop" : 1571910371829,
+      "duration" : 5510
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "支持的银行列表",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击支持的银行列表",
+      "time" : {
+        "start" : 1571910459270,
+        "stop" : 1571910459271,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6d08963c03f7282",
+        "name" : "148056cb-be9b-430d-9b69-e357217db124-attachment.png",
+        "source" : "e6d08963c03f7282.png",
+        "type" : "image/png",
+        "size" : 289082
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：支持的银行列表",
+      "time" : {
+        "start" : 1571910459673,
+        "stop" : 1571910459675,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbc5effeaf530e17",
+        "name" : "cd65aeef-dee6-4f6e-81d5-a999f90428b2-attachment.png",
+        "source" : "cbc5effeaf530e17.png",
+        "type" : "image/png",
+        "size" : 289082
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571910460052,
+        "stop" : 1571910460052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56aa6d5b320bff84",
+        "name" : "预期结果",
+        "source" : "56aa6d5b320bff84.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "1ce50180bd381969",
+        "name" : "实际结果",
+        "source" : "1ce50180bd381969.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击返回",
+      "time" : {
+        "start" : 1571910461624,
+        "stop" : 1571910461625,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f855cd5d20c04f2",
+        "name" : "63e097ce-6420-4a1b-bdce-4ee3dd329bce-attachment.png",
+        "source" : "f855cd5d20c04f2.png",
+        "type" : "image/png",
+        "size" : 178730
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "266016c8d5d58dda",
+      "name" : "log",
+      "source" : "266016c8d5d58dda.txt",
+      "type" : "text/plain",
+      "size" : 246
+    }, {
+      "uid" : "cc84f93d87629e37",
+      "name" : "stderr",
+      "source" : "cc84f93d87629e37.txt",
+      "type" : "text/plain",
+      "size" : 358
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910539283,
+      "stop" : 1571910539416,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-应急取款用例"
+  }, {
+    "name" : "story",
+    "value" : "支持的银行列表"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_应急取款"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-应急取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "bdc869d409080268.json",
+  "parameterValues" : [ ]
+}

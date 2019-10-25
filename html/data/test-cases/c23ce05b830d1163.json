@@ -1,0 +1,225 @@
+{
+  "uid" : "c23ce05b830d1163",
+  "name" : "test_0查看资产显示是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_0查看资产显示是否正确",
+  "historyId" : "0a68d84bf8433ece7c7015b0a32bb154",
+  "time" : {
+    "start" : 1571912206163,
+    "stop" : 1571912238256,
+    "duration" : 32093
+  },
+  "description" : "查看资产显示是否正确",
+  "descriptionHtml" : "<p>查看资产显示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571912191847,
+      "stop" : 1571912206162,
+      "duration" : 14315
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "查看资产显示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571912207766,
+        "stop" : 1571912207767,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3192600069f60e0a",
+        "name" : "b2ac30e0-5fae-48d1-962a-edeedd0cf38e-attachment.png",
+        "source" : "3192600069f60e0a.png",
+        "type" : "image/png",
+        "size" : 209483
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "登录账户：添鑫宝账户已经签约，有资产",
+      "time" : {
+        "start" : 1571912207767,
+        "stop" : 1571912236583,
+        "duration" : 28816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "获取资产金额文本信息：9,888.95",
+      "time" : {
+        "start" : 1571912237004,
+        "stop" : 1571912237005,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "972b25210874d34f",
+        "name" : "647767a6-726e-4739-bb3a-12f2740ae6f0-attachment.png",
+        "source" : "972b25210874d34f.png",
+        "type" : "image/png",
+        "size" : 127340
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：显示资产金额与接口相同",
+      "time" : {
+        "start" : 1571912238255,
+        "stop" : 1571912238255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ee1750dd19745a6",
+        "name" : "预期结果",
+        "source" : "2ee1750dd19745a6.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "d4b406e05830b98c",
+        "name" : "实际结果",
+        "source" : "d4b406e05830b98c.attach",
+        "type" : "text/plain",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e9f4b86db160efae",
+      "name" : "log",
+      "source" : "e9f4b86db160efae.txt",
+      "type" : "text/plain",
+      "size" : 5402
+    }, {
+      "uid" : "e429dab5df7b1a47",
+      "name" : "stdout",
+      "source" : "e429dab5df7b1a47.txt",
+      "type" : "text/plain",
+      "size" : 119
+    }, {
+      "uid" : "e115c67e992773d3",
+      "name" : "stderr",
+      "source" : "e115c67e992773d3.txt",
+      "type" : "text/plain",
+      "size" : 7014
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查看资产显示是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "c23ce05b830d1163.json",
+  "parameterValues" : [ ]
+}

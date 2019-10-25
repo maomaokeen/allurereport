@@ -1,0 +1,14 @@
+2019-10-24 17:56:01,391 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 17:56:18,638 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 17:56:28 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 17:56:30 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 17:56:31 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 17:56:32 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 17:56:34 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 17:56:35 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 17:56:36 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 17:56:38 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+2019-10-24 17:56:47,961 - 自动化测试 - INFO - 获得元素资产金额的文本771.82
+[I 191024 17:56:49 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]
+2019-10-24 17:56:50,653 - 自动化测试 - INFO - 元素预约取款按钮点击成功
+2019-10-24 17:56:52,221 - 自动化测试 - INFO - 获得元素页面标题的文本预约取款

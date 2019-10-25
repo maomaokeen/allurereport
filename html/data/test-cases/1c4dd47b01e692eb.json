@@ -1,0 +1,249 @@
+{
+  "uid" : "1c4dd47b01e692eb",
+  "name" : "test_0点击更多选中预约记录查看页面跳转是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-预约取款记录.Test_现金管理_添鑫宝_更多_预约记录测试用例#test_0点击更多选中预约记录查看页面跳转是否正确",
+  "historyId" : "0a600acff724a6d15058e37a2b24930f",
+  "time" : {
+    "start" : 1571911562199,
+    "stop" : 1571911599562,
+    "duration" : 37363
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571911548506,
+      "stop" : 1571911562198,
+      "duration" : 13692
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911543349,
+      "stop" : 1571911548506,
+      "duration" : 5157
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571911564018,
+        "stop" : 1571911564019,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83d26a98ca2e4fee",
+        "name" : "10de1045-fb5e-4aae-82b2-926170af8bf4-attachment.png",
+        "source" : "83d26a98ca2e4fee.png",
+        "type" : "image/png",
+        "size" : 209822
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911594216,
+        "stop" : 1571911594217,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf809d844e3ea5dd",
+        "name" : "bb8124f6-1b0c-43c6-87d7-ec75e50cf082-attachment.png",
+        "source" : "cf809d844e3ea5dd.png",
+        "type" : "image/png",
+        "size" : 152561
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多-预约记录",
+      "time" : {
+        "start" : 1571911597814,
+        "stop" : 1571911597815,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b34488346911dc24",
+        "name" : "6e1fcc94-6917-44ce-9f80-ba0f259dfdb8-attachment.png",
+        "source" : "b34488346911dc24.png",
+        "type" : "image/png",
+        "size" : 165963
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：预约取款记录",
+      "time" : {
+        "start" : 1571911599181,
+        "stop" : 1571911599182,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f72a8562d17fb958",
+        "name" : "b2fa2049-4163-4fbc-9093-8ca85e529f9c-attachment.png",
+        "source" : "f72a8562d17fb958.png",
+        "type" : "image/png",
+        "size" : 165963
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1571911599561,
+        "stop" : 1571911599562,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c85bb71ca13c6742",
+        "name" : "预期结果",
+        "source" : "c85bb71ca13c6742.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "d623fcdeea1a9f4a",
+        "name" : "实际记录",
+        "source" : "d623fcdeea1a9f4a.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5371181e83f33a78",
+      "name" : "log",
+      "source" : "5371181e83f33a78.txt",
+      "type" : "text/plain",
+      "size" : 422
+    }, {
+      "uid" : "3f6122f1c9536dd6",
+      "name" : "stdout",
+      "source" : "3f6122f1c9536dd6.txt",
+      "type" : "text/plain",
+      "size" : 119
+    }, {
+      "uid" : "620fb116c79321c2",
+      "name" : "stderr",
+      "source" : "620fb116c79321c2.txt",
+      "type" : "text/plain",
+      "size" : 2279
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911612743,
+      "stop" : 1571911612870,
+      "duration" : 127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击更多，选中预约记录，查看页面跳转是否正确"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-预约记录测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashproduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-更多-预约取款记录"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_更多_预约记录测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-预约取款记录"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashproduct" ]
+  },
+  "source" : "1c4dd47b01e692eb.json",
+  "parameterValues" : [ ]
+}

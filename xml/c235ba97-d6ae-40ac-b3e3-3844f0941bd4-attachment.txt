@@ -1,0 +1,10 @@
+2019-10-24 18:19:40,600 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 18:19:50 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:19:52 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:19:53 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:19:54 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:19:55 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:19:57 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:19:58 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 18:19:59 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+2019-10-24 18:20:39,654 - 自动化测试 - INFO - 测试结束

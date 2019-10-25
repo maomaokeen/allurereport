@@ -1,0 +1,3 @@
+INFO     自动化测试:PageBaseU2.py:43 元素查看预约记录点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本预约取款记录
+INFO     自动化测试:PageBaseU2.py:43 元素返回点击成功

@@ -1,0 +1,262 @@
+{
+  "uid" : "93caa3b264bf772c",
+  "name" : "test_0不适当性用户点击立即参与后点击签约",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性3.Test_现金管理_添鑫宝_签约1_适当性3#test_0不适当性用户点击立即参与后点击签约",
+  "historyId" : "9946d142d9b6913066eeddc6c8e7e431",
+  "time" : {
+    "start" : 1571911754397,
+    "stop" : 1571911788456,
+    "duration" : 34059
+  },
+  "description" : "现金管理添鑫宝签约不适当性投资者签约",
+  "descriptionHtml" : "<p>现金管理添鑫宝签约不适当性投资者签约</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '不适当性确认书' == '适当确认书'\n  - 不适当性确认书\n  ? -  -\n  + 适当确认书",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性3.Test_现金管理_添鑫宝_签约1_适当性3 object at 0x11a8bd790>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @allure.story(\"现金管理添鑫宝签约不适当性投资者签约\")\n    @pytest.mark.cashmanage\n    def test_0不适当性用户点击立即参与后点击签约(self,u2driver,jtnologin):\n        \"\"\"现金管理添鑫宝签约不适当性投资者签约\"\"\"\n    \n        cp=cashproductpage(u2driver)\n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver, 账号)\n        cp.join_click()\n        cp.点击签约按钮()\n        at = cp.title_text()\n        with allure.step(\"校验结果：title=不适当性确认书\"):\n            allure.attach(\"不适当性确认书\", \"预期结果\")\n            allure.attach(at, \"实际结果\")\n>           assert \"不适当性确认书\" == at\nE           AssertionError: assert '不适当性确认书' == '适当确认书'\nE             - 不适当性确认书\nE             ? -  -\nE             + 适当确认书\n\ntest_现金管理-添鑫宝-签约1-适当性3.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571911724989,
+      "stop" : 1571911754396,
+      "duration" : 29407
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911719846,
+      "stop" : 1571911724988,
+      "duration" : 5142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "现金管理添鑫宝签约不适当性投资者签约",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '不适当性确认书' == '适当确认书'\n  - 不适当性确认书\n  ? -  -\n  + 适当确认书",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性3.Test_现金管理_添鑫宝_签约1_适当性3 object at 0x11a8bd790>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @allure.story(\"现金管理添鑫宝签约不适当性投资者签约\")\n    @pytest.mark.cashmanage\n    def test_0不适当性用户点击立即参与后点击签约(self,u2driver,jtnologin):\n        \"\"\"现金管理添鑫宝签约不适当性投资者签约\"\"\"\n    \n        cp=cashproductpage(u2driver)\n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver, 账号)\n        cp.join_click()\n        cp.点击签约按钮()\n        at = cp.title_text()\n        with allure.step(\"校验结果：title=不适当性确认书\"):\n            allure.attach(\"不适当性确认书\", \"预期结果\")\n            allure.attach(at, \"实际结果\")\n>           assert \"不适当性确认书\" == at\nE           AssertionError: assert '不适当性确认书' == '适当确认书'\nE             - 不适当性确认书\nE             ? -  -\nE             + 适当确认书\n\ntest_现金管理-添鑫宝-签约1-适当性3.py:30: AssertionError",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571911756045,
+        "stop" : 1571911756046,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb043cb2d6fc217b",
+        "name" : "93d55db9-f92c-4156-957e-811d120e3b02-attachment.png",
+        "source" : "fb043cb2d6fc217b.png",
+        "type" : "image/png",
+        "size" : 211510
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击立即参与",
+      "time" : {
+        "start" : 1571911786116,
+        "stop" : 1571911786117,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad1652871b382cc7",
+        "name" : "8a95dfae-eb31-4c86-9edf-54ea934d3774-attachment.png",
+        "source" : "ad1652871b382cc7.png",
+        "type" : "image/png",
+        "size" : 85946
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击签约按钮",
+      "time" : {
+        "start" : 1571911787657,
+        "stop" : 1571911787658,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adce65ac6bafad33",
+        "name" : "77f3d29e-c330-42c8-ac2b-72b4f86733f0-attachment.png",
+        "source" : "adce65ac6bafad33.png",
+        "type" : "image/png",
+        "size" : 336832
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：适当确认书",
+      "time" : {
+        "start" : 1571911788079,
+        "stop" : 1571911788080,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4c33df9a9b9459",
+        "name" : "7a0748a0-1691-46a6-82b9-5ddcc8334098-attachment.png",
+        "source" : "c4c33df9a9b9459.png",
+        "type" : "image/png",
+        "size" : 336832
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：title=不适当性确认书",
+      "time" : {
+        "start" : 1571911788454,
+        "stop" : 1571911788455,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '不适当性确认书' == '适当确认书'\n  - 不适当性确认书\n  ? -  -\n  + 适当确认书\n",
+      "statusTrace" : "  File \"/Users/qdm/PycharmProjects/AutoTest/建投自动化测试/现金管理测试用例/test_现金管理-添鑫宝-签约1-适当性3.py\", line 30, in test_0不适当性用户点击立即参与后点击签约\n    assert \"不适当性确认书\" == at\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ba079a6028a9a7",
+        "name" : "预期结果",
+        "source" : "1ba079a6028a9a7.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "c6016a9efc4c59a8",
+        "name" : "实际结果",
+        "source" : "c6016a9efc4c59a8.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ca9f448fc6d43c93",
+      "name" : "log",
+      "source" : "ca9f448fc6d43c93.txt",
+      "type" : "text/plain",
+      "size" : 471
+    }, {
+      "uid" : "fd98e59ef171b47c",
+      "name" : "stdout",
+      "source" : "fd98e59ef171b47c.txt",
+      "type" : "text/plain",
+      "size" : 489
+    }, {
+      "uid" : "7c9299431fd2abcb",
+      "name" : "stderr",
+      "source" : "7c9299431fd2abcb.txt",
+      "type" : "text/plain",
+      "size" : 2194
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911788461,
+      "stop" : 1571911788561,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "现金管理添鑫宝签约不适当性投资者签约"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理添鑫宝签约不适当性投资者签约用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约1-适当性3"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约1_适当性3"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "93caa3b264bf772c.json",
+  "parameterValues" : [ ]
+}

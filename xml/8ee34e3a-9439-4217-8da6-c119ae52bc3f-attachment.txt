@@ -1,0 +1,4 @@
+INFO     自动化测试:PageBaseU2.py:43 元素产品说明书点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本产品说明书
+INFO     自动化测试:PageBaseU2.py:43 元素返回点击成功
+INFO     自动化测试:conftest.py:72 测试结束

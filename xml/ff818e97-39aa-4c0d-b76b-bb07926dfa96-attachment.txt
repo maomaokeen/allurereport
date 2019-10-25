@@ -1,0 +1,2 @@
+INFO     自动化测试:PageBaseU2.py:85 取款金额输入框元素输入值1000
+INFO     自动化测试:PageBaseU2.py:43 元素确定点击成功

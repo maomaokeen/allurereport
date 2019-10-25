@@ -1,0 +1,210 @@
+{
+  "uid" : "3abf1d12e019d77d",
+  "name" : "test_3查看产品说明书",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约2-协议阅读.Test_现金管理_添鑫宝_签约2_协议阅读#test_3查看产品说明书",
+  "historyId" : "5dbc9cd550c4ea83b241ed2015d35cfe",
+  "time" : {
+    "start" : 1571911851090,
+    "stop" : 1571911854976,
+    "duration" : 3886
+  },
+  "description" : "查看产品说明书",
+  "descriptionHtml" : "<p>查看产品说明书</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911788565,
+      "stop" : 1571911793686,
+      "duration" : 5121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "查看产品说明书",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击产品说明书",
+      "time" : {
+        "start" : 1571911852604,
+        "stop" : 1571911852605,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8de4b079c7e68c9f",
+        "name" : "81ad24be-1c71-45de-8330-96e8adc2a8de-attachment.png",
+        "source" : "8de4b079c7e68c9f.png",
+        "type" : "image/png",
+        "size" : 155205
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：产品说明书",
+      "time" : {
+        "start" : 1571911853061,
+        "stop" : 1571911853062,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6a23df3fb4be634",
+        "name" : "0fc0d5b8-0d9f-4cd8-a706-1eab2912747a-attachment.png",
+        "source" : "f6a23df3fb4be634.png",
+        "type" : "image/png",
+        "size" : 155205
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：",
+      "time" : {
+        "start" : 1571911853442,
+        "stop" : 1571911853442,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "183eeb7b1a8b688f",
+        "name" : "预期结果",
+        "source" : "183eeb7b1a8b688f.attach",
+        "type" : "text/plain",
+        "size" : 15
+      }, {
+        "uid" : "ca86d94fc7101cfb",
+        "name" : "实际结果",
+        "source" : "ca86d94fc7101cfb.attach",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击返回",
+      "time" : {
+        "start" : 1571911854974,
+        "stop" : 1571911854975,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fadd3406e1a85621",
+        "name" : "83db74d7-f620-4a7f-9b66-5ee611e188e2-attachment.png",
+        "source" : "fadd3406e1a85621.png",
+        "type" : "image/png",
+        "size" : 218980
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6b0980e5a5d83e6c",
+      "name" : "log",
+      "source" : "6b0980e5a5d83e6c.txt",
+      "type" : "text/plain",
+      "size" : 287
+    }, {
+      "uid" : "7eac6a06dc18a5a3",
+      "name" : "stderr",
+      "source" : "7eac6a06dc18a5a3.txt",
+      "type" : "text/plain",
+      "size" : 410
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911854976,
+      "stop" : 1571911855123,
+      "duration" : 147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理添鑫宝签约页面阅读协议测试"
+  }, {
+    "name" : "story",
+    "value" : "查看风险揭示书"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约2-协议阅读"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约2_协议阅读"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约2-协议阅读"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "3abf1d12e019d77d.json",
+  "parameterValues" : [ ]
+}

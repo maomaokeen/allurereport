@@ -1,0 +1,6 @@
+[I 191024 18:01:45 xpath:315] XPath(timeout 30.0) //*[@text="更多"]
+2019-10-24 18:01:47,234 - 自动化测试 - INFO - 元素更多点击成功
+[I 191024 18:01:48 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[5]
+2019-10-24 18:01:49,759 - 自动化测试 - INFO - 元素更多-分红查询点击成功
+2019-10-24 18:01:52,242 - 自动化测试 - INFO - 获得元素页面标题的文本分红查询
+2019-10-24 18:01:52,486 - 自动化测试 - INFO - 测试结束

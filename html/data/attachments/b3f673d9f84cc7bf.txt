@@ -1,0 +1,18 @@
+2019-10-24 17:57:11,711 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 17:57:29,050 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 17:57:39 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 17:57:41 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 17:57:42 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 17:57:43 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 17:57:44 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 17:57:46 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 17:57:47 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 17:57:48 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+[I 191024 17:57:58 xpath:315] XPath(timeout 30.0) //*[@text="更多"]
+2019-10-24 17:57:59,694 - 自动化测试 - INFO - 元素更多点击成功
+[I 191024 17:58:00 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[3]
+2019-10-24 17:58:02,502 - 自动化测试 - INFO - 元素更多-解约点击成功
+2019-10-24 17:58:05,125 - 自动化测试 - INFO - 获得元素解约确认框内容的文本（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；
+（2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；
+（3）解约后，除非重新签约，否则将无法参与本集合计划；
+（4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。

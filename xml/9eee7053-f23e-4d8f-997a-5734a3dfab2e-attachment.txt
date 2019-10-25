@@ -1,0 +1,6 @@
+WARNING  retry.api:api.py:40 uiautomator2.GatewayError(gateway error, time used 0.1s), retrying in 3.0 seconds...
+INFO     自动化测试:PageBaseU2.py:43 元素取消保留额度点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素确定点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素更多点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素设置点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素保留额度输入框的文本0.00

@@ -1,0 +1,120 @@
+{
+  "uid" : "fc9e892fba9f33e3",
+  "name" : "test_7提示失败信息",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录.Test_现金管理_智多鑫_更多_预约记录测试用例#test_7提示失败信息",
+  "historyId" : "61c1667df35d8ad6f827042ade032794",
+  "time" : {
+    "start" : 1571910805302,
+    "stop" : 1571910805315,
+    "duration" : 13
+  },
+  "description" : "提示失败信息",
+  "descriptionHtml" : "<p>提示失败信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910687487,
+      "stop" : 1571910692689,
+      "duration" : 5202
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "提示失败信息",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a321f080858a519f",
+      "name" : "log",
+      "source" : "a321f080858a519f.txt",
+      "type" : "text/plain",
+      "size" : 52
+    }, {
+      "uid" : "6f6619c04331cf40",
+      "name" : "stderr",
+      "source" : "6f6619c04331cf40.txt",
+      "type" : "text/plain",
+      "size" : 64
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910805316,
+      "stop" : 1571910805456,
+      "duration" : 140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-预约记录测试用例"
+  }, {
+    "name" : "story",
+    "value" : "提示失败信息"
+  }, {
+    "name" : "tag",
+    "value" : "cashproduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-更多-预约取款记录"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_更多_预约记录测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-预约取款记录"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashproduct" ]
+  },
+  "source" : "fc9e892fba9f33e3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "安卓" ],
+  "name" : "测试平台"
+}, {
+  "values" : [ "建投" ],
+  "name" : "测试项目"
+}, {
+  "values" : [ "pytest" ],
+  "name" : "测试框架"
+}, {
+  "values" : [ "openatx" ],
+  "name" : "移动端测试工具"
+} ]

@@ -1,0 +1,262 @@
+{
+  "uid" : "921cfe6e9053ef10",
+  "name" : "test_00点击更多_解约_解约确认框内容校验",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_00点击更多_解约_解约确认框内容校验",
+  "historyId" : "e98ef918d112f4a2f3dc356045fc8cdd",
+  "time" : {
+    "start" : 1571911047501,
+    "stop" : 1571911085328,
+    "duration" : 37827
+  },
+  "description" : "点击更多-解约-解约确认框内容校验",
+  "descriptionHtml" : "<p>点击更多-解约-解约确认框内容校验</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '（1）解约当日，产品份额...，无法进行解约操作的情况。' == '（1）解约当日，产品份额...计入本集合计划资产的损益。'\n  - （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\n  + （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\n  ?                                                                ++\n  - （2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\n  + （2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\n  + （3）解约后，除非重新签约，否则将无法参与本集合计划；\n  + （4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例 object at 0x11bc86110>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @pytest.mark.cashmanage\n    @allure.story(\"点击更多-解约-解约确认框内容校验\")\n    def test_00点击更多_解约_解约确认框内容校验(self,u2driver,jtnologin):\n        \"\"\"点击更多-解约-解约确认框内容校验\"\"\"\n    \n    \n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver, 账号)\n        cp=cashproductpage(u2driver)\n        cp.cashmore_click()\n        time.sleep(1)\n        cp.cancelcontractbtn_click()\n        time.sleep(2)\n        at=cp.解约确认框内容文本()\n        with allure.step(\"校验结果:\"):\n            allure.attach(\"（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\\n（2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\", \"预期结果\")\n            allure.attach(at, \"实际结果\")\n>           assert \"（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\\n（2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\"==at\nE           AssertionError: assert '（1）解约当日，产品份额...，无法进行解约操作的情况。' == '（1）解约当日，产品份额...计入本集合计划资产的损益。'\nE             - （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\nE             + （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\nE             ?                                                                ++\nE             - （2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\nE             + （2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\nE             + （3）解约后，除非重新签约，否则将无法参与本集合计划；\nE             + （4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911029612,
+      "stop" : 1571911034766,
+      "duration" : 5154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571911034766,
+      "stop" : 1571911047500,
+      "duration" : 12734
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击更多-解约-解约确认框内容校验",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '（1）解约当日，产品份额...，无法进行解约操作的情况。' == '（1）解约当日，产品份额...计入本集合计划资产的损益。'\n  - （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\n  + （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\n  ?                                                                ++\n  - （2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\n  + （2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\n  + （3）解约后，除非重新签约，否则将无法参与本集合计划；\n  + （4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例 object at 0x11bc86110>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @pytest.mark.cashmanage\n    @allure.story(\"点击更多-解约-解约确认框内容校验\")\n    def test_00点击更多_解约_解约确认框内容校验(self,u2driver,jtnologin):\n        \"\"\"点击更多-解约-解约确认框内容校验\"\"\"\n    \n    \n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver, 账号)\n        cp=cashproductpage(u2driver)\n        cp.cashmore_click()\n        time.sleep(1)\n        cp.cancelcontractbtn_click()\n        time.sleep(2)\n        at=cp.解约确认框内容文本()\n        with allure.step(\"校验结果:\"):\n            allure.attach(\"（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\\n（2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\", \"预期结果\")\n            allure.attach(at, \"实际结果\")\n>           assert \"（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\\n（2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\"==at\nE           AssertionError: assert '（1）解约当日，产品份额...，无法进行解约操作的情况。' == '（1）解约当日，产品份额...计入本集合计划资产的损益。'\nE             - （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\nE             + （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\nE             ?                                                                ++\nE             - （2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\nE             + （2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\nE             + （3）解约后，除非重新签约，否则将无法参与本集合计划；\nE             + （4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:47: AssertionError",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571911049049,
+        "stop" : 1571911049050,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b90ea64bcb68a9d",
+        "name" : "de8b69c2-abd5-4721-8c05-7e5449e367aa-attachment.png",
+        "source" : "5b90ea64bcb68a9d.png",
+        "type" : "image/png",
+        "size" : 211304
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911079693,
+        "stop" : 1571911079694,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73b9be13b8b1678b",
+        "name" : "85954054-6de6-4f43-ab50-37492db8ecb4-attachment.png",
+        "source" : "73b9be13b8b1678b.png",
+        "type" : "image/png",
+        "size" : 149658
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多-解约",
+      "time" : {
+        "start" : 1571911082501,
+        "stop" : 1571911082502,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fea2174d724cdb18",
+        "name" : "3545f629-25be-4feb-9ca7-2e59ed1d177e-attachment.png",
+        "source" : "fea2174d724cdb18.png",
+        "type" : "image/png",
+        "size" : 259322
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取解约确认框内容文本信息：（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\n（2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\n（3）解约后，除非重新签约，否则将无法参与本集合计划；\n（4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。",
+      "time" : {
+        "start" : 1571911084911,
+        "stop" : 1571911084912,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "deeb969fe98c2979",
+        "name" : "b1249345-0fba-42b4-8a01-9f5f95279b3a-attachment.png",
+        "source" : "deeb969fe98c2979.png",
+        "type" : "image/png",
+        "size" : 259322
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571911085326,
+        "stop" : 1571911085328,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '（1）解约当日，产品份额...，无法进行解约操作的情况。' == '（1）解约当日，产品份额...计入本集合计划资产的损益。'\n  - （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\n  + （1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限100万；\n  ?                                                                ++\n  - （2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\n  + （2）投资者于T日提出解约申请，管理人在当日将其全部集合计划份额退出；\n  + （3）解约后，除非重新签约，否则将无法参与本集合计划；\n  + （4）投资者在季度收益分配日前解约的，按该分红权益期结束日公布的集合计划年化收益率与解约日银行活期存款基准利率孰低的原则获得收益，由此产生的差额部分计入本集合计划资产的损益。\n",
+      "statusTrace" : "  File \"/Users/qdm/PycharmProjects/AutoTest/建投自动化测试/现金管理测试用例/test_现金管理-更多-智多鑫-解约暂停分红查询.py\", line 47, in test_00点击更多_解约_解约确认框内容校验\n    assert \"（1）解约当日，产品份额不可取，且不能使用应急取款功能。若需要今日紧急取款，可点击页面应急取款按钮进行应急取款，个人单日上限1万；\\n（2）每月收益分配日当日可能发生由于在途分红未到账，无法进行解约操作的情况。\"==at\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "760c3da128764d29",
+        "name" : "预期结果",
+        "source" : "760c3da128764d29.attach",
+        "type" : "text/plain",
+        "size" : 304
+      }, {
+        "uid" : "877ce852d3872328",
+        "name" : "实际结果",
+        "source" : "877ce852d3872328.attach",
+        "type" : "text/plain",
+        "size" : 635
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d1f01827136fed60",
+      "name" : "log",
+      "source" : "d1f01827136fed60.txt",
+      "type" : "text/plain",
+      "size" : 1141
+    }, {
+      "uid" : "ed373a9819e70ece",
+      "name" : "stdout",
+      "source" : "ed373a9819e70ece.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "b3f673d9f84cc7bf",
+      "name" : "stderr",
+      "source" : "b3f673d9f84cc7bf.txt",
+      "type" : "text/plain",
+      "size" : 2899
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911169205,
+      "stop" : 1571911169298,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击更多-解约-解约确认框内容校验"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "921cfe6e9053ef10.json",
+  "parameterValues" : [ ]
+}

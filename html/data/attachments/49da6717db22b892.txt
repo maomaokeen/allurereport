@@ -1,0 +1,7 @@
+INFO     自动化测试:conftest.py:40 启动方式为数据线连接模式，连接手机为emulator-5554
+INFO     自动化测试:PageBaseU2.py:43 元素现金管理点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素立即参与点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素签约按钮点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素适当性确认同意按钮点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素签约产品名称的文本中信建投添鑫宝
+INFO     自动化测试:PageBaseU2.py:145 获得元素签约产品类型的文本现金理财

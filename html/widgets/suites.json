@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "b964c782202631c0a69bc7154da94b0d",
+    "name" : "建投自动化测试.现金管理测试用例",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 21,
+      "skipped" : 1,
+      "passed" : 127,
+      "unknown" : 0,
+      "total" : 153
+    }
+  } ]
+}

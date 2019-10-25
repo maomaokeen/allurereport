@@ -1,0 +1,262 @@
+{
+  "uid" : "ba68a99eaf1cffe1",
+  "name" : "test_0专业投资者用户点击立即参与后点击签约",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性2.Test_现金管理_添鑫宝_签约1_适当性2#test_0专业投资者用户点击立即参与后点击签约",
+  "historyId" : "7ea10d21de1eaa299dcaef2b38d0b983",
+  "time" : {
+    "start" : 1571911685522,
+    "stop" : 1571911719753,
+    "duration" : 34231
+  },
+  "description" : "专业投资者用户点击立即参与后点击签约",
+  "descriptionHtml" : "<p>专业投资者用户点击立即参与后点击签约</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '产品签约' == '现金管理'\n  - 产品签约\n  + 现金管理",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性2.Test_现金管理_添鑫宝_签约1_适当性2 object at 0x11bc69790>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @allure.story(\"专业投资者用户点击立即参与后点击签约\")\n    @pytest.mark.cashmanage\n    def test_0专业投资者用户点击立即参与后点击签约(self,u2driver,jtnologin):\n        \"\"\"专业投资者用户点击立即参与后点击签约\"\"\"\n    \n        cp=cashproductpage(u2driver)\n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver, 账号)\n        cp.join_click()\n        cp.点击签约按钮()\n        at = cp.title_text()\n        with allure.step(\"校验结果：title=产品签约\"):\n            allure.attach(\"产品签约\", \"预期结果\")\n            allure.attach(at, \"实际结果\")\n>           assert \"产品签约\" == at\nE           AssertionError: assert '产品签约' == '现金管理'\nE             - 产品签约\nE             + 现金管理\n\ntest_现金管理-添鑫宝-签约1-适当性2.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571911673075,
+      "stop" : 1571911685521,
+      "duration" : 12446
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911667900,
+      "stop" : 1571911673075,
+      "duration" : 5175
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "专业投资者用户点击立即参与后点击签约",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '产品签约' == '现金管理'\n  - 产品签约\n  + 现金管理",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性2.Test_现金管理_添鑫宝_签约1_适当性2 object at 0x11bc69790>\nu2driver = uiautomator2 object for 127.0.0.1:63870, jtnologin = None\n\n    @allure.story(\"专业投资者用户点击立即参与后点击签约\")\n    @pytest.mark.cashmanage\n    def test_0专业投资者用户点击立即参与后点击签约(self,u2driver,jtnologin):\n        \"\"\"专业投资者用户点击立即参与后点击签约\"\"\"\n    \n        cp=cashproductpage(u2driver)\n        fp=financingpage(u2driver)\n        fp.managecash_click()\n        jtlogin(u2driver, 账号)\n        cp.join_click()\n        cp.点击签约按钮()\n        at = cp.title_text()\n        with allure.step(\"校验结果：title=产品签约\"):\n            allure.attach(\"产品签约\", \"预期结果\")\n            allure.attach(at, \"实际结果\")\n>           assert \"产品签约\" == at\nE           AssertionError: assert '产品签约' == '现金管理'\nE             - 产品签约\nE             + 现金管理\n\ntest_现金管理-添鑫宝-签约1-适当性2.py:30: AssertionError",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571911687204,
+        "stop" : 1571911687205,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e21dcff19052c457",
+        "name" : "f17c5709-9d54-46b1-b9fd-1e5197cdb191-attachment.png",
+        "source" : "e21dcff19052c457.png",
+        "type" : "image/png",
+        "size" : 211546
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击立即参与",
+      "time" : {
+        "start" : 1571911717433,
+        "stop" : 1571911717434,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6603e3729b0d2070",
+        "name" : "1010c237-2b86-42fe-81a8-2d24fc7f6438-attachment.png",
+        "source" : "6603e3729b0d2070.png",
+        "type" : "image/png",
+        "size" : 86596
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击签约按钮",
+      "time" : {
+        "start" : 1571911718983,
+        "stop" : 1571911718984,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "964f11e791ccd047",
+        "name" : "dd3834b4-86b4-4c39-9ea9-82f28801d7e4-attachment.png",
+        "source" : "964f11e791ccd047.png",
+        "type" : "image/png",
+        "size" : 86596
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：现金管理",
+      "time" : {
+        "start" : 1571911719374,
+        "stop" : 1571911719375,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6051dc902a84bedf",
+        "name" : "7fc1bd4d-1330-42dc-bd41-636cf0ad9ec2-attachment.png",
+        "source" : "6051dc902a84bedf.png",
+        "type" : "image/png",
+        "size" : 86596
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：title=产品签约",
+      "time" : {
+        "start" : 1571911719752,
+        "stop" : 1571911719753,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '产品签约' == '现金管理'\n  - 产品签约\n  + 现金管理\n",
+      "statusTrace" : "  File \"/Users/qdm/PycharmProjects/AutoTest/建投自动化测试/现金管理测试用例/test_现金管理-添鑫宝-签约1-适当性2.py\", line 30, in test_0专业投资者用户点击立即参与后点击签约\n    assert \"产品签约\" == at\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c83a9c084f91231",
+        "name" : "预期结果",
+        "source" : "7c83a9c084f91231.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "f455aafe4799de8d",
+        "name" : "实际结果",
+        "source" : "f455aafe4799de8d.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4b7dbd4b3d156951",
+      "name" : "log",
+      "source" : "4b7dbd4b3d156951.txt",
+      "type" : "text/plain",
+      "size" : 468
+    }, {
+      "uid" : "d0356e62671ddfa7",
+      "name" : "stdout",
+      "source" : "d0356e62671ddfa7.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "bff2f0f70d6ff118",
+      "name" : "stderr",
+      "source" : "bff2f0f70d6ff118.txt",
+      "type" : "text/plain",
+      "size" : 2191
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911719758,
+      "stop" : 1571911719842,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "专业投资者用户点击立即参与后点击签约"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理添鑫宝签约专业投资者签约用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-签约1-适当性2"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_签约1_适当性2"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-签约1-适当性2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "ba68a99eaf1cffe1.json",
+  "parameterValues" : [ ]
+}

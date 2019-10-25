@@ -1,0 +1,168 @@
+{
+  "uid" : "273e098988dfcfd8",
+  "name" : "test_1可取金额校验",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-预约取款.Test_现金管理_智多鑫_预约取款用例#test_1可取金额校验",
+  "historyId" : "c5440a13eb3520908648e02ce34f3a9b",
+  "time" : {
+    "start" : 1571911012396,
+    "stop" : 1571911012904,
+    "duration" : 508
+  },
+  "description" : "可取金额校验",
+  "descriptionHtml" : "<p>可取金额校验</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910959256,
+      "stop" : 1571910964590,
+      "duration" : 5334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "可取金额校验",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取参考可取金额（元）文本信息：771.82",
+      "time" : {
+        "start" : 1571911012689,
+        "stop" : 1571911012690,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc3965ca9df8d992",
+        "name" : "e254a7b3-126c-4c8f-99b4-44628c0a7aba-attachment.png",
+        "source" : "fc3965ca9df8d992.png",
+        "type" : "image/png",
+        "size" : 87443
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571911012903,
+        "stop" : 1571911012903,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64f57a049425ad46",
+        "name" : "预期结果",
+        "source" : "64f57a049425ad46.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "5c0acb0630305735",
+        "name" : "实际结果",
+        "source" : "5c0acb0630305735.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "70b4e1a12fa24d79",
+      "name" : "log",
+      "source" : "70b4e1a12fa24d79.txt",
+      "type" : "text/plain",
+      "size" : 97
+    }, {
+      "uid" : "e04bf16f6830167a",
+      "name" : "stderr",
+      "source" : "e04bf16f6830167a.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911029487,
+      "stop" : 1571911029609,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-预约取款用例"
+  }, {
+    "name" : "story",
+    "value" : "可取金额校验"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-预约取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_预约取款用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-预约取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "273e098988dfcfd8.json",
+  "parameterValues" : [ ]
+}

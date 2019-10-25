@@ -1,0 +1,9 @@
+INFO     自动化测试:PageBaseU2.py:145 获得元素应急取款参考金额的文本771.82
+INFO     自动化测试:requestBase.py:45 请求的内容：b'{"custid": "129500290286", "userrole": "1", "imei": "358240051111110", "orgid": "1338", "ip": "192.168.232.2", "ticket": "ZXIEsUJ2Fa50dxGTw4m326prLJorlmtIXIldT9NW8ss=#6qb3Sx+tkjei6WF825z1rnOdv1gmRxJ6bSOfRCW9HMPd0NiiradwXRIo0e9vu2klJJ3hhpiztMzUD2OUH7gCom1D3yPlCca4l6iTThMdyf45VW+yXRWtisB4RhIGzdcw##KfY4tJN6Mvs=", "fundid": "20330794"}'
+INFO     自动化测试:requestBase.py:47 获取返回的状态码:200
+INFO     自动化测试:requestBase.py:49 获得相应请求头:{'Date': 'Thu, 24 Oct 2019 09:47:37 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Content-Encoding': 'gzip', 'Access-Control-Allow-Origin': '*, *.csc108.com', 'X-Powered-By': 'Undertow/1', 'Set-Cookie': 'LTOKEN=C6252E1E78DAFD6E8D63012C5C0D1323ADAC7CC8A72940FC9F9BA3EE94B76D9D; path=/; domain=.csc108.com, HttpOnly=true;Secure=true', 'Access-Control-Allow-Methods': 'GET,POST', 'Age': '0', 'Via': 'http/1.1 EACNCUC_ZJZ_HZZ05_MGED005 ( [cMsSf ])', 'Host-Ip': '210.13.123.226'}
+INFO     自动化测试:requestBase.py:51 响应内容：{'errcode': 'KC-60000353', 'errmsg': '资金账号或者密码错误', 'loginStatus': 'false', 'targetUrl': None}
+INFO     自动化测试:requestBase.py:45 请求的内容：b'{"actionType": 2, "ofcode": "002260"}'
+INFO     自动化测试:requestBase.py:47 获取返回的状态码:401
+INFO     自动化测试:requestBase.py:49 获得相应请求头:{'Date': 'Thu, 24 Oct 2019 09:47:37 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Credentials': 'true', 'Age': '0', 'Via': 'http/1.1 EACNCUC_ZJZ_HZZ05_MGED001 ( [cMs f ])', 'Host-Ip': '210.13.123.226'}
+INFO     自动化测试:requestBase.py:51 响应内容：[{'message': '没有登陆', 'code': 'E0000'}]

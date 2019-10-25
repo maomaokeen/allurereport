@@ -1,0 +1,191 @@
+{
+  "uid" : "c9415eb75afea32f",
+  "name" : "test_13暂停成功",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例#test_13暂停成功",
+  "historyId" : "f2af6126bfadf4365c5e2814fece53fb",
+  "time" : {
+    "start" : 1571911120743,
+    "stop" : 1571911140061,
+    "duration" : 19318
+  },
+  "description" : "点击更多-暂停，点击确定按钮，暂停成功",
+  "descriptionHtml" : "<p>点击更多-暂停，点击确定按钮，暂停成功</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例 object at 0x11bc96cd0>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashmanage\n    @allure.story(\"点击更多-暂停，点击确定按钮，暂停成功\")\n    def test_13暂停成功(self, u2driver):\n        \"\"\"点击更多-暂停，点击确定按钮，暂停成功\"\"\"\n        cp = cashproductpage(u2driver)\n        cp.cashmore_click()\n        time.sleep(1)\n        cp.stopbtn_click()\n        time.sleep(2)\n        cp.definebtn_click()\n        time.sleep(3)\n>       at = requestcashproduct()\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:125: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def requestcashproduct():\n        global multisettstatus\n        url='https://teste.csc108.com/apiXjlc/product/cashProductDetail'\n        headers=loginzdxheaders()\n        data={}\n        rq=test_requests()\n        p=rq.post_json(url=url,headers=headers,data=data)[1]\n>       multisettstatus=p[\"multisettstatus\"]\nE       TypeError: list indices must be integers or slices, not str\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:20: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911029612,
+      "stop" : 1571911034766,
+      "duration" : 5154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击更多-暂停，点击确定按钮，暂停成功",
+    "status" : "broken",
+    "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询.Test_现金管理_更多_解约暂停分红查询测试用例 object at 0x11bc96cd0>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashmanage\n    @allure.story(\"点击更多-暂停，点击确定按钮，暂停成功\")\n    def test_13暂停成功(self, u2driver):\n        \"\"\"点击更多-暂停，点击确定按钮，暂停成功\"\"\"\n        cp = cashproductpage(u2driver)\n        cp.cashmore_click()\n        time.sleep(1)\n        cp.stopbtn_click()\n        time.sleep(2)\n        cp.definebtn_click()\n        time.sleep(3)\n>       at = requestcashproduct()\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:125: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def requestcashproduct():\n        global multisettstatus\n        url='https://teste.csc108.com/apiXjlc/product/cashProductDetail'\n        headers=loginzdxheaders()\n        data={}\n        rq=test_requests()\n        p=rq.post_json(url=url,headers=headers,data=data)[1]\n>       multisettstatus=p[\"multisettstatus\"]\nE       TypeError: list indices must be integers or slices, not str\n\ntest_现金管理-更多-智多鑫-解约暂停分红查询.py:20: TypeError",
+    "steps" : [ {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911130350,
+        "stop" : 1571911130351,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e63010524be6a2fb",
+        "name" : "ed43ef65-e02d-4604-96ae-e512d3b8f3f7-attachment.png",
+        "source" : "e63010524be6a2fb.png",
+        "type" : "image/png",
+        "size" : 150134
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多-暂停",
+      "time" : {
+        "start" : 1571911132921,
+        "stop" : 1571911132922,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "444531d5ce5a8a44",
+        "name" : "f6e3ddfe-3009-446e-ad30-933e838ffdb3-attachment.png",
+        "source" : "444531d5ce5a8a44.png",
+        "type" : "image/png",
+        "size" : 120732
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911136541,
+        "stop" : 1571911136542,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23b610878be45978",
+        "name" : "eb55d5a3-3c51-466a-b756-1304531094f3-attachment.png",
+        "source" : "23b610878be45978.png",
+        "type" : "image/png",
+        "size" : 118618
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8c1a6e3ea9452670",
+      "name" : "log",
+      "source" : "8c1a6e3ea9452670.txt",
+      "type" : "text/plain",
+      "size" : 2177
+    }, {
+      "uid" : "996efca0d79a0519",
+      "name" : "stderr",
+      "source" : "996efca0d79a0519.txt",
+      "type" : "text/plain",
+      "size" : 2923
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911169205,
+      "stop" : 1571911169298,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-更多-解约/暂停/分红查询测试用例"
+  }, {
+    "name" : "story",
+    "value" : "点击更多-暂停，点击确定按钮，暂停成功"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_解约暂停分红查询测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-更多-智多鑫-解约暂停分红查询"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "c9415eb75afea32f.json",
+  "parameterValues" : [ ]
+}

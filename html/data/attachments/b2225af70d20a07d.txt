@@ -1,0 +1,5 @@
+WARNING  retry.api:api.py:40 uiautomator2.GatewayError(gateway error, time used 0.1s), retrying in 3.0 seconds...
+INFO     自动化测试:PageBaseU2.py:43 元素申请开通按钮点击成功
+INFO     自动化测试:PageBaseU2.py:43 元素确定点击成功
+INFO     自动化测试:PageBaseU2.py:90 完成签约是否存在：True
+INFO     自动化测试:conftest.py:72 测试结束

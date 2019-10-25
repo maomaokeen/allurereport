@@ -1,0 +1,2 @@
+INFO     自动化测试:PageBaseU2.py:43 元素应急取款确认框取消按钮点击成功
+INFO     自动化测试:PageBaseU2.py:90 应急取款确认框取消按钮是否存在：False

@@ -1,0 +1,166 @@
+{
+  "uid" : "a1acf617b16027cb",
+  "name" : "test_02查看七日年化收益显示是否正确",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-页面详情.Test_现金管理_智多鑫_详情页#test_02查看七日年化收益显示是否正确",
+  "historyId" : "dc9d948ee7f283780560bd607c56861f",
+  "time" : {
+    "start" : 1571910909653,
+    "stop" : 1571910910423,
+    "duration" : 770
+  },
+  "description" : "查看七日年化收益显示是否正确",
+  "descriptionHtml" : "<p>查看七日年化收益显示是否正确</p>\n",
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'sevenDayIncome' is not defined",
+  "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-页面详情.Test_现金管理_智多鑫_详情页 object at 0x11a856390>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashmanage\n    @allure.story(\"查看七日年化收益显示是否正确\")\n    def test_02查看七日年化收益显示是否正确(self, u2driver):\n        \"\"\"查看七日年化收益显示是否正确\"\"\"\n        cp = cashproductpage(u2driver)\n        at = cp.sevenDayIncome_text()\n        with allure.step(\"校验结果：与接口返回sevenDayIncome相同\"):\n>           allure.attach(sevenDayIncome, \"预期结果\")\nE           NameError: name 'sevenDayIncome' is not defined\n\ntest_现金管理-智多鑫-页面详情.py:66: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910858783,
+      "stop" : 1571910863928,
+      "duration" : 5145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "查看七日年化收益显示是否正确",
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'sevenDayIncome' is not defined",
+    "statusTrace" : "self = <建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-页面详情.Test_现金管理_智多鑫_详情页 object at 0x11a856390>\nu2driver = uiautomator2 object for 127.0.0.1:63870\n\n    @pytest.mark.cashmanage\n    @allure.story(\"查看七日年化收益显示是否正确\")\n    def test_02查看七日年化收益显示是否正确(self, u2driver):\n        \"\"\"查看七日年化收益显示是否正确\"\"\"\n        cp = cashproductpage(u2driver)\n        at = cp.sevenDayIncome_text()\n        with allure.step(\"校验结果：与接口返回sevenDayIncome相同\"):\n>           allure.attach(sevenDayIncome, \"预期结果\")\nE           NameError: name 'sevenDayIncome' is not defined\n\ntest_现金管理-智多鑫-页面详情.py:66: NameError",
+    "steps" : [ {
+      "name" : "获取七日年化收益文本信息：2.01",
+      "time" : {
+        "start" : 1571910910044,
+        "stop" : 1571910910045,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3fdc13ed6c7d8ae",
+        "name" : "b0c83a4b-7923-46e6-9ecb-615dbb694996-attachment.png",
+        "source" : "b3fdc13ed6c7d8ae.png",
+        "type" : "image/png",
+        "size" : 124748
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：与接口返回sevenDayIncome相同",
+      "time" : {
+        "start" : 1571910910423,
+        "stop" : 1571910910423,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "NameError: name 'sevenDayIncome' is not defined\n",
+      "statusTrace" : "  File \"/Users/qdm/PycharmProjects/AutoTest/建投自动化测试/现金管理测试用例/test_现金管理-智多鑫-页面详情.py\", line 66, in test_02查看七日年化收益显示是否正确\n    allure.attach(sevenDayIncome, \"预期结果\")\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "866344cd3ff9d2b6",
+      "name" : "log",
+      "source" : "866344cd3ff9d2b6.txt",
+      "type" : "text/plain",
+      "size" : 86
+    }, {
+      "uid" : "ea91240859e144fc",
+      "name" : "stderr",
+      "source" : "ea91240859e144fc.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910959156,
+      "stop" : 1571910959252,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-详情页"
+  }, {
+    "name" : "story",
+    "value" : "查看七日年化收益显示是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "a1acf617b16027cb.json",
+  "parameterValues" : [ ]
+}

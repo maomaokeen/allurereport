@@ -1,0 +1,168 @@
+{
+  "uid" : "93a23ad867895eb0",
+  "name" : "test_073起购金额",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情.Test_现金管理_添鑫宝_详情页#test_073起购金额",
+  "historyId" : "a5c2a90a0c4424df6d55ac40c39f844c",
+  "time" : {
+    "start" : 1571912270917,
+    "stop" : 1571912271674,
+    "duration" : 757
+  },
+  "description" : "起购金额默认信息展示是否正确",
+  "descriptionHtml" : "<p>起购金额默认信息展示是否正确</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571912186686,
+      "stop" : 1571912191847,
+      "duration" : 5161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "起购金额默认信息展示是否正确",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取起购金额默认信息文本信息：1元起",
+      "time" : {
+        "start" : 1571912271302,
+        "stop" : 1571912271303,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92ab0ada4bb1f1a7",
+        "name" : "2e29c253-2b80-48db-b995-cbf496bdf55a-attachment.png",
+        "source" : "92ab0ada4bb1f1a7.png",
+        "type" : "image/png",
+        "size" : 182724
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果：买入默认信息显示是否正确",
+      "time" : {
+        "start" : 1571912271674,
+        "stop" : 1571912271674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75a71a133f316504",
+        "name" : "预期结果",
+        "source" : "75a71a133f316504.attach",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "a89773621a2a3880",
+        "name" : "实际结果",
+        "source" : "a89773621a2a3880.attach",
+        "type" : "text/plain",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5ce40bbd7fe444fa",
+      "name" : "log",
+      "source" : "5ce40bbd7fe444fa.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "7cc99cd138fcc18d",
+      "name" : "stderr",
+      "source" : "7cc99cd138fcc18d.txt",
+      "type" : "text/plain",
+      "size" : 104
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571912286422,
+      "stop" : 1571912286528,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "现金管理-添鑫宝-详情页"
+  }, {
+    "name" : "story",
+    "value" : "起购金额默认信息展示是否正确"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_添鑫宝_详情页"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-页面详情"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "93a23ad867895eb0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,18 @@
+2019-10-24 18:09:50,663 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 18:10:08,561 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 18:10:19 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:10:20 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:10:21 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:10:22 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:10:24 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:10:25 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:10:26 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 18:10:27 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+[I 191024 18:10:37 xpath:315] XPath(timeout 30.0) //*[@text="立即参与"]
+2019-10-24 18:10:38,708 - 自动化测试 - INFO - 元素立即参与点击成功
+[I 191024 18:10:38 xpath:315] XPath(timeout 30.0) //*[@text="签约"]
+2019-10-24 18:10:40,264 - 自动化测试 - INFO - 元素签约按钮点击成功
+[I 191024 18:10:40 xpath:315] XPath(timeout 30.0) //*[@text="我已阅读并同意"]
+2019-10-24 18:10:41,783 - 自动化测试 - INFO - 元素适当性确认同意按钮点击成功
+2019-10-24 18:10:42,189 - 自动化测试 - INFO - 获得元素签约产品名称的文本中信建投添鑫宝
+2019-10-24 18:10:42,696 - 自动化测试 - INFO - 获得元素签约产品类型的文本现金理财

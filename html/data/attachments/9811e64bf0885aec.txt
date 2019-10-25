@@ -1,0 +1,22 @@
+2019-10-24 18:12:09,691 - 自动化测试 - INFO - 启动方式为数据线连接模式，连接手机为emulator-5554
+2019-10-24 18:12:26,293 - 自动化测试 - INFO - 元素现金管理点击成功
+[I 191024 18:12:36 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:12:38 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:12:39 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:12:40 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[3]
+[I 191024 18:12:41 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[2]
+[I 191024 18:12:43 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/abs__keyboard_input_view"]/android.view.ViewGroup[1]/android.view.View[1]
+[I 191024 18:12:44 xpath:315] XPath(timeout 30.0) //*[@resource-id="zhongxinjiantou.szkingdom.android.newphone:id/root"]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[5]
+[I 191024 18:12:45 xpath:315] XPath(timeout 30.0) //*[@resource-id="modalTips"]/android.view.View[2]/android.view.View[1]/android.view.View[3]
+[I 191024 18:12:54 xpath:315] XPath(timeout 30.0) //*[@text="立即参与"]
+2019-10-24 18:13:25,333 - 自动化测试 - ERROR - 元素立即参与没点到
+[I 191024 18:13:25 xpath:315] XPath(timeout 30.0) //*[@text="签约"]
+2019-10-24 18:13:55,642 - 自动化测试 - ERROR - 元素签约按钮没点到
+[I 191024 18:13:55 xpath:315] XPath(timeout 30.0) //*[@text="我已阅读并同意"]
+2019-10-24 18:14:25,782 - 自动化测试 - ERROR - 元素适当性确认同意按钮没点到
+2019-10-24 18:14:46,638 - 自动化测试 - ERROR - 元素同意协议没点到
+[I 191024 18:14:46 xpath:315] XPath(timeout 30.0) //*[@text="申请开通"]
+2019-10-24 18:15:16,672 - 自动化测试 - ERROR - 元素申请开通按钮没点到
+2019-10-24 18:15:37,497 - 自动化测试 - ERROR - 元素确定没点到
+2019-10-24 18:15:37,674 - 自动化测试 - INFO - 完成签约是否存在：False
+2019-10-24 18:15:38,038 - 自动化测试 - INFO - 测试结束

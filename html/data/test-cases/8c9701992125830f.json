@@ -1,0 +1,189 @@
+{
+  "uid" : "8c9701992125830f",
+  "name" : "test_3预约取款成功",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-预约取款.Test_现金管理_智多鑫_预约取款用例#test_3预约取款成功",
+  "historyId" : "ac00ad42183e636b097094bbdd0d6380",
+  "time" : {
+    "start" : 1571911019292,
+    "stop" : 1571911024914,
+    "duration" : 5622
+  },
+  "description" : "预约取款成功",
+  "descriptionHtml" : "<p>预约取款成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910959256,
+      "stop" : 1571910964590,
+      "duration" : 5334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "预约取款成功",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "在取款金额输入框中输入1",
+      "time" : {
+        "start" : 1571911019830,
+        "stop" : 1571911019831,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "517b77b0ed6d8ee0",
+        "name" : "8834089c-1c62-4baf-a918-b9740cf24afa-attachment.png",
+        "source" : "517b77b0ed6d8ee0.png",
+        "type" : "image/png",
+        "size" : 90355
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取您已经委托成功文本信息：您已经委托成功",
+      "time" : {
+        "start" : 1571911024670,
+        "stop" : 1571911024671,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c89afc6af127f9a5",
+        "name" : "f1947a92-6002-4225-aff8-71d5aaf55bc8-attachment.png",
+        "source" : "c89afc6af127f9a5.png",
+        "type" : "image/png",
+        "size" : 187501
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:提示预约取款成功",
+      "time" : {
+        "start" : 1571911024913,
+        "stop" : 1571911024914,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f10f2d332c1028dd",
+        "name" : "预期结果",
+        "source" : "f10f2d332c1028dd.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "336fc42d20587039",
+        "name" : "实际结果",
+        "source" : "336fc42d20587039.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bbfd50c4b30259af",
+      "name" : "log",
+      "source" : "bbfd50c4b30259af.txt",
+      "type" : "text/plain",
+      "size" : 186
+    }, {
+      "uid" : "ac01fa010e596101",
+      "name" : "stderr",
+      "source" : "ac01fa010e596101.txt",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911029487,
+      "stop" : 1571911029609,
+      "duration" : 122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "预约取款成功"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-智多鑫-预约取款用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-预约取款"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_智多鑫_预约取款用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-预约取款"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "8c9701992125830f.json",
+  "parameterValues" : [ ]
+}

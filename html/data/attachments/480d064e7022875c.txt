@@ -1,0 +1,7 @@
+[I 191024 18:00:53 xpath:315] XPath(timeout 30.0) //*[@text="更多"]
+2019-10-24 18:00:55,070 - 自动化测试 - INFO - 元素更多点击成功
+[I 191024 18:00:56 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[4]
+2019-10-24 18:00:57,635 - 自动化测试 - INFO - 元素更多-暂停点击成功
+[I 191024 18:00:59 xpath:315] XPath(timeout 30.0) //*[@text="取消"]
+2019-10-24 18:01:01,353 - 自动化测试 - INFO - 元素解约和暂停确认框取消按钮点击成功
+2019-10-24 18:01:01,645 - 自动化测试 - INFO - 暂停签约确认框是否存在：False

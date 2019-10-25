@@ -1,0 +1,252 @@
+{
+  "uid" : "9fc4c4fcca04f5dc",
+  "name" : "test_21取消保留额度",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置.Test_现金管理_更多_设置页面测试用例#test_21取消保留额度",
+  "historyId" : "4e3db9f2a09f6644e05192791f458f95",
+  "time" : {
+    "start" : 1571911464433,
+    "stop" : 1571911484539,
+    "duration" : 20106
+  },
+  "description" : "取消保留额度",
+  "descriptionHtml" : "<p>取消保留额度</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571911395219,
+      "stop" : 1571911400332,
+      "duration" : 5113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "取消保留额度",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击取消保留额度",
+      "time" : {
+        "start" : 1571911474635,
+        "stop" : 1571911474636,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90ec0f1520368f30",
+        "name" : "af2b0e8a-826f-4772-8e5e-11c4b04eac09-attachment.png",
+        "source" : "90ec0f1520368f30.png",
+        "type" : "image/png",
+        "size" : 87595
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1571911476255,
+        "stop" : 1571911476257,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e29dfeb39ca1839a",
+        "name" : "ada255fd-27ba-41e3-b049-d510480f6c3e-attachment.png",
+        "source" : "e29dfeb39ca1839a.png",
+        "type" : "image/png",
+        "size" : 91704
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571911479488,
+        "stop" : 1571911479489,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e22632c2778f3cdd",
+        "name" : "171c9450-d7ff-4a6a-8818-fd16bbbaa197-attachment.png",
+        "source" : "e22632c2778f3cdd.png",
+        "type" : "image/png",
+        "size" : 142568
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击设置",
+      "time" : {
+        "start" : 1571911482062,
+        "stop" : 1571911482063,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9d5c2b8de83875a",
+        "name" : "2ceb225d-818b-4669-bc67-753669c93867-attachment.png",
+        "source" : "e9d5c2b8de83875a.png",
+        "type" : "image/png",
+        "size" : 86914
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取保留额度输入框文本信息：0.00",
+      "time" : {
+        "start" : 1571911484332,
+        "stop" : 1571911484333,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "750ce6820f20fbdd",
+        "name" : "e63e5f02-a6bf-4044-99f6-767c79551017-attachment.png",
+        "source" : "750ce6820f20fbdd.png",
+        "type" : "image/png",
+        "size" : 86914
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571911484538,
+        "stop" : 1571911484539,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6798485abafc5628",
+        "name" : "预期结果",
+        "source" : "6798485abafc5628.attach",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "cb6cb7f58f5d3a38",
+        "name" : "实际结果",
+        "source" : "cb6cb7f58f5d3a38.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7e5650377a63a547",
+      "name" : "log",
+      "source" : "7e5650377a63a547.txt",
+      "type" : "text/plain",
+      "size" : 483
+    }, {
+      "uid" : "ca3ac074db5c130b",
+      "name" : "stderr",
+      "source" : "ca3ac074db5c130b.txt",
+      "type" : "text/plain",
+      "size" : 1182
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571911543206,
+      "stop" : 1571911543344,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "取消保留额度"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-添鑫宝-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "9fc4c4fcca04f5dc.json",
+  "parameterValues" : [ ]
+}

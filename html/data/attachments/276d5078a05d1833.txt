@@ -1,0 +1,3 @@
+INFO     自动化测试:PageBaseU2.py:43 元素中信建投证券智多鑫应急取款协议点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本协议内容
+INFO     自动化测试:PageBaseU2.py:43 元素返回点击成功

@@ -1,0 +1,252 @@
+{
+  "uid" : "7d76d7e249bd22b4",
+  "name" : "test_0进入更多设置页面",
+  "fullName" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-设置.Test_现金管理_更多_设置页面测试用例#test_0进入更多设置页面",
+  "historyId" : "661b068a537d546ea06164d2c7dbf927",
+  "time" : {
+    "start" : 1571910556806,
+    "stop" : 1571910593813,
+    "duration" : 37007
+  },
+  "description" : "点击更多-设置，页面跳转",
+  "descriptionHtml" : "<p>点击更多-设置，页面跳转</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "jtnologin",
+    "time" : {
+      "start" : 1571910544801,
+      "stop" : 1571910556805,
+      "duration" : 12004
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "u2driver",
+    "time" : {
+      "start" : 1571910539419,
+      "stop" : 1571910544801,
+      "duration" : 5382
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "点击更多-设置，页面跳转",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击现金管理",
+      "time" : {
+        "start" : 1571910558385,
+        "stop" : 1571910558385,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abc72a54a26f81e3",
+        "name" : "4f2675fa-5534-4b55-bce0-67a074283f7e-attachment.png",
+        "source" : "abc72a54a26f81e3.png",
+        "type" : "image/png",
+        "size" : 211500
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击更多",
+      "time" : {
+        "start" : 1571910588652,
+        "stop" : 1571910588653,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3563a8e37d0079a4",
+        "name" : "cd5bb22b-1373-4d02-af40-dc6111da1d0c-attachment.png",
+        "source" : "3563a8e37d0079a4.png",
+        "type" : "image/png",
+        "size" : 150428
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击设置",
+      "time" : {
+        "start" : 1571910591164,
+        "stop" : 1571910591164,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4e5dcea3b00f4d0",
+        "name" : "3b171f8e-ec67-4f77-a6f3-ff1ff7ce64c9-attachment.png",
+        "source" : "b4e5dcea3b00f4d0.png",
+        "type" : "image/png",
+        "size" : 86958
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "获取页面标题文本信息：产品设置",
+      "time" : {
+        "start" : 1571910593490,
+        "stop" : 1571910593491,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ceb8baf88eea55c",
+        "name" : "5737af1c-5cd1-493a-8d32-c9de89d7f3fb-attachment.png",
+        "source" : "9ceb8baf88eea55c.png",
+        "type" : "image/png",
+        "size" : 86958
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "校验结果:",
+      "time" : {
+        "start" : 1571910593812,
+        "stop" : 1571910593813,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c03bfe35a1e506",
+        "name" : "预期结果",
+        "source" : "4c03bfe35a1e506.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "c4c5e7a8c2d5e818",
+        "name" : "实际结果",
+        "source" : "c4c5e7a8c2d5e818.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ca773e34f671591e",
+      "name" : "log",
+      "source" : "ca773e34f671591e.txt",
+      "type" : "text/plain",
+      "size" : 403
+    }, {
+      "uid" : "29d69bbe055064e5",
+      "name" : "stdout",
+      "source" : "29d69bbe055064e5.txt",
+      "type" : "text/plain",
+      "size" : 95
+    }, {
+      "uid" : "fc5116abe86868f6",
+      "name" : "stderr",
+      "source" : "fc5116abe86868f6.txt",
+      "type" : "text/plain",
+      "size" : 2260
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "u2driver::0",
+    "time" : {
+      "start" : 1571910687398,
+      "stop" : 1571910687482,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "点击更多-设置，页面跳转"
+  }, {
+    "name" : "feature",
+    "value" : "现金管理-更多-设置页面测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "cashmanage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "建投自动化测试.现金管理测试用例"
+  }, {
+    "name" : "suite",
+    "value" : "test_现金管理-智多鑫-更多-设置"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_现金管理_更多_设置页面测试用例"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "8061-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "建投自动化测试.现金管理测试用例.test_现金管理-智多鑫-更多-设置"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cashmanage" ]
+  },
+  "source" : "7d76d7e249bd22b4.json",
+  "parameterValues" : [ ]
+}

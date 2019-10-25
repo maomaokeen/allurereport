@@ -1,0 +1,3 @@
+INFO     自动化测试:PageBaseU2.py:43 元素签约按钮点击成功
+INFO     自动化测试:PageBaseU2.py:145 获得元素页面标题的文本适当确认书
+INFO     自动化测试:conftest.py:72 测试结束

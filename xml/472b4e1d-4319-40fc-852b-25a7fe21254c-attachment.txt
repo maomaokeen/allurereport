@@ -1,0 +1,5 @@
+[I 191024 18:06:43 xpath:315] XPath(timeout 30.0) //*[@resource-id="app"]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[4]
+2019-10-24 18:06:44,576 - 自动化测试 - INFO - 元素取消预约取款按钮点击成功
+[I 191024 18:06:45 xpath:315] XPath(timeout 30.0) //*[@text="确定要取消本条预约？"]/following-sibling::*[1]
+2019-10-24 18:06:47,125 - 自动化测试 - INFO - 元素确认框的取消按钮点击成功
+2019-10-24 18:06:47,703 - 自动化测试 - INFO - 获得元素预约取款记录状态的文本正常
